@@ -1,2 +1,2 @@
-# newdracor
-Starter repository for new DraCor corpora
+# georacor
+Georgian Drama Corpus
