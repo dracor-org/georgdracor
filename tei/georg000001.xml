@@ -1,5 +1,5 @@
 ﻿<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="geo000001" xml:lang="geo" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:id="georg000001" xml:lang="geo" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
