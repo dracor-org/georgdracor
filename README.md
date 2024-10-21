@@ -1,2 +1,2 @@
-# georacor
+# georgdracor
 Georgian Drama Corpus
