@@ -43,28 +43,28 @@
       <particDesc>
         <listPerson>
           <person sex="FEMALE" xml:id="girl">
-            <persName>girl</persName>
+            <persName>გოგო</persName>
           </person>
           <person sex="MALE" xml:id="karapeta">
-            <persName>karapeta</persName>
+            <persName>კარაპეტა</persName>
           </person>
           <person sex="FEMALE" xml:id="monavardisa">
-            <persName>monavardisa</persName>
+            <persName>მონავარდისა</persName>
           </person>
           <person sex="MALE" xml:id="ivanika">
-            <persName>ivanika</persName>
+            <persName>ივანიკა</persName>
           </person>
           <person sex="MALE" xml:id="servant">
-            <persName>servant</persName>
+            <persName>მსახური</persName>
           </person>
           <person sex="MALE" xml:id="khampera">
-            <persName>khampera</persName>
+            <persName>ხამფერა</persName>
           </person>
           <person sex="MALE" xml:id="archili">
-            <persName>archili</persName>
+            <persName>არჩილი</persName>
           </person>
           <person sex="MALE" xml:id="mekuboe">
-            <persName>mekuboe</persName>
+            <persName>მეკუბოე</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -110,7 +110,7 @@
       <castList>
         <head>მოქმედი პირნი</head>
         <castItem>
-          <role>კარაპეტა დაგაღოვი </role>
+          <role>კარაპეტა დაგაღოვი</role>
         </castItem>
         <castItem>
           <role>ხამფერა,</role>
