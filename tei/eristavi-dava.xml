@@ -1,0 +1,3234 @@
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="georg000003" xml:lang="rus" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">დავა</title>
+        <title type="main" xml:lang="eng">The Dispute</title>
+        <title type="sub">კომედია ხუთ მოქმედებად</title>
+        <title type="sub" xml:lang="eng">A Comedy in five acts</title>
+        <author>
+          <persName>
+            <forename>გიორგი</forename>
+            <surname>ერისთავი</surname>
+          </persName>
+          <persName xml:lang="eng">
+            <forename>Giorgi</forename>
+            <surname>Eristavi</surname>
+          </persName>
+          <idno type="wikidata">Q3651812</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>National Parliamentary Library of Georgia</name>
+          <idno type="URL">http://www.nplg.gov.ge/ebooks/authors/giorgi_eristavi.htm</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="FEMALE" xml:id="motsqaliseuli">
+            <persName>მოწყალისეული</persName>
+          </person>
+          <person sex="MALE" xml:id="sorozan">
+            <persName>სოროზან</persName>
+          </person>
+          <person sex="MALE" xml:id="var_dianbegi">
+            <persName>ვარ_დიანბეგი</persName>
+          </person>
+          <person sex="MALE" xml:id="mikheili">
+            <persName>მიხეილი</persName>
+          </person>
+          <person sex="MALE" xml:id="ivan">
+            <persName>иван</persName>
+          </person>
+          <person sex="MALE" xml:id="dianbegi">
+            <persName>დიანბეგი</persName>
+          </person>
+          <person sex="MALE" xml:id="sarqisa">
+            <persName>სარქისა</persName>
+          </person>
+          <person sex="FEMALE" xml:id="nene">
+            <persName>ნენე</persName>
+          </person>
+          <person sex="MALE" xml:id="beglari">
+            <persName>ბეგლარი</persName>
+          </person>
+          <person sex="FEMALE" xml:id="girl">
+            <persName>გოგო</persName>
+          </person>
+          <person sex="MALE" xml:id="marqita">
+            <persName>მარქიტა</persName>
+          </person>
+          <person sex="MALE" xml:id="hariton_filipich">
+            <persName>Харитон_Филипич</persName>
+          </person>
+          <person sex="FEMALE" xml:id="sidonia">
+            <persName>სიდონია</persName>
+          </person>
+          <person sex="MALE" xml:id="onopre">
+            <persName>ონოფრე</persName>
+          </person>
+          <person sex="MALE" xml:id="amirindo">
+            <persName>ამირინდო</persName>
+          </person>
+          <person sex="FEMALE" xml:id="nino">
+            <persName>ნინო</persName>
+          </person>
+          <person sex="MALE" xml:id="bugdanich">
+            <persName>бугданич</persName>
+          </person>
+          <person sex="MALE" xml:id="mihail">
+            <persName>mихаил</persName>
+          </person>
+          <person sex="MALE" xml:id="lomini">
+            <persName>ლომინი</persName>
+          </person>
+          <person sex="MALE" xml:id="lomiseuli">
+            <persName>ლომისეული</persName>
+          </person>
+          <person sex="FEMALE" xml:id="abrama">
+            <persName>აბრამა</persName>
+          </person>
+          <person sex="MALE" xml:id="boy">
+            <persName>ბიჭი</persName>
+          </person>
+          <person sex="MALE" xml:id="rapieli">
+            <persName>რაფიელი</persName>
+          </person>
+          <person sex="FEMALE" xml:id="berua">
+            <persName>ბერუა</persName>
+          </person>
+          <person sex="FEMALE" xml:id="gamdeli">
+            <persName>გამდელი</persName>
+          </person>
+          <person sex="FEMALE" xml:id="iaia">
+            <persName>იაია</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-10-28">convert from source</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1840">
+        <desc/>
+      </event>
+      <event type="premiere" when="1840">
+        <desc/>
+      </event>
+      <event type="written" when="1840">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="INSERT" name="wikidata" passive="INSERT"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docAuthor/>
+        <docTitle>
+          <titlePart type="main">დავა</titlePart>
+          <titlePart type="sub">კომედია ხუთ მოქმედებად</titlePart>
+        </docTitle>
+      </titlePage>
+      <castList>
+        <head>მოქმედი პირნი</head>
+        <castItem>
+          <role> ამირინდო,</role>
+          <roleDesc>თავადი სპასპეტის-ძე.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ბეგლარ,</role>
+          <roleDesc>იმისი შვილი.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ონოფრე,</role>
+          <roleDesc>თავადი სარაძე.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>მიხაილ,</role>
+          <roleDesc> იმისი შვილი.</roleDesc>
+        </castItem>
+        <castItem>
+          <role> სიდონია,</role>
+          <roleDesc>ცოლი ონოფრესი.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ნინო,</role>
+          <roleDesc>იმათი ქალი.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>იაია</role>
+          <roleDesc>თავადი ჭიორელი, მეგობარი ამირინდოსი.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>რაფიელ არზამანოვი,</role>
+          <roleDesc>არზის მწერალი.</roleDesc>
+        </castItem>
+        <castItem>
+          <role> სარქის ბუღდანიჩ კუმუხტოვი,</role>
+          <roleDesc>პერევოდჩიკი სუდისა.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ლომინ გოდაბრელიძე,</role>
+          <roleDesc> იმერლის აზნაური, მცნობი ამირინდოსი. ხარიტონ ფილიპიჩ ვზიატკინი,
+            სტრაპიჩი.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ფილიპე,</role>
+          <roleDesc>ზასედატელი.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>სოროზან,</role>
+          <roleDesc>მოურავი და ნაზირი ამირინდოსი.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ლომისეული,</role>
+          <roleDesc>გამდელი ამირინდოსი.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>მოწყალისეული,</role>
+          <roleDesc>გამდელი სიდონიასი.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>მარქიტა,</role>
+          <roleDesc>შემლოცველი დედაკაცი.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>აბრამა,</role>
+          <roleDesc>ბიჭი ბეგლარისა.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ბერუა,</role>
+          <roleDesc>ბიჭი ამირინდოსი.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ნენე,</role>
+          <roleDesc>გოგო ნინოსი.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>მსახურები</role>
+        </castItem>
+        <castItem>
+          <role> მოახლეები</role>
+        </castItem>
+      </castList>
+      <set>
+        <p>მოქმედება სწარმოებს სოფელში, მხოლოდ მეოთხე – გორში.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act">
+        <head>მოქმედება I</head>
+        <stage>ოთახში ზის ფეხმოკეცილი ამირინდო, დაფიქრებული, მოშორებით ქე ჩაზედ – ძირს ლომისეული
+          გამდელი და ყაჭს რთავს. ფარდა რომ აიხდება, შემოვა სოროზან.</stage>
+        <div type="scene">
+          <head>გამოსვლა პირველი</head>
+          <stage>ამირინდო, ლომისეული და სოროზან შემოდის.</stage>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>მოდი, სოროზან, დაჯექ.</p>
+          </sp>
+          <sp who="#sorozan">
+            <speaker>სოროზან</speaker>
+            <p>კარგათ გახლავარ!</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>კარგია ერთი, დაჯექ, თუ ღმერთი გწამს. <stage>სოროზან დაჯდება.</stage> საკვირველია,
+              რაფიელ უნდა მოსულიყო, ერთი ეს არზა მეჩვე ნებინა, არ ვიცი, რათ დაიგვიანა...</p>
+          </sp>
+          <sp who="#sorozan">
+            <speaker>სოროზან</speaker>
+            <p>რაღა არზა, სუდში აკი თქვენზედ გადასწყდა ჩალიანი? @amirindo აბა, რას ანბობ, მამა
+              გიცხონდა, ათას კუდს გამოაბმენ, ამბობენ, ტრაფჩის ნაცოდვილარი არისო, იმას
+              დაუყენებიაო...</p>
+          </sp>
+          <sp who="#sorozan">
+            <speaker>სოროზან</speaker>
+            <p>პატარა იმასაც ჩავაყლაპებდით...</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>ჰო, ხამია აი, რას ამბობ, ჩემი ოჯახი იმაზედ არის გაფუჭებული, მაგრამ არ იქნა, ჰსწორეთ
+              აუვსებელი ხაროა...</p>
+          </sp>
+          <sp who="#sorozan">
+            <speaker>სოროზან</speaker>
+            <p>ღმერთი გადღეგრძელებთ, ნუ გამიწყრებით ამ მოხსენე ბაზედ, მაგრამ მორიგებას კი
+              გირჩევდით.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>განა არ მინდოდა, აკი ვაძლივე ასი თუმანი.</p>
+          </sp>
+          <sp who="#sorozan">
+            <speaker>სოროზან</speaker>
+            <p>ას თუმნათ... შე დალოცვილო!...</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>არა იქს. იმ ას თუმანს ქალაქში დავხარჯამ, აი იქა, ხომ იცი, მერე წავიდეს და ირბინოს
+              შენმა ონოფრემა... მამაჩემი არ წამიწყდება, მეც დავიღუპები და იმათაც დავღუპამ... ონოფრემ
+              მაჯობოს, ბარემ ეს ულვა ში დამპარსოთ...</p>
+          </sp>
+          <sp who="#sorozan">
+            <speaker>სოროზან</speaker>
+            <p>ჩემ სულელურს მოხსენებას, რომ დაიჯერებდე, მე კი მოყვრობას ვარჩევდი თქვენში...</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>როგორ თუ მოყვრობას?! ჩემი მოსისხლის ქალი შევ რთო ჩემ ბეგლარსა, კაცო, ხომ არ გადაირიე,
+              კიდეც რომ დავმოყვრდე, მტე რი იქნება, არ გაგიგონია, ნათქვამია: „მოყვარე მტერი მოყვრისა,
+              მტრისაგან უფრო მტერია.“</p>
+          </sp>
+          <sp who="#lomiseuli">
+            <speaker>ლომისეული</speaker>
+            <p>ვინაო, ყმაწვილო, აისა, კრიალოსანს რომ ლახტი ვით იქნევს? სიარულიც რომ არ იცის?
+              მამამთილის ხმის გასაცემი კი არ დასჭირდება?</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>ეგა თქვი და! ერთი მოვიდეს ჩემი ბეგლარი, დღე-დღე ობით მოველი, იმას სასამართლოები
+              მოვახვიოთ, ჩვენ დავსხდეთ და შე ვექცეთ, ჩემო სოროზან!.. მერე შენი ონოფრე დამიდგეს
+              წინა... მართალია, არზის წერაშიღა გამივა ფული! კრუსი დაუსრულებია უნივერსში, რაღაც ახალი
+              ჩინი მიუციათ, ვერ დავისწავლე. გადიავ! გადიავ! <stage>გამდელს უძახის.</stage></p>
+          </sp>
+          <sp who="#lomiseuli">
+            <speaker>ლომისეული</speaker>
+            <p>შენი ჭირიმე, რას ბრძანეთ!</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>აბა ერთი ამას წინათ რომ პეტრეს ბრძნული წიგნი მოგვივიდა, ერთი ის წაიკითხე.</p>
+          </sp>
+          <sp who="#lomiseuli">
+            <speaker>ლომისეული</speaker>
+            <p>გამდელის გმირისეულისა, ჩემი ბეგლარის მოსვლას რომ იწერება, აი, შენი ჭირიმე, კარგათ
+              გაიგონეთ. <stage>ამოიღებს წიგნს, სათვა ლებს გაისწორებს და ჩათვლით კითხულობს.</stage>
+              ჩემო სიყრმით მოგებულო, ჩემო ნუგეშო, დარბაისლის გამრზდელო ლომისეულო... ეს რაღა საჭირო
+              არის და შევამოკლოთ. <stage>კითხულობს.</stage> შენი ბეგლარ ხშირად დადის და უცხო
+              საყვარელი შვილია. შენმა სიცოცხლემ, აგერ ხუთი თვე არის, უნივერსი დაასრულა და ამ დღეებში
+              აპირობს წამოსვლას. ნეტავი შენს თვალებს, გამდე ლო, რომ ამას ნახავ. ქალო, ახლა ამას
+              მოგახსენებ, ჩინი მისცეს, რასაკვირ ველია, მაგრამ მომატებულს სახელს ეძახიან – ნასწავლი
+              თურმე არის, მთე ლი პეტრებრუხი თითით აჩვენებენ, აი, პოეტიო... სათვალებს ჩამოიღებს და
+              თითონ გამდელი იტყვის. ვითომ ყველაზედ მეტიო... შენ კი გენაცვალოსშენი ლომა, ნეტა როდის
+              ეღირსება ამ ბრამა თვალებს შენი ნახვა, ერთი შენის ნახვით გავძღე და შენის ხელით მეღირსოს
+              დაფვლა.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>სოროზან, ჰა, პოეტიო, რას… ტატის ახალი ჩინი იქნება, მე მგონია, ბევრი ზაკონები
+              ეცოდინება, ჰა...</p>
+          </sp>
+          <sp who="#sorozan">
+            <speaker>სოროზან</speaker>
+            <p>რა მოგახსენო, შენი ჭირიმე. მე იმათი არა ვიცი რა.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეორე</head>
+          <stage>იგინივე და ბერუა</stage>
+          <sp who="#berua">
+            <speaker>ბერუა</speaker>
+            <p>რაფიელმა და სარქისამ მოკითხვა მოგახსენეს.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>სოროზან, გადი ერთი, შემომიყვანე.</p>
+            <stage>სოროზან და იმასთან გამდელი და ბერუა გავლენ.</stage>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მესამე</head>
+          <stage>ამირინდო, რაფიელ, სარქისა და სოროზან</stage>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>აა, ბატონს რაფიელს, პარუნ სარქისას გაუმარჯოს, ვეჟო, გელით, გელით, მე ჩემი
+              დამემართა.</p>
+          </sp>
+          <sp who="#rapieli">
+            <speaker>რაფიელი</speaker>
+            <p>ჭეშმარიტათ უკაცრავათ გახლავართ, ასე რომ დავიგვიანე...</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>დაბრძანდით... <stage>დასხდებიან.</stage> ახალი რა არის ჩვენ გორში?</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ახალი? ახალი ზეთის ხილი მოვიდა და ცხენის ნალები ახალციხიდამ.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p><stage>გაიცინებს.</stage> ეე! შეჩვენებულო, სულ უნდა იმასხარო. მე გკითხამ.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ახალი ამბავი ის არის, რომ თქვენ თუთუსოვისა? ვის აზრი პისატი მიქნევინებით, კნიაზ, მე
+              თქვენი დავალება მაქვს, შენი პურ-მარილი აქამდის არის. <stage>ყელზედ აჩვენებს.</stage>
+              რა არ მითხრა, შენთან ყალბი გამოვალ, აი რაფიელი იცის, თქვენი მწერალმა ონოფრესაც უწერამს
+              ჩალიანის თაობაზე.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>იქნებ მართლა, ბიჭო ბერუავ! <stage>ბიჭი შემოვა.</stage> აბა ერთი ქაღალდების ყუთი
+              შემომიტანე. <stage>ბიჭი გავა.</stage> კარგი რამ მითხარ, იქნება იმ შეჩვენებულისაგან
+                <stage>ბიჭს შემოაქვს ყუთი, აიღებს.</stage> მოტყუებული ვიყო. <stage>ამოიღებს ერთ
+                ღერბის ქაღალდზედ დაწერილს წიგნსა, აძლევს რაფიელს. რაფიელი გამოართმევს არზას,
+                კითხულობს, სარქის ჩაჰყურებს გაკვირებუ ლის სახით.</stage></p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ვააა! ხედამ, რა დაუკლიათ?!</p>
+          </sp>
+          <sp who="#rapieli">
+            <speaker>რაფიელი</speaker>
+            <p>რა! შეჩვენებული სულ დაგღუპავდა...</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>ჰა, რას ამბობ? როგორ დამღუპამდა, თქვი და!</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ვაა, რა დაუკლია და, მამიშენის საფლავის მზემ, მაგ არზის მიცემა და ჩალიანის წართმევა
+              ერთი იქნება...</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>რა დაუკლია, არ მეტყვით, ერთი შემატყობინეთ და, იმ ურიას თხუთმეტი თუმანი მივეც.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>კიდეც მიტომ ისკოვი პროზბუ თხუთმეტ თუმნათ, ვა? </p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+             <p>ბიჭი, არ მეტყვის?</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p><stage>რაფიელს</stage> აზირ თქვენ უთხარ და...</p>
+          </sp>
+          <sp who="#rapieli">
+            <speaker>რაფიელი</speaker>
+            <p>რა აკლია, მამითქვენი საფლავის მზემ, მე ვერ გავბედავ, რა ხუმრობა არის, სარქის,
+              მოახსენე...</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ვა, მაშ არ უთხრა, აზირ ღმერთი არა აქვს, ხედამ...</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>თქვენ შვიდ სუდის გადაწყვეტილობისავით მიგძელებთ, ერთი მითხარით, მოთმინებიდან
+              გამოველ...</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ვა, ადვილია, გეტყვი, ჩემი ბრალი ხომ არ არის?</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p><stage>გააფურთხებს.</stage> არ გესმის, შე შეჩვენებულო, მითხარ, ხომ არ მოგკლავთ?</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ჰო, გეტყვი, გეტყვი... <stage>თვალებდაჭყეტს.</stage> ერთი ტოჭკა არ ჩაუწერამს, სულ
+              ცარიელია!</p>
+          </sp>
+          <sp who="#rapieli">
+            <speaker>რაფიელი</speaker>
+            <p>ტოჩკა კიდევ არაფერი, არც ზაპეტაია ზის, ხედავ?!</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ვა, მართლა! ეს კი სწორეთ მოსისხლეობაა აა!</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>რაო, როგორ ტოჩკა? ზაპეტაია რა არი? ზაკონები იქნება?</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ტოჩკა და ზაპეტაია არის მნიშვნელობა, აზრთა სჯულებთა და ზაკონთა კავშირ-მოთრობანი, თუ
+              ვითარ შეიტყო საქმენი მოსამართლე ბი და წარმოებანი უპირატის მართებლობის საქმისა...</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>მაშ, დაუღუპავარ იმ კაცსა, აი ის მამა მახინჯი, მამა არ წამიწყდება, ტყირპს
+              გავაგდებინებ, ხედამ იმ ბებერს ურიასა?! აბა ახლა რა მეშველება?!</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>რაფიელ ახირ, უნდა შენ მოუხერხო!</p>
+          </sp>
+          <sp who="#rapieli">
+            <speaker>რაფიელი</speaker>
+            <p>უნდა ვეცადოთ, სუდიამაც თვალი უნდა ჩაავლოს, გავასწო როთ, გადავსწეროთ!</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>მეტათ ხარბია...</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>ჯანი გავარდეს, რასაც ითხოვს, მივცემ, ოღონდ მტრის გულისად ნუ გამხდით.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>იმას გადაჭრილი აქვს. თითო ტოჩკაში და ზაპეტაიაში თითო ოქროს იღებს.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>რამდენი უნდა, ჩაიწეროს ან რას იქს ფულსა?!</p>
+          </sp>
+          <sp who="#rapieli">
+            <speaker>რაფიელი</speaker>
+            <p>სარქის, აბა დათვალე.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p><stage>სთვლის.</stage> 10, 20, 30, 40, 50, 60 – სამოცზედ მეტია, მაგრამ ახირ უნდა
+              დავაჯეროთ...</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>მაგაზედ მეტი ხომ არა უნდა რა?!</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>პისერს გადასაწერად ორიოდ თუმანი!</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>ეგ არის რაღა? <stage>ოხრავს.</stage> შემოდით ერთი, რჩევაცა გკითხოთ და ფულს მოგცემთ.
+                <stage>შევლენ.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეოთხე</head>
+          <sp who="#sorozan">
+            <speaker>სოროზან</speaker>
+            <p><stage>მარტო</stage> ღმერთო, შემიწყალე, რაზედ იჭირებს საქმეს ეს დალოცვილი, ან თითონ
+              რაზედ იღუპება, ან იმას რათა ღუპავს. თქვენმა მზემა, ჯერ მგონია ხუთას თუმნათ უზის. ეს
+              შვიდი წელიწადია, ხან ერთს მისცემენ, ხან მეორესა, ეი, ბევრი არ შესძლებია ფულსა...
+                <stage>დაფიქრდება.</stage></p>
+            <l>ეი, ფულო, ფულო, სოფლის ბაბანო, ნათქვამია!</l>
+            <l>ეს სოფელი სულ ასეა, უფულოდ არ არს წესია,</l>
+            <l>თუ ფული გაქვს, დამიჯერეთ,</l>
+            <l>მომკი, რაც არ გითესია.</l>
+            <l>ვისაც ბედმა მისცა ფული,</l>
+            <l>გინდა იყოს ბოროტ სული,</l>
+            <l>ჰკვირდებიან და იტყვიან,</l>
+            <l>აქვსო უცხო კარგი გული!</l>
+            <l>ნიჭი, სახელი, დიდება,</l>
+            <l>ფულთან სუყველაა ფუჭი,</l>
+            <l>უგუნურიც განდიდდება,</l>
+            <l>თუ ოქროთ სავსე აქვს მუჭი!</l>
+            <l>ეი, ეი, ეი!</l>
+            <l><stage>სოროზან გავა.</stage></l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეხუთე</head>
+
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p><stage>წინა პლანაზედ</stage> აუსვით!</p>
+            <l>ღმერთი უშველის ქართველებს,</l>
+            <l>ცარიელი აქვსთ თავია,</l>
+            <l>თითონ და იმათი შვილებს</l>
+            <l>აკლიათ ზაპეტაია!</l>
+            <l>უნდა ნახოთ, თუ აქვთ ფული,</l>
+            <l>ყველასა აქვს დიდი გული,</l>
+            <l>მაგრამ თუ გამოელია,</l>
+            <l>ტოჩკა და ზაპეტაია!</l>
+            <l>როცა გვთხოვენ ჩვენგნით ფულებს,</l>
+            <l>ყველა ჩესტნი ქართველია,</l>
+            <l>თუ კი მოვსთხოვთ ნასესხულებს,</l>
+            <l>ტოჩკა და ზაპეტაია!</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეექვსე</head>
+          <stage>ამირინდო და რაფიელ</stage>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>ბარემ მოდი სადილათ აქ იყავით, ჰე?</p>
+          </sp>
+          <sp who="#rapieli">
+            <speaker>რაფიელი</speaker>
+            <p>კვლავ გიახლები, ეს საშური საქმეა, ვადა არ გაგივიდეთ, მშვიდობით. <stage>გავლენ რაფიელ
+                და სარქისა.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეშვიდე</head>
+          <stage>ამირინდო მარტო</stage>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>კიდევ კარგათ გადავრჩი ამ სულის წურბელებს. ჰე, თუ თუთულოვი ჩამივარდა ხელში, სიცოცხლე
+              მაქვს, ჩავჩეჩქო. მამაჩემი არ წამიწყდება, ფულითა ვცემ. საკვირველი რამ არის ფულით ცემა.
+              ერთხელ, ყმაწვილო, ქრთამი მთხოვა საქმეზედ ერთმა სულიერმა, სახელს ვერ ვიტყვი. ჩავყარე
+              გძელს პარკში ათი თუმანი, შევიმწყვდიე ოთახში, ამდენი ვცემე, ვცემე, რომ წაიქცა
+              გულშემოყრილი, ბოლოს ადგა კვნესით, ის ფული ჯიბეში ჩაუწყე. მე მეგონა მიჩივლებს-მეთქი,
+              მამათქვენი არ წაწყდეს, დიდი მადლობა მითხრა, საქმეც გამიკეთა და მეგობარი შეიქნა. ნეტავი
+              არ გამოეცვალათ!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მერვე</head>
+          <stage>იგინივე და ბერუა, შემოვა. მერმე სოროზანიც</stage>
+          <sp who="#berua">
+            <speaker>ბერუა</speaker>
+            <p>ბატონო, დროშკით ვიღაც მოდის, ზარები უბია, მგონია პრავ ნიკი არის!</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>არიქა, ბიჭო, მუნდერი, წაღები, სარტყელი! სოროზანს დამიძახეთ. <stage>სოროზან შემოვა,
+                თან ელაპარაკება და თან იცვამს.</stage> აბა პრავ ნიკი მოდის, სადილათ რა გაქვს?</p>
+          </sp>
+          <sp who="#sorozan">
+            <speaker>სოროზან</speaker>
+            <p>ბოზბაში, ჩიხირთმა, მწვადები.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>აბა, კიდევ მოუმატოთ რამე შემწვარი, ჩახოხბილი ქათმები, სულ ხოხბათ ვაჭმევ, ფლავი
+              ბატკნითა, ლულა ქაბაბები, აფხაზური. შენ ბერუავ, მემარნეს უთხარ, სამოციანი მოხადოს,
+              წმინდათ ამოიღოს, შენ იასაულებს და ყაზახებს კარგად დახვდი, ვინძლო კარგათ დაათვრო.</p>
+          </sp>
+          <sp who="#berua">
+            <speaker>ბერუა</speaker>
+            <p>მოგეცათ დღეგრძელობა, კარგა მე ისინი დავანაყრო. <stage>გავა. ამ დროს ზარის ხმა მოისმის
+                და დადგება ხმა კარებთან.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეცხრე</head>
+          <stage>ამირინდო, სოროზან და ბეგლარ შემოვა.</stage>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p><stage>მგზავრულს ჩაცმულთ თავს უკრავს.</stage> დრასტი, დრასტი, ღოსპოდა სუდრი, დრასტი,
+              იზბოლოთ, იზბოლოთ <stage>ხელს უშვერს დასაჯდომათ.</stage></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>ვერ მიცანით, მამავ, თქვენი შვილი ბეგლარ!</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p><stage>დაიყვირებს.</stage> ოჰ, შვილო ბეგლარ, <stage>მოეხვევა ტირილით.</stage>
+              მამაჩემი არ წამიწყდება, ჰო, შვილო, რა ბედნიერი ვარ, რა რიგათ დაკა ცებულხარ, ბიჭო, მამა
+              არ წამიწყდება, სუდიასა ჰგეხარ. <stage>ბეგლარ მოეხვევა სოროზანს, სოროზან ხელზედ ცდილობს
+                კოცნას, მაგრამ ბეგლარ არ აძლევს ნებას ჰკოცნოს.</stage></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>სოროზან ჩემო, სოროზან, ხომ კარგათა ხარ, ჯერ ყოჩაღათა ხარ, არ დაბერებულხარ.</p>
+          </sp>
+          <sp who="#sorozan">
+            <speaker>სოროზან</speaker>
+            <p>ვმადლობ ღმერთსა, თქვენ მშვიდობით გნახეთ, ახლა რაღა დამაბერებს?!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეათე</head>
+          <stage>იგინივე და ლომისეული, გამოვა ხელებგაშლილი. შემდგომ შემოცვივდებიან ბერუა და სხვა
+            ბიჭნიც.</stage>
+          <sp who="#lomiseuli">
+            <speaker>ლომისეული</speaker>
+            <p>შვილო ბეგლარ, შვილო ბეგლარ, ჩემმა მოხუცებულმა თვალებმა კიდევ გნახეს, შვილო!
+                <stage>ეხვევა.</stage> ჩემო სიცოცხლევ... ჩემო სამო თხის კარო... <stage>სათვალეებს
+                გაიკეთებს, უყურებს და ატრიალებს.</stage> შემომხედე, შემომხედე, აგრემც გენაცვალება
+              შენი ლომისეული, რა რიგათ დაკაცებულა.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>გადია, გადია! <stage>შემოვლენ ბიჭები, ზოგი ხელზედ, ზოგი კალთაზე ჰკოცნიან. ბეგლარ
+                თავზედ ჰკოცნის.</stage></p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>დაღალული იქნები, შვილო, დაისვენე, აი ეს ოთახები შენი იყოს საკუთრათ. გადიავ, დაასვენე.
+              ახლა ნუღარ იწუწუნებ, ეგეც შენი ბეგლარ. <stage>გადის.</stage></p>
+          </sp>
+          <sp who="#lomiseuli">
+            <speaker>ლომისეული</speaker>
+            <p><stage>მიდის, აგრეთვე – ბიჭები</stage> გენაცვალე...</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეთერთმეტე</head>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <l><stage>მარტო. მოიხსნის შარფს, დაჯდება დივანზედ.</stage> დღეს ვგევარ აწ მე
+              ახალშობილსა,</l>
+            <l>ვხედავ რა სახლსა ჩემის მშობლისა,</l>
+            <l>დღეს ვიწყებ ახლა სოფლის ცხოვრებას</l>
+            <l>და მისთა ვნებათ ზღვის მღელვარებას,</l>
+            <l>უნდა ვიბრძოლო ღელვაში ნავით,</l>
+            <l>უსვა ნიჩაბი სუსტისა მკლავით.</l>
+            <l><stage>დაფიქრებული.</stage></l>
+            <l>იქნება ბედმან,</l>
+            <l>თვალით ვერ მხედმან,</l>
+            <l>უდროთ მოსთვლოს ჩემი ცხოვრება?!</l>
+            <l>იქნებ ერთა,</l>
+            <l>გონების მტერთა,</l>
+            <l>მოსწამლონ ჩემი ნიჭიერება?!</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეთორმეტე</head>
+          <stage>ბეგლარ და მიხეილ</stage>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p><stage>შემოვა.</stage> ჰა, ბეგლარ!</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>მიშელ, მონშერ! <stage>ეხვევიან ერთმანეთს.</stage></p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>ეს არის ეხლა შევიტყე შენი მოსვლა და მოვიჭერი შენთან. <foreign xml:lang="rus">Как я рад.</foreign> მე ოტპუსკში ვარ,
+              კარგათ გავატარებთ დროს, <foreign xml:lang="rus">не смотря, на то,</foreign>რომ მამაჩვენები ჩხუბობენ და ერთმანეთს მტრებს
+              ეძახიან!</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><stage>უსიამოვნებით</stage> როგორ თუ ჩხუბობენ?! რა აქვთ საჩხუბარი?</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>ეხ, <foreign xml:lang="rus">братец,</foreign>შენ პოეტი ხარ, გინდა, რომ ყოველი კაცი ანგელო ზი იყოს. <foreign xml:lang="rus">Нет, брат,</foreign> მაშინ
+              უფრო ცუდი იქნებოდა.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>ეგ უცნაურია...</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p><foreign xml:lang="rus">Да,</foreign> პატიოსანს და კაი კაცს რაღა ფასი ექნებოდა და <foreign xml:lang="rus">просто</foreign> სულ პატიოსნები იქნებოდნენ...
+              გახსოვს, შენი რუსთაველი რას ამბობს?! ოდეს ტურფა გაიაფდეს,</p>
+            <p>აღარ ღირდეს აღარც ჩირად...</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>კარგი, დაჯექ, მე შენი ნახვა მიამა, პირველად მითხარ, რას იქმნენ თქვენები, ხომ ყველანი
+              კარგათ არიან, ნინუცა გაზდილა? <foreign xml:lang="rus">Я думаю, теперь она невеста.</foreign></p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>სულ ყველანი კარგად არიან, <foreign xml:lang="rus">а Нина?! Ах братец, чудо девка,</foreign> ის მტირალა ნინუცა ხომ აღარ
+              არის... გახსოვს... უნდა ეხლა ნახო, ქალაქს ინსტიტუტში გაზდილი. <foreign xml:lang="rus">Образована, братец,
+                такая умница, пре лесть!</foreign> ერთი მოდი, ნახე. <foreign xml:lang="rus">Прошу не влюбляться. Мы теперь Монтекки и
+                  Капулетты.</foreign> მაგრამ შენ რა ეშმაკი შეგაყვარებს, <foreign xml:lang="rus">ведь у вас какието идеалы шиллеровские
+              девы,</foreign> ჩვენი საქმე სხვა არის – პროზაიკები, რაკი პატარა ფერით გათხუნულს ქალს ვნახამთ,
+              პრაშჩაი გულო! <foreign xml:lang="rus">Ах, братец, ах, как меня</foreign> შავი თვალები მწვავენ, ცეცხლს მიკიდებენ.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>Счастливец.</p>
+            <p>შენ კიდევ ჩემი ქარიანი მიშელ ხარ, მგონია, შენ დააბერებ დროსა, დრო შენ ვერ
+              დაგაბერებს.</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>რა ეშმაკისათვის მინდა სიბერე, შენ მებრალები, რომ დაგაბერებენ, იცი, რას გეუბნები,
+              ღმერთს გეფიცები, მოდი, კარგს რამეს გირ ჩევ, ჩვენ პოლკში შემოდი. <foreign xml:lang="rus">Там тебя полюбят, там
+              будет весело, некогда будеть думать,</foreign>თორემ, აი რა მოგივა: ღმერთს გეფიცები, მასხარად
+              აგიგდებენ.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>სამასხაროს რომ არასა ვიქ?</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>შენ ხომ პოეზიაზე ხელს არ აიღებ, პოეტებს დიდ ქვეყანა შიაც სულელს ეძახიან. შენ აქა
+              დაღუპული ხარ, მესტვირეს დაგიძახებენ!</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><stage>იცინის.</stage> სხვა მითხარ რამე!</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>ოთხი თვე ერთად ვიქნებით, სულ ხომ ერთს დღეს ვერ გიან ბობ, პრაშჩაი, ზოგი ხვალ
+              იყოს...</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>ხვალ უეჭველად.</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p><foreign xml:lang="rus">Ну прощай...</foreign> მამაშენს გადაეცი, ნუ კლიაუზნიკობს, შენ თუ იმას ხასიათს გამოუსწორებ,
+              <foreign xml:lang="rus">великий человек будешь.</foreign> <stage>გავა.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეცამეტე</head>
+          <stage>ბეგლარ და ლომისეული შემოვა.</stage>
+          <sp who="#lomiseuli">
+            <speaker>ლომისეული</speaker>
+            <p>ის მატრაბაზი იყო აქა, ონოფრეს შვილი, როგორ შემოუშვი?! მოხუცებულ მამაშენს
+              ეწყინება!</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>როგორ გადიავ, უცხო ყმაწვილი კაცი არის, ნეტავი საქართველოში იმისთანა ყმაწვილი კაცები
+              ბევრნი გამოვიდნენ.</p>
+          </sp>
+          <sp who="#lomiseuli">
+            <speaker>ლომისეული</speaker>
+            <p>უი, დამიდგეს თვალები! რას ანბობ, მამიშენის მზესა, მაგისთანა გარყვნილი ყმაწვილი კაცი
+              თურმე არსად არის, მერე თურმე ასე თი ბრიყვია, შენმა დაბერებამ, უნდა თურმე ნახო
+              სტუმრებში ქალებთან, ფეხ ზედ ფეხს შემოიდებს, თითქო სარდალი იყოს, მერმე საშინელი ურჯულოა
+              თურმე. <stage>პირჯვარს იწერს.</stage> ღმერთო, შეგცოდე, დიდმარხვაში არამც თუ ხორცსა
+              სჭამს, კიბოთი თურმე სკდება! აი, შეარცხვინა ღმერთმა, მამიშენის მზეს, იმათთან არ
+              წახვიდე, თორემ შენც ისეთათ მოგნათლავენ. გამდელი ჰყავთ ერთი კუდიანი, ჯადოქრობით სავსე
+              არის.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>რას მიზამს?</p>
+          </sp>
+          <sp who="#lomiseuli">
+            <speaker>ლომისეული</speaker>
+            <p>შეგილოცავს და სიყვარულის წამალს დაგალევინებს.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>ოთხმოცის წლის ბებერს რათ უნდა, რომ შემიყვაროს?</p>
+          </sp>
+          <sp who="#lomiseuli">
+            <speaker>ლომისეული</speaker>
+            <p>რას ამბობ, ყმაწვილო, გენაცვა, განა თითონ ონოფრეს ერთი გონბიო ჰყავს, ნინუცა ჰქვიან,
+              იმას შეგაყვარებს.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>რა გენაღვლება, ამბობენ, ლამაზიაო.</p>
+          </sp>
+          <sp who="#lomiseuli">
+            <speaker>ლომისეული</speaker>
+            <p>ლამაზი! არა, შენმა დაბერებამ, უკანა თვალის კილოები დაწეული აქვს, ზეითი ტუჩი მოკლე
+              აქვს, რომ ლაპარაკობს, თითქო ძალით იკრიჭებაო. <stage>საიდუმლო ხმითა</stage> მერე ასეთი
+              ურცხვი თურმეა, ვინც უცნობი ნახოს, ნათესავისავით ელაპარაკება, ინტიტუტში გაზდილა, რას
+              ისწავლიდა, გენაცვალეთ, იმათში?!</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><foreign xml:lang="rus">Ах, как я рад, видно она хорошо оброзована.</foreign><stage>იქით</stage> ხვალ უთუოდ ვნახავ.
+                <stage>გავა.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეთოთხმეტე</head>
+          <stage>ლომისეული მარტო</stage>
+          <sp who="#lomiseuli">
+            <speaker>ლომისეული</speaker>
+            <p>ღმერთო, დაგვიხსენ მტრის დაცინებისაგან. რა ვქნა, აქ აღარავინ არის, რაზედ მატირეს ცხრა
+              წელიწადი ამ ყმაწვილის მოშორება ზედ, რა უსწავლებიათ, დაუბერებიათ, მე რაღასაც მოველოდი,
+              ისევ ის ჩემი ბეგლარ არის.</p>
+          </sp>
+          <stage>ფარდა ჩამოეშვება.</stage>
+        </div>
+      </div>
+      <div type="act">
+        <head>მოქმედება II</head>
+        <div type="scene">
+          <head>გამოსვლა პირველი</head>
+          <stage>ოთახი ნინოსი. ერთ მხარეს ფორტეპიანი დგას. ოთახი მორთულია კარგი ავეჯით. ფორტეპიანოს
+            უზის ნინო, უკრავს და მღერის. ნინო მარტო</stage>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p><stage>იმღერის.</stage></p>
+            <l>ნეტარ გულო, რისთვის შექმენ შენ უეცრად მღელვარება,</l>
+            <l>იქნებ შენცა მოგეფინა ტრფობის შუქის ელვარება,</l>
+            <l>ნახე, ჰსცადე, თუ ეგ იყოს ბედისაგან დანაწესი,</l>
+            <l>თუ ეგ იყოს განგებისგან შენსა გულსა დანათესი.</l>
+            <l>მიჰყვე ტრფობას,</l>
+            <l>ტკბილსა გრძნობას,</l>
+            <l>მიეც თავი –</l>
+            <l>არ არს ავი.</l>
+            <l>ტრფობა არის ქალთა ნუგეში,</l>
+            <l>სხვა რა გვაქვს სოფელსა ლხინი,</l>
+            <l>ტრფობა არს ჩვენი დიდება,</l>
+            <l>ჩვენი სკიპტრა და გვირგვინი.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეორე</head>
+          <stage>ნინო და ბეგლარ</stage>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>ჩემის მხრივ, გარწმუნებთ, თქვენა ხართ ღირსი მთელის ქვეყნის გვირგვინისა!</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>ახ! <foreign xml:lang="rus">Это вы, князь!</foreign> არა, მე არა ვარ ეგრე პატივმოყვარე, რომ დედოფლების გვირგვინი
+              ვისურვო.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>სიყვარულის გვირგვინი. ნეტა ვინ არის ის ბედნიერი?!</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>რათ გინდათ შეიტყოთ, თქვენ ხომ არა გჯერათ, რომ ქართველმა ქალებმა სიყვარული იცოდენ ან
+              გრძნობდენ.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><foreign xml:lang="rus">Покрайней мере,</foreign> თქვენ იქნებით მხოლოდ პირველი.</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>ვგონებ კაცები უფრო ცივათ ხართ სიყვარულზედ. ეს კიდევ არაფერი, ნეტავი მტრობა არ
+              იცოდეთ.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>მაგ ისარს მამაჩვენებს ესვრით?</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>მართლა გეტყვით, რა არის იმათგან ასე ერთმანეთის მტრობა?!</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>მიზეზი, მიზეზი გაუნათლებლობაა. ჩვენი ხალხი არ არის პირველი, ბევრნი გვძრახვენ, მაგრამ
+              თუ წაიკითხვენ ცხოვრებას დიდის ერი სას, მაშინ დაერწმუნებიან, რომ რომაელნი, როდესაც
+              მხედრობით მდგო მარეობიდგან შეიქნენ მოქალაქედ, ისეთი მეშურნენი, მეჩხუბარნი და მოდა ვენი
+              გახდენ, რომ საშინელება იყო. ჩვენც ახლა ვესწრობით ასეთ კეთილ ცვლილებას
+              ყმაწვილ-ჩამომავლობაში, რომელნიც იზდებიან ხელმწიფის მოწყალებითა და იკარგება მაგვარი
+              ბიწიერება ჩვენში. ვგონებ, დამერწმუნე ბით, მე და მიხეილს არ მოგვივა ჩხუბი და არც
+              საჩივარი ერთმანეთზედ. </p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>მე კიდევ იქა ვარ, რადგან თქვენ ჰსჯავრობთ ქალებზედ, რომ სიყვარული არ ვიცით, ნება
+              მომეცით, მეც გკითხოთ, გყვარებიათ ვინმე იქ მაინც, დიდს ქვეყანაში?</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>დიახ, ნინავ! მიყვარდა და მიყვარს, ჩემს გულში არის დათესილი სიყვარული სიყრმიდგანვე და
+              თან წლოვანებასთან შემეზარდა სახე ხმითა საყვარელისა. იყო და არის განუშორებელი ჩემგან,
+              მინათვიდა და მინათის, როგორც ბედის ვარსკვლავი. ოჰ, თუ არ მიიფარა ჩემგნით
+              განმაცხოველებელი ჩემი მნათობი და იქნება ხელთმძღვანელი დანაჩენის ჩემის ცხოვრებისა.</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>ნეტავი ვიცოდე, ვინ არის აგრე ბედნიერი?! დიდი ხანია, თქვენ წვლილ ლექსებში, რომელიც
+              მოდის და პეტერბურხიდგან პენერამით სიყვარულსა, მაგრამ ვერ გამოვიცანით!</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>ვინ იყო საგანი, გინდათ რომ გამოიცნოთ?</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>ძალიან!</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><stage>გამოართმევს ხელს, ნინოც აძლევს.</stage> ნინა, თქვენა ხართ!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მესამე</head>
+          <stage>იგინივე და მიხეილ</stage>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>სწორეთ ფამუსოვი ხარ! <foreign xml:lang="rus">Чай братец, Ты с прогулки?</foreign></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><stage>იცინის.</stage> მე მიყვარს ნინა!</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p><foreign xml:lang="rus">А, ты Нина,</foreign> <stage>ნინო მოეხვევა მიხეილს.</stage> მითხარ ყურში ... <foreign xml:lang="rus">ну вот и
+              прекрасно!</foreign> ბეგლარ, <foreign xml:lang="rus">дай руку.</foreign> <stage>ჩაუდებს ხელს ხელში.</stage> ღმერთმა გაკურთხოთ.
+                <stage>ბეგლარ ჰკოცნის ხელზედ ნინოს და პირზედ მიხეილს.</stage> დასხედით. ახლა ამას
+              უნდა ვეცადნოთ,მამაჩვენები დავითანხმოთ.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>აბა, როგორ?</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>მოიცა, ჩალიანი ჩვენ დაგვრჩეს!</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>რა იქნება?</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>ის იქნება, რომ მამაშენი თანახმა გახდება, ჩალიანს რომ ნინუცას გავატან.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>ვითომ, <foreign xml:lang="rus">преставте себе,</foreign> გუშინ მამაჩემმა ილაჯი გაგვიწყ ვიტა, სუდში არზა დაწერეო. ერთი
+              ამოდენა საქმე შემოიტანა, მთელი დღე ვშალე, ვშალე, <foreign xml:lang="rus">ничего не понял.</foreign> მგონია ჩალიანის
+              თაობაზედ არის. <foreign xml:lang="rus">Ради бога,</foreign> შენ დაწერე, მე არ ვიცი.</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>მე კი თუთულოვი გონივარ თუ?! გინდა მე ცხენი გამახედნი ნე, ფრანცუსკის კადრელს ვასწავლი
+              ცხენსა. <foreign xml:lang="rus">Мое ли-дело писать кляузы?!</foreign></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><foreign xml:lang="rus">Но будеть гонка. Прощай, Мишель,</foreign> მამაჩემი მოვიდოდა და... <stage>ნინოს ხელზედ
+                ჰკოცნის.</stage></p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>თქვენი ლექსები გამომიგზავნეთ.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>ახ! <foreign xml:lang="rus">Забыл.</foreign> დღეს დილას ლექსი დავწერე და დამავიწყდა, ვერ წამოვიღე თანა, ერთად
+              მოგართმევთ. <stage>გავლენ ყველანი.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეოთხე</head>
+          <stage>ნენე მარტო და მერმე აბრამა</stage>
+          <sp who="#nene">
+            <speaker>ნენე</speaker>
+            <p>ბეგლარ ბრძანებულა, ახ! ნეტა როდის იქნება ჩემი ნინუცა იმას შეერთოს, რა რიგათ უყვართ
+              ერთმანეთი... ოხ, რა რიგათ მიყვარიან რუსები, რომ მოახლების გათხოვება ჰსცოდნიათ, იქნება
+              მეც მეღირსოს, ნინუცა კი დამპირდა, ჩემი ბლუ აბრამა... ბლუ რომ არ იყოს, უცხო რამ არის,
+              მაგრამ რა უშავს, სხვა ხომ არა აქვს-რა დამახინჯებული, არც თვალი, არც ცხვირი.
+                <stage>იყურება ფანჯარაში.</stage> ქა, აგერ თითონ აბრამაც მოდის, წიგნები მოაქვს,
+              უთუოთ ნინუცასთან იქნება.</p>
+          </sp>
+          <sp who="#nene">
+            <speaker>ნენე</speaker>
+            <p>ხომ მშვიდობით ბრძანდებით, ყმაწვილო?</p>
+          </sp>
+          <sp who="#abrama">
+            <speaker>აბრამა</speaker>
+            <p>მე, მე, მე, ჩე, ჩე, ჩე...</p>
+          </sp>
+          <sp who="#nene">
+            <speaker>ნენე</speaker>
+            <p>რადა ჩეჩე?</p>
+          </sp>
+          <sp who="#abrama">
+            <speaker>აბრამა</speaker>
+            <p>მი – მი – მი ყვა-ყვა-ყვა...</p>
+          </sp>
+          <sp who="#nene">
+            <speaker>ნენე</speaker>
+            <p><stage>იცინის.</stage> ყვა, ყვა, ყვა!</p>
+          </sp>
+          <sp who="#abrama">
+            <speaker>აბრამა</speaker>
+            <p>...ყვარხარ!</p>
+          </sp>
+          <sp who="#nene">
+            <speaker>ნენე</speaker>
+            <p>ძალიან?</p>
+          </sp>
+          <sp who="#abrama">
+            <speaker>აბრამა</speaker>
+            <p>ძა! ძა! ძა!. ი ი ი... ან</p>
+          </sp>
+          <sp who="#nene">
+            <speaker>ნენე</speaker>
+            <p>ბეგლარს უყვარს ჩემი ნინუცა?</p>
+          </sp>
+          <sp who="#abrama">
+            <speaker>აბრამა</speaker>
+            <p>ჰო!</p>
+          </sp>
+          <sp who="#nene">
+            <speaker>ნენე</speaker>
+            <p>მაშ რატომ არ ირთავს?</p>
+          </sp>
+          <sp who="#abrama">
+            <speaker>აბრამა</speaker>
+            <p>მა, მა, მა...</p>
+          </sp>
+          <sp who="#nene">
+            <speaker>ნენე</speaker>
+            <p>მამა არა შვრება, გაუწყრეს მამა ღვთისა!</p>
+          </sp>
+          <sp who="#abrama">
+            <speaker>აბრამა</speaker>
+            <p>ნუ – უ – უიი იი წვე... წწვე... წწველები!</p>
+          </sp>
+          <sp who="#nene">
+            <speaker>ნენე</speaker>
+            <p><stage>ნენე იცინის და ქოქოლას აყრის. ამ დროს შემოვა ნინო.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეხუთე</head>
+          <stage>იგინივე და ნინო</stage>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>Ах, здравствуй, Абрам!1</p>
+          </sp>
+          <sp who="#abrama">
+            <speaker>აბრამა</speaker>
+            <p><stage>თავს დაუკრავს და მიართმევს ვარდის კონას და წიგნებს.</stage></p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>საღამოზედ ხომ არ მობრძანდება ბეგლარი?</p>
+          </sp>
+          <sp who="#abrama">
+            <speaker>აბრამა</speaker>
+            <p>რა... რრრ... მო – მო..</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p><stage>გახსნის წიგნს.</stage> <foreign xml:lang="rus">Ах, стихи!</foreign></p>
+          </sp>
+          <sp who="#abrama">
+            <speaker>აბრამა</speaker>
+            <p><stage>აქამდის სულ ენა ებმოდა და იძახდა: „მო მო“... უეცრად დაიყვირებს.</stage>
+              მოგახსენო! <stage>ნინოს და ნენეს გაეცინებათ.</stage></p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p><stage>ეტყვის აბრამს.</stage> პატარა მოიცადე, იქნება მიხეილმა პასუხი მისწეროს?
+                <stage>გავა აბრამა, ნინო მივა, დივანზედ დაჯდება და გვერდით ძირს ჩაუჯდება
+                ნენე-გოგო.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეექვსე</head>
+          <stage>ნინო და ნენე, მერმე მოწყალისეული</stage>
+          <sp who="#nene">
+            <speaker>ნენე</speaker>
+            <p>გენაცვალოს ნენე, მეც გამაგონე, რუსული ხომ არ არის?</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>ქართული ლექსებია.</p>
+            <stage>კითხულობს.</stage>
+            <l>აგერ ცაში მზე ბრწყინვალებს</l>
+            <l>და განფანტა ღამე ბნელი,</l>
+            <l>შუქი მისი შენსა ფანჯრებს</l>
+            <l>ჰკოცნის, ვითა საყვარელი!</l>
+            <l>აღსდეგ, აღსდეგ, კმარა ძილი,</l>
+            <l>კმარა ტკბილ სიზმართ ზმანება,</l>
+            <l>ისმინე ფრინველთ ჟღივილი!</l>
+            <l>იხილე დღისა შვენება.</l>
+            <l>აღსდეგ, ატკბე შენი ყური,</l>
+            <l>ვარდს ტურფათ დამღერს ბულბული,</l>
+            <l>უცხოთ უსტვენს მოლაღური,</l>
+            <l>შორის ტყით ისმის გუგული.</l>
+            <l>მზისა სხივსა ოქროს ფერად,</l>
+            <l>დაუფერავს შენი არე,</l>
+            <l>მე მოვსულვარ შენსა მზერად,</l>
+            <l>აღზდეგ, ხილვით გამახარე!</l>
+            <l>აღზდეგ, მნახე, თავს დაგიკრავ,</l>
+            <l>მოგვიძღვნი ვარდისა კონებს,</l>
+            <l>შენსა ხელსა გულს მივიკრავ,</l>
+            <l>გადგიკოცნი ლამაზ თვალებს.</l>
+            <stage>უკანასკნელ ტაეპს რომ კითხულობს, გამდელი მოწყალისეული შემოვა, მიეპარება და
+              წაართმევს წერილს ხელითგან.</stage>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>გადიავ, რას შვრები, არ დამიხიო!</p>
+          </sp>
+          <sp who="#motsqaliseuli">
+            <speaker>მოწყალისეული</speaker>
+            <p>ვისგან არის ესა?</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>ბეგლარისაგან.</p>
+          </sp>
+          <sp who="#motsqaliseuli">
+            <speaker>მოწყალისეული</speaker>
+            <p>როგორ თუ ბეგლარისაგან?! <stage>ამოიღებს სათვალეს, კითხულობს ბოლოს კუპლეტს
+                ხმამაღლა.</stage></p>
+            <l>გკოცნი ვითა საყვარელი,</l>
+            <l>გარდგიკოცნი ლამაზ თვალებს...</l>
+            <stage>მივარდება სიარჩხლით.</stage>
+            <p>ეს რა არის, კარგათ გაზრდილო ქალო? უი, უი, რა დროს დავესწარ. <stage>ნენე-გოგო გაიქცევა
+                კულისებში და დაიმალება.</stage></p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>გადია, რა არის და ლექსებია, ცუდი არა არის რა! რაზედ გიჟდები? </p>
+          </sp>
+          <sp who="#motsqaliseuli">
+            <speaker>მოწყალისეული</speaker>
+            <p>რას ვხედამ ამ ურცხვსა! უი, უი, ვაი, ამ დღის ნახვასა.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეშვიდე</head>
+          <stage>იგინივე და სიდონია</stage>
+          <sp who="#sidonia">
+            <speaker>სიდონია</speaker>
+            <p>რა არის, გადიავ, რა ამბავია?</p>
+          </sp>
+          <sp who="#motsqaliseuli">
+            <speaker>მოწყალისეული</speaker>
+            <p><stage>დაჯდება ხალიჩაზედ ძირს, იცემს მუხლებში.</stage> რაღა არის, ჩვენი ლაფის დასხმა,
+              ჩვენი სირცხვილი, ჩვენი ჩაქოლვა, ჩვენი სასაცილოები, ჩვენი თავის მოჭრა!...</p>
+          </sp>
+          <sp who="#sidonia">
+            <speaker>სიდონია</speaker>
+            <p><stage>შეშინებული</stage> რა არის, ვეჟო, არ იტყვი?</p>
+          </sp>
+          <sp who="#motsqaliseuli">
+            <speaker>მოწყალისეული</speaker>
+            <p>შენი კარგი ქალის გამოაშკარება!</p>
+          </sp>
+          <sp who="#sidonia">
+            <speaker>სიდონია</speaker>
+            <p>როგორ თუ ქალისა?</p>
+          </sp>
+          <sp who="#motsqaliseuli">
+            <speaker>მოწყალისეული</speaker>
+            <p>მიეცი ინსტიტუტში გამოსაზდელად! შენ თუ არსად ებარე, ცუდი ქალი გამოგიყვანე, აქამდის
+              სამზარეულოს კარებიც არ იცი! ახლა ასწავლე მიჯნურობა, ნესტან-დარეჯნობა, ვისრამიანობა,
+              საარ შიყო უსტრები!</p>
+          </sp>
+          <sp who="#sidonia">
+            <speaker>სიდონია</speaker>
+            <p>როგორ უსტრები, აბა მიჩვენე!</p>
+          </sp>
+          <sp who="#motsqaliseuli">
+            <speaker>მოწყალისეული</speaker>
+            <p><stage>წამოდგება, გაშლის ხელში დაჭუჭკნილს წიგნსა და უკითხავს.</stage> აი.</p>
+            <l>გკოცნი ვითა საყვარელი,</l>
+            <l>გადგიკოცნი ლამაზ თვალებს!</l>
+          </sp>
+          <sp who="#sidonia">
+            <speaker>სიდონია</speaker>
+            <p><stage>დაეცემა დივანზედ.</stage> უიმე, მე ჩაქოლვილსა!</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p><stage>მივარდება დედას.</stage> გენაცვა, დედავ, სამაგისო არა არის რა, ღმერთს
+              გეფიცები.</p>
+          </sp>
+          <sp who="#sidonia">
+            <speaker>სიდონია</speaker>
+            <p>რას ვხედამ ამ შეჩვენებულს, შე წყეულო!</p>
+          </sp>
+          <sp who="#motsqaliseuli">
+            <speaker>მოწყალისეული</speaker>
+            <p>ჩუმათ, არავის გააგონო <stage>ახლა ის მივარდება ნინოს.</stage> რაზედ დაგვასხი
+              ლაფი?!</p>
+          </sp>
+          <sp who="#sidonia">
+            <speaker>სიდონია</speaker>
+            <p><stage>გამდელს</stage> ნუ ჰყვირი, გადიავ, გენაცვალე, <stage>ნინოს</stage> შე
+              წყეულო.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მერვე</head>
+          <stage>იგინივე და აბრამა</stage>
+          <sp who="#abrama">
+            <speaker>აბრამა</speaker>
+            <p>პა-პა-პა სუხი მი-იი ღო... <stage>გააგრძელებს, მინამ გამდელი ლაპარაკობს.</stage></p>
+          </sp>
+          <sp who="#motsqaliseuli">
+            <speaker>მოწყალისეული</speaker>
+            <p>შენ მოუტანე წიგნები? <stage>უყვირის.</stage> ეი, ბიჭო, ფილიპე, პაპუნა, <stage>ბიჭები
+                შემოცვივიან.</stage> გაათრიეთ ეს საძაგელი, ცემით მიჰყევით ამირინდომდი <stage>ბიჭები
+                წაავლებენ საყელოში, მიათრევენ აბრამას.</stage></p>
+          </sp>
+          <sp who="#abrama">
+            <speaker>აბრამა</speaker>
+            <p>ჩე – ჩე -მი რა – რა რა...</p>
+          </sp>
+          <sp who="#sidonia">
+            <speaker>სიდონია</speaker>
+            <p><stage>უძახის ნინოს.</stage> აქ მობრძანდი, ქალბატონო. <stage>შეაგდებს ოთახში და
+                დაუკეტავს კარებს.</stage> აქა ბრძანდებოდე, მზის სხივს არ დაგანახვებ, შე, შე,
+              გასაქრობო! <stage>გამდელი და სიდონია დასხდებიან ხალიჩაზედ, ტირიან, იცემენ
+                მუხლებში.</stage></p>
+          </sp>
+          <sp who="#motsqaliseuli">
+            <speaker>მოწყალისეული</speaker>
+            <p>ახლა ტირი, რუსობანა მოინდომე, სახლში მიიღე დაუძინებელი მტრის შვილი, ყმაწვილი კაცი,
+              ერთათ აკურკურე, არ იცი, ესე მოხდებოდა, თითონ ის საზანდარი დასწერს ლექსებს,
+              გადააბრუნებს ჩვენს ოჯახსა! კარგი საქმრო უშოვნე!</p>
+          </sp>
+          <sp who="#sidonia">
+            <speaker>სიდონია</speaker>
+            <l>ერთი შეხედე, შენ არ მიქებდი,</l>
+            <l>შენ არ იყავი ილაჯს მიწყვეტდი,</l>
+            <l>კარგი შვილია, მეუბნებოდი,</l>
+            <l>უცხო საქმროა, ყველგან ჰყვიროდი.</l>
+          </sp>
+          <sp who="#motsqaliseuli">
+            <speaker>მოწყალისეული</speaker>
+            <l>რაო? არ გესმით, ერთი მიბრალე,</l>
+            <l>რა მომიგონე, შენ გენაცვალე,</l>
+            <l>ამას არ ვფიცამ, დიდათ მიყვარდა,</l>
+            <l>თითქმის ჩემ თვალწინ, აქ გაიზარდა...</l>
+            <l>ვის რა ვუთხარი, რა დავიყვირე,</l>
+            <l>მე არ ვიცოდი, იყო მესტვირე.</l>
+            <l>უი-უი-უი! <stage>წაიშენს მუხლებში.</stage></l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეცხრე</head>
+          <stage>იგინივე და მიხეილ შემოირბენს.</stage>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>რა ანბავია, დედავ, მამაჩემისა ხომ არა შეგიტყვია რა?</p>
+          </sp>
+          <sp who="#sidonia #gamdeli">
+            <speaker>სიდონია და გამდელი</speaker>
+            <p><stage>ერთად</stage> შენი მატრაბაზობა, შენი სიპლუტე.</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>Что за комедия?1</p>
+          </sp>
+          <sp who="#sidonia">
+            <speaker>სიდონია</speaker>
+            <p>წადი და ეხლა მიეც პასუხი ქვეყანას, შენ დააჩუმე ქვეყანა, რათ მოსჭერი თავი მოხუცებულს
+              მამაშენს...</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>რას გადარეულხართ, არ მეტყვით, ერთი თქვით და...</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p><stage>ოთახიდგან</stage> Мишель, меня заперли, отвори, я все раскажу!</p>
+          </sp>
+          <sp who="#sidonia_@gamdeli">
+            <speaker>სიდონია და გამდელი</speaker>
+            <p><stage>ერთად</stage> ხმა გაიწყვიტე!!</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p><stage>დაინახავს სტოლზედ გასაღებს, აღებს კარებს, ნინო გამოვა ნამტირალევი.</stage> Да
+              что такое?</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p><foreign xml:lang="rus">Я получила стихи от твоего друга.</foreign></p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>მიჩვენეთ ეგ წიგნი, წავიკითხო?</p>
+          </sp>
+          <sp who="#motsqaliseuli">
+            <speaker>მოწყალისეული</speaker>
+            <p><stage>აძლევს წიგნს.</stage> აი, შეექეც.</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p><stage>კითხულობს და იცინის.</stage> ეს არის, ამაზედ ჰკლავდით ამ ქალსა, მე ერთი რაღაც
+              მეგონა, მეორეთ მოსვლა გაქვთ, ღრიალებთ... წადით თქვენ ოთახში, დასხედით თქვენთვის, ერთ
+              ისტორიათ არ გააკეთოდ.</p>
+          </sp>
+          <sp who="#sidonia">
+            <speaker>სიდონია</speaker>
+            <p><stage>მოვა მიხეილთან ალერსით.</stage> გენაცვა, შვილო, მართლა არაფერი არა არის
+              რა?</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>არა, დედაშვილობამ, წადით შინა, მე უკეთეს სასიამოვნოს გეტყვით რასმე, არ ვიცი,
+              მამაჩემმა რათ დაიგვიანა მთაში; ერთი ჩამოვიდეს, ნინუცას გაგითხოვებ!</p>
+          </sp>
+          <sp who="#sidonia">
+            <speaker>სიდონია</speaker>
+            <p>იი, კარგია... ცრუო...</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>აი, ნახავთ. <stage>ნინოს</stage> <foreign xml:lang="rus">Ну, перестань хныкать.</foreign> <stage>სიდონია და ყველანი
+              მიდიან. მიხეილ უჩვენებს მოწყალისეულისკენ.</stage><foreign xml:lang="rus">Вот кепинисхев ская ведьма.</foreign></p>
+          </sp>
+          <stage>ფარდა ჩამოეშვება.</stage>
+        </div>
+      </div>
+      <div type="act">
+        <head>მოქმედება III</head>
+        <stage>ოთახი ბეგლარისა, წიგნები კედელზედ, ტახტქვეშ, სტოლზედ. პისმენი სტოლი დგას, წიგნები
+          აწყვია არეულად, ერთი საქმე ძევს ძველი და ერთი ღერბოისქაღალდები ძევს ზედა.</stage>
+        <div type="scene">
+          <head>გამოსვლა პირველი</head>
+          <stage>ამირინდო, სოროზან, სარქის შემოვლენ.</stage>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>შინ არ არის ბეგლარ, აბა ვნახოთ, დაუწერია არზი თუ არა! არ ეგვანება შენ დაწერილსა,
+              სარქისავ, პეტერბუხული სხვაა და! <stage>დახედავს და საშინლათ დაიყვირებს.</stage> ბიჭო,
+              ეს რა უქნია? ქართულად დაუწერია, ვაი შენს ამირინდოსა, როგორ დამავიწყდა, ვერ უთხარ,
+              უთუოდ ქართული ეგონა!</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ვა! <foreign xml:lang="rus">Пелицонный</foreign> არზი კარგი რამ იქნება!</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>აბა, ერთი წაიკითხე, ქართულს ჩვენი უწვერული კი ვერ დასწერდა, ქაღალდი წამიხდინა!</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p><stage>კითხულობს.</stage> ვაა! ей богу, ვაჰ, ჰსწორეთ ისეა!</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p><stage>მხიარულებით</stage> ისეა განა, ქართულია, მაგრამ კარგი ზაკონები ჰწერია.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>რის ზაკონი, აქ პროსბუ არ არის, აშუღობს, ლათაიებია.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p><stage>შეშინებული</stage> როგორ ლათაიები?! ერთი წაიკითხე.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p><stage>კითხულობს.</stage> ვა, ყურბან ზალუმის ხმაა.აგერ ცაში მზე ბრწყინვალებს და
+              განფანტა ღამე ბნელი... ჩვენი ივანგულა რა კარგად იტყოდა...</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p><stage>დაიყვირებს.</stage> რა დროს მასხარაობაა, რას ამბობ, კაცო?</p>
+          </sp>
+          <sp who="#sorozan">
+            <speaker>სოროზან</speaker>
+            <p><stage>მივა და უყურებს ქაღალდებში.</stage> ვაი შენ სოროზანსა! მარ თლა ლექსები არის,
+              ბატონო, ვაი შენს სოროზანსა, ფიქრში ყოფილა!</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>ლექსები? როგორ თუ ლექსები, ღერბოის ქაღალდზედ ლექსები, ვაი, ოჯახო დაღუპვილო, ვაი,
+              სიბერის დროს შერცხვენილო, ვაი, იმედო დაკარგულო, ოჰ, არზის წერა ვერ უსწავლია, ვაი,
+              ათასო თუმანო, ოფლით ნაშოვნო და ტყუილათ დაფანტულო...</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>აფსუს ფულებო, აქნამდისინ სარგებლის სარგებლით სამი ათასი თუმანი გახდებოდა, ჩალიანი კი
+              არა, ნაწრეტიც შენ დაგრჩებოდა, ონოფრეს ყმად დაგისახლებდი.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>ღმერთო, ამისთანა უბედურება იქნება, ვინც იქიდგან გადმოდიან, ერთმა არზის წერა არ
+              იცის!</p>
+          </sp>
+          <sp who="#sorozan">
+            <speaker>სოროზან</speaker>
+            <p>სარქის ბუღდანიჩ! ნეტა არც ონოფრეს შვილმა იცის წერა არზის, ა, ის აფიცრათ რომ
+              მოვიდა?!</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>დამწერი, ამის შვილი კიდევ კაცია, ის სწორეთ ბუნბულია, ბურტყლი, ჰსწორეთ ქართველია,
+              უკაცრავათ, ქარია უნდა მეთქვა.</p>
+          </sp>
+          <sp who="#sorozan">
+            <speaker>სოროზან</speaker>
+            <p>ბუნება არის და ქართველს ხმალი უნდა ეჭიროს და არა კალამი.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>რით ვერ შეიტყე, კალამი ხმლათ გაგვიკეთდა. ერთ ასოს დაბღაჭვენ და დარჩი მშიერი, ეი, ეი,
+              ჩაიშალა ჩემი იმედი, ჩემი ნუგეში. <stage>შემოკრავს ტაშს.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეორე</head>
+          <stage>იგინივე და ბერუა</stage>
+          <sp who="#berua">
+            <speaker>ბერუა</speaker>
+            <p>ლომინ გოდობრელიძე გახლამთ, თავი დაგიკრათ.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>ჰო, ეგღა მაკლდა, მთხოვს რასმე, მამაჩემი არ წამიწყდება... შემოვიდეს. <stage>ბიჭი
+                გავა.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მესამე</head>
+          <stage>იგინივე და ლომინ შემოვა.</stage>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>სალამი, ღმერთი გადღეგძელებს.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>რა ბრძანებაა.</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>შეგრჩა, შენ ნუ მომიკვტე!</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>ჩემს ბატონს, ლომინს, გაუმარჯოს!</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p><stage>გადაიჯვარედინებს ფეხებს, მოიხრება და დაუკრავს თავს.</stage> ჰო, ღმერთმან
+              განდღეგრძელოს.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>მობრძანდი, დაბრძანდი, რა ქარმა მოგაგდო? სად ბრძანებულხარ?</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>ქალაქში გახლდი, ბატონო!</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ხონი...</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>როგორ მოგეწონათ, ამის მეტათ არა ბრძანებულხართ?</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>არა, მაგრამ ჩემგან რავა დაიწუნება, მაშინ უმეტეს რომ გადააცილა ქუთაისს, ვონს და ხონს –
+              ქალაქებს, რავარც მსმენია განსვე ნებულის ჩემის ბაბუისგან, ლაშქარი რომ მიეწვიათ
+              აღა-მაჰმადის ხანის დროს, შე ნუ მოკვდე, მისთანა ნაშივრები ყოფილა, რაღა მოგახსენო,
+              მისტონა ნოხის გული ჩამოეტანა, რომე, შენ მომიკვდები, შენ ასფარად კი ღირდა, ქვე კი
+              გენდობოდათ დიდ კაცებს, მაგრამ ვერ შელეოდა ნეტარხსენებული. ამასთან ქართულ
+              აშუღებისდაგვარად მოეტანა განსვენებულის თქვენის ბებიდაშვილისთვის ლეპინცკის ეკალატის
+              ჩანახევი, სწორებ ამპატროვანი კი იყო. აჰ, <stage>ხელს გაუშლის.</stage> ამტენი ხნის
+              განმავლობაში კიდევ კი ამფართოვანი <stage>ორ თითს აჩვენებს.</stage> ქვე ბევრი დიდი კაცი
+              დევიმდურე, მაგრამ ვერ შეველიე, შე ნუ მომიკვტები.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>ქალაქის სიდიდე როგორ გგონია?</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>ქვე არ მოგახსენე, რომ ამ ჩემს ქუდზედ სულ მთელი ტფილისი დაეტეოდა, <stage>მოიხდის
+                ქუდს.</stage> რავაც ბაბუასგან გამეგონა. ახლა, ბატონო, გაზდილა, გავსილა,
+              გაშვენიერებულა, ფრთები გეუშლია, ორი დღის სა როინებელი შექმნილა გაღმათეთ და გამოღმა.
+              მაგრამ საკვირველი მითხრეს, შუა დღისას, რავარც ფუშკა გეიღებს დრიგინს, მაშინვე გეიზდება
+              თურმე ქალაქი! დედა! დედა! დედა! რავარ მიუწთომელია ეს საქმე.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>უხუმრიათ, ხოლმე ზარბაზანი პატრების ზარების მაგი ერად გავარდება, სადილი ჭამეთო.</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>ბატონო, საღამოზედ სცოდნიათ სადილობა, მომკლეს მშიერი, გვიან სჭამენ სადილს.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>არავინ მიგიწვია სადილათ?</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>კი ბატონო... დედა, დედა, დედა! რავარი გამობრინჯული, გამოჩელეტებული წავედი. მივედი,
+              მომეგება სახლის პატრონი, შევიხედე სახლშიდ, მორთული, მაგრამ რა მორთული, სულ მთლად
+              ლეპენცკურათ. შემიძღვანა წინ, ჯვარი აქაურობას, <stage>გაკვირვებით</stage> სულ მთლათ
+              ზურგი ზურგს მოუქცევიათ და ისთე ჯდილარიან.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ვა, გაბუტანა უთამაშნიათ!</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>არ ვიცი, შენ ნუ მომიკვტე. მიმიყვანა, მაჩვენა დაგრეხილი გოგორებიანი სკამი და მაზედ
+              მიპირებს დაჯენას. <stage>შეწუხებით</stage> მოვკტი, ბატონო. მისთანა ქალს უნდა შევაქციო
+              ზურგი, რომ სულ პრიალ-პრიალი გაუდის. რა გზა მაქვს მე უბედურს, დავჯექი, დავეფალი. რავაც
+              მევინდომე ადგომა, გახდა გრიალი სკამს, გაფრინდა სკამი და მევიტაცე ქალი, თუ კედელს არ
+              ჰსტაცებოდა და არ შევეკავებიე, ორს საათზედ ქუთაის გადავარბენიებ დი ქალიანათ.</p>
+            <stage>ამირინდო და სარქისა იცინიან.</stage>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>სადილს როგორღა შეექეც, კიდევ ხომ არ მოგიტაცა სკამმა?</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>სადილზედ სხვა სკამზედ დამაჯინეს, მაგრამ მარჯვეთ ქე ვი ყავ, თუ კიდომ მოვეტაცე, სტოლს
+              ვსტაცებდი ხელს.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>რა მოგართვეს სადილათ?</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>მეიტანეს კუპატები, მოაყოლეს წვენი, რა წვენი? არც ჰქონდა ხორცი, არც გოჩი, ასე ტყუილათე
+              თფილი წყალი. მევიტეხე კუპატი, და ვაწე წვენს და ხელათვე ვჭამე. გვერდით აგერ მომიჯინეს
+              რუსი, ამოჰკრა ოთხი კობზი და სულ მთლათ ამოხვლიპა წვენი, მიმზერს უბედური, ეგება
+              ვუთავაზო; თუ უთავაზე, გამიწყრება, თვარა წავწყდი. შიოდა უბედურს და ვერ ვაჭამე.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>კარგი ღვინოები ჰქონდათ?</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p><stage>შეწუხებით</stage> ღვინოს ნუ გამახსენებ, მან რომ მე საქმე მიქნა, ნურა მტერს ნუ
+              დამართვია ნურას დღეში, ნურას დღეში ნუ გარეულა ის დღე.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>რა, ჩემო ლომინ?</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>ნუ მკითხავ.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>არ მოგეშვები, შენუ მომიკვდები.</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>აჰა, გეტყვი და თუ გამამხილე, მომკლავ იმერეთში და ის იქნება.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>სასიკვდილო რა დაგემართება?</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>ის ბატონო, რომ გამბასვრენ, გამკილვენ და ექსორიას მიქმენ.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>არა, შენმა მზემ, არ გაგცემ, მე ხომ მიცნობ, მწევარსაც კარგს გაჩუქებ.</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p><stage>აქეთ-იქით იყურება.</stage> უცხო ხომ არავინ არაა აქანა? </p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>არა, ეს ჩვენი მეგობარი არის, არსად იტყვის.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>მე ისეთი ჩუმი ვარ, როგორც ლოქო.</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>ღლავს, ქვე კი გევხარ ცოტათი. პლურტი იქნები, მარამ მაინც მოგახსენებ: დამისხეს ღვინო
+              პლუტური თუ რაცხა, არ ვიცი... შე ნუ მომიკ ტები, რავაც დაასხეს, სულ მთლათ ქაფათ
+              გადეიქცა, ავიღე და ასე ტყუილა უცებად გადავკარ. <stage>დაიღრიჯება.</stage> შენი მტერი
+              გამწარდეს, რავაც შენი ლომინის პირი გამწარდა! მე უბედურს ყრონტი ჩამიფხიკა! ვოხერს არც
+              აქვს აღვირი, რომ კაცმა დეიკაოს. მეცა ცხვირში ბოლი, ვეღარ მოვასტარი და ასტე უცებათ
+              გამომიხტნა ბუყი... <stage>ამირინდო და სარქისა იცინიან დიდხანს.</stage></p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ვა, ბოყინი, ხა, ხა, ხა, ხა...</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეოთხე</head>
+          <stage>იგინივე და იაია</stage>
+          <sp who="#iaia">
+            <speaker>იაია</speaker>
+            <p>ოო! ბატონს ამირინდოს ვახლავარ, მომილოცავს ბეგლარის მოს ვლა, რაღა გიჭირს, ეხლა ვინ
+              დაგიდგება წინა, დასვი და აწერინე არზები.</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>უიმე, მე უბედურს, ვერ მოგილოცე შვილის მობრძანება, ვეება ყაზახი იქნება ისა, არზის წერა
+              თუ იცის? შენი ჭირიმე, აგების დამიწერინო.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p><stage>ჩუმათ ეტყვის ლომინს.</stage> არზა, ასეთი არზის მწერალი გიშოვნო, რომა იმისთანა
+              მოსკოვში არ იყოს.</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>მიშოვე, შენი ჭირიმე, რაც მთხოვს, მივცემ.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>კარგი, აქედგან წაგიყვან.</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>კარგი, იქნება წამიტანე!</p>
+            <p><stage>აქადამდის ამ ლაპარაკში იწვევს ამირინდო იაიას, დაჯდება და ჩუმათ
+                ლაპარაკობენ.</stage></p>
+          </sp>
+          <sp who="#iaia">
+            <speaker>იაია</speaker>
+            <p>ეი, მამა არ წამიწყდება, იმას მოგახსენებდი, მთელი ქალაქია და შენი შვილის ქება ისმის,
+              საკვირველი მწერალი თურმეა!</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p><stage>შეწუხებით</stage> კარგია, მამა ნუ წაგიწყდება, ნუღარას მიბრძანებ, რის წერა,
+              ბატონო?!</p>
+            <l>არზა მივეცი მე დასაწერი,</l>
+            <l>თითქო არისო მოშურნე მტერი,</l>
+            <l>არზის ქაღალდზე რა დაეწერა?</l>
+            <l>ვიღაცას ქალზედ ეთქვა სიმღერა!</l>
+            <l><stage>იცინიან.</stage></l>
+            <l>მე მოხუცებულს ცეცხლი მედება,</l>
+            <l>დღე არ მაქვს ძილი და მოსვენება,</l>
+            <l>ყმა და მამულსა სხვა მედავება,</l>
+            <l>თქვენ გამარჯვებას, რა მელექსება.</l>
+          </sp>
+          <sp who="#iaia">
+            <speaker>იაია</speaker>
+            <p>ლექსები, ოო! საუცხოვოა, ხა, ხა, ხა! კარგი, მამაშენი ნუ წაგიწყდება, არ გეწყინოს,
+              მაგრამ სასაცილოა არზის ქაღალდზედ ლექსები, ხა, ხა, ხა, ხა! ოჰ, მოვკვდი, ფერდები
+              მეტკინა, ვეჟო, პეტრებრუხში რომ არ წასულიყო, მესტვირობას აქაც ვასწავლიდით, ვაი შენს
+              იაიას!</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>კარგი, მამაშენი ნუ წაგიწყდება, ხედავ რა მომივიდა, მე რა იმედი მქონდა, მინდოდა
+              ნაწრეტზედაც შემეტანა საჩივარი...</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარაქისა</speaker>
+            <p>ვა, რაღას უყურებ? მოხანი. დიანბეგთან იჩივლე, ერთი სიტყვით, საქმეს გამოვიყვანთ:</p>
+            <l>შენ მოხანი იმ ნაწრეტში,</l>
+            <l>მერე ყველა ადვილია,</l>
+            <l>თუ ის შევა საჩივარში;</l>
+            <l>ტოჩკა და ზაპეტაია.</l>
+            <l>გეუბნები, თუ სუდზედ მივარდა, ამდენი ივლის, მინამ მეორეთ მოსვლაც მოვა, როგორც ჩვენი
+              ემბერდი სწერამს.</l>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>კარგი, გულს ნუღარ მიხეთქთ... იაიავ, ერთი, ქალაქში იყავ, ხომ?! ეხლა, სად შეიყრებოდით
+              ხოლმე? სალაყბოზედ თუ ყაბახზედ?</p>
+          </sp>
+          <sp who="#iaia">
+            <speaker>იაია</speaker>
+            <p>ჰო, ნუღარას მიბრძანებთ, სად არის სალაყბო?! სხვა სახელი დაურქმევიათ. გახსომს,
+              ამირინდო, ხეებზე რომ დავსხდებოდით, ჰეი, ეი, დროვ, ვაი, დარბაისელთ ამოწყვეტასა. ყმაწვილ
+              კაცს რომ შეეყარო, ერთ ნიმუტს არ დადგება, ხმა გაგცეს, ერთს ქუდ მოგიხდის, გაგიღრეჭს,
+              უკაც რაოთო და მირბის.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>სასამართლოში რომ საქმე გქონდა, სად დაისვენებდით ხოლმე?</p>
+          </sp>
+          <sp who="#iaia">
+            <speaker>იაია</speaker>
+            <p>ჰო, ბატონო, კარგათ მომაგონეთ, რას მოგახსენებდით? დიახ, იმას მოგახსენებდი,
+              სასამართლოში შუადღემდის ხომ ტოროჟები არ შეგიშვებენ. მე უწინდებურათ შევიწიე, მამწვდა
+              ტოროჟი და კინაღამ გამომახია კაბა. უწინ ხეები მაინცა გვქონდა, იმის ქვეშ ვისხედით. ეს
+              არაფერი. ჰო, რას მოგახსენებდით? იმას მოგახსენებდით, და კიდევ იმას მოგახსენებდით,
+              ბატონო, შუადღემდი სანახავათაც ვერ მიხვალ სადმე. არამ თუ ბატონებს, ბიჭებსაც
+              ჰსძინავთ!...</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>ეტყობა იმათ ულო არ დაეწვით, ვერც პურს მოიყვანენ. @iaia რა ბრძანებაა, ბატონო, ჰო, რას
+              მოგახსენებდი, კარგია, მამაშენი ნუ წაგიწყდება.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეხუთე</head>
+          <stage>იგინივე და ბერუა</stage>
+          <sp who="#berua">
+            <speaker>ბერუა</speaker>
+            <p>ზაალის ბიჭი გახლავთ. ბატონმა ლიახვის ტოტი დაწყვიტაო და სადილათ თქვენი სტუმრებით
+              გთხოვათო.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>ჰა, აბა, ბატონებო, რას იტყვით?!</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ახალი თევზი კარგი რამ არის, ბიჭო, ზაფრანა წამოიღე, ასეთი რამე მოვხარშო, ჰა.</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>მწერალთან არ წემიტან?</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>სადილი ვჭამოთ და მერე.</p>
+            <stage>გავლენ ყველანი. სარქისა დარჩება უკან, სცენასთან და ამბობს.</stage>
+            <l>საკვირველია ქართველი,</l>
+            <l>რაც უნდა ჰქონდეს ნაღველი,</l>
+            <l>თუ მეგობარი შეხვდება,</l>
+            <l>მაშინვე დაავიწყდება.</l>
+            <l>ჭკვიან კაც ბედი არ აგდებს,</l>
+            <l>იმის ქონება ჩემია,</l>
+            <l>შვილი ვერ უწერამს არზებს,</l>
+            <l>არ იცის ზაპეტაია.</l>
+            <l>არზის წერის მაგიერი</l>
+            <l>უსწავლია ლათაია,</l>
+            <l>ისაც დარჩება მშიერი,</l>
+            <l><stage>ჯიბეზე დაიკრავს ხელს.</stage></l>
+            <l>ტოჩკა და ზაპეტაია.</l>
+            <l><stage>გავა.</stage></l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეექვსე</head>
+          <stage>ბეგლარ მარტო</stage>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><stage>უყურებს ფანჯრიდან.</stage> არ ვიცი, ჩემ ბლუ ბიჭს რა დაემართა, პასუხი არა
+              მომიტანა რა ნინუცადგან. <foreign xml:lang="rus">Верно и он завел интриги.</foreign> რა მშვე ნიერი დღე არის!
+                <stage>ოცნებობს. ფანჯარაში უყურებს.</stage></p>
+            <l>ვიშ, ამ მშვენიერს კეთილსა ჰაერს,</l>
+            <l>ნეტარ ვინცა შენ კალმითა დაგწერს,</l>
+            <l>შეხედეთ ცასა,</l>
+            <l>ლაჟვარდოვანსა,</l>
+            <l>წმინდას მშვენიერ ქალწულოვანსა,</l>
+            <l>უყურეთ წყალსა,</l>
+            <l>მოკამკალმალსა,</l>
+            <l>მჩქეფრად მქუხარეს,</l>
+            <l>გული მიხარეს!</l>
+            <l>ხუჭუჭთა ტყეთა,</l>
+            <l>ზურმუხტებ ველთა!</l>
+            <l>აჰა, ყურს ატკბობს ბულბულის სტვენა,</l>
+            <l>თითქო მე მესმის ფრინველთა ენა. აი,</l>
+            <l>კაკალზედ ვხედამ მსხდომ გვრიტთა,</l>
+            <l>როგორ იხარეს ერთად შეყრითა!</l>
+            <l>მესმის ტორუა უცხოთ იმღერის, ამ</l>
+            <l>ნანგრევიდგამ ბუ გამობღვერის. მოდით,</l>
+            <l>მერცხალნო, მომეცით ფრთენი, მიწით</l>
+            <l>შევიქმნე აღმასაფრენი,</l>
+            <l>აღვფრინდე მაღლა და კვალად მაღლა,</l>
+            <l>რომ მე ვხედვიდე ქვეყანას დაბლა! </l>
+            <l>გავშალო ფრთენი,</l>
+            <l>სანავარდენი,</l>
+            <l>ვნახო რა მზისა</l>
+            <l>შარავანდენი;</l>
+            <l>მერე რძის გზასა,</l>
+            <l>ვარსკვლავთა კვალსა,</l>
+            <l>შეუდგებოდე</l>
+            <l>მნათობთა სვლასა,</l>
+            <l>მთვარესა ვრცელსა,</l>
+            <l>ღამესა ბნელსა,</l>
+            <l>განვსჩხრევდე მათში</l>
+            <l>საცხოვრებელსა.</l>
+            <l><stage>მოწყენით</stage></l>
+            <l>გარნაღა ვაი, მე, ღვთისა ქმნილი,</l>
+            <l>ვარ ამა მიწას მაგრა მიკრული,</l>
+            <l>ვკვირობ, რად მომცა გონება, ნება,</l>
+            <l>თუ რომ სიკვდილით სულ დასრულდება</l>
+            <l>ჩვენი იმედი და ჩვენი ბედი.</l>
+            <l>ასე სიზმარებ თუმცა განქრება,</l>
+            <l>სიცოცხლის სიმი უეცრად ჰსწყდება,</l>
+            <l>კაცი ამისთვის რათ იბადება?</l>
+            <l><stage>დაფიქრდება.</stage></l>
+            <l>მაგრამ რა უჭვრეტ მზესა, მთვარესა,</l>
+            <l>ან მნათობთ ვარსკვლავს ცისა მყარესა,</l>
+            <l>იდუმალ მეტყვის მე სინიდისი,</l>
+            <l>სხვა სოფლისათვის არს სამზადისი!...</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეშვიდე</head>
+          <stage>ბეგლარ და აბრამა შემოვა სერთუკდახეული.</stage>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><stage>შეშინებული</stage> რა ამბავია, ბიჭო?</p>
+          </sp>
+          <sp who="#abrama">
+            <speaker>აბრამა</speaker>
+            <p>რა... რა... მოუ – მოუ – მოუ -კლლლეს... </p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+              <p>ვინა?</p>
+          </sp>
+          <sp who="#abrama">
+            <speaker>აბრამა</speaker>
+            <p>ქა... ქა... ქალებ...</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>ქალმა? Что он врет!1</p>
+          </sp>
+          <stage>აბრამა ტირის.</stage>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მერვე</head>
+          <stage>იგინივე და ონოფრეს ბიჭი წიგნს ბეგლარს მიართმევს.</stage>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><stage>კითხულობს.</stage> „კვლავ აღარ გაბედოთ ამგვარი მოწერა და გთხოვთ, აღარც ჩვენ
+              სახლში გაიაროთ. ნინა“.</p>
+          </sp>
+          <sp who="#berua">
+            <speaker>ბერუა</speaker>
+            <p>ბატონო, გვიბრძანეთ, ჩვენც ემაგას ვცემოთ, შენი რისხვა არა მაქვს, სახლს ზედ დავანგრევთ
+              თავზედ ონოფრეს.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეცხრე</head>
+          <stage>იგინივე და სოროზან</stage>
+          <sp who="#sorozan">
+            <speaker>სოროზან</speaker>
+            <p><stage>შემოვა.</stage> ღმერთი გადღეგრძელებს, ნუ ინებებ, სისხლი მოხდება. ნუ გაგზავნით,
+              მამიშენის მზესა, თქვენ ნუ გაერევით.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><stage>სოროზანს და ბიჭებს</stage> წადით ყველანი, ფეხი არავინ გადგათ.
+                <stage>გავლენ.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეათე</head>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <stage>დადის გაჯავრებული, მერე გულხელდაკრეფილი</stage>
+            <l>“დაუდგრომელო დედაკაცო! ვით შემოდგომა,</l>
+            <l>შენ ვინ გასწავლა ეშმაკივით კაცთ შემოდგომა?</l>
+            <l>ვინ მოგცა სახე ანგელოზის და სული კი ქაჯის,</l>
+            <l>იქნებ გეგონოს ამა სოფელს ვერავინ დაგსჯის.</l>
+            <l>კაცის ფერცხალო, მაცდულარო, ბურტყლო ოცნების,</l>
+            <l>გველებრივ ჭრელო, კაცთ გულთ მხვრელო, მახინჯ გონების <stage>მომატებულის
+                გაჯავრებით</stage></l>
+            <l>ოჰ, თუ შემეძლოს შემოგბეროთ სამუმის ქარი,</l>
+            <l>რომე თქვენითა სულ აღვავსო მდინარე მტკვარი,</l>
+            <l>ან მიქცეთ კბილსა, ლომისა ღრძილსა, ყბა დასატევსა,</l>
+            <l>რომ ქალთა სახეს დაღეჭვიდნენ, როგორც რომ კევსა.</l>
+            <l>წარვედ მაცდურო, უგუნურო, გაგსრეს ვით გველსა, გაგიჭყლეტ თავსა, ამოგთხრი თვალსა, კაცთ
+              მომწამვლელსა, ვიქცევი სენად, გარდასაშენად თქვენის სქესისა...</l>
+            <l>გიწამლავთ გულსა, გიშხამავთ სულსა, შექნით ჭლექებად, დღესა კეთილსა არ მოგცემთ ძილსა,
+              გეცეთ მეხებად. <stage>დაფიქრდება მწარის ღიმილით.</stage></l>
+            <l>საწყალო შტერო,</l>
+            <l>თავისა მტერო,</l>
+            <l>ვინ გმქნა უფალი,</l>
+            <l>დასთრგუნო ქალი,</l>
+            <l>ღვთისა ქმნილება,</l>
+            <l>მშვენიერება!...</l>
+            <l>საბრალო თავო, მღერლათ რიცხვში როს დაიბადე? რისთვის დამდაბლდი ქალისაგან, რად
+              გარდიბადე. შენ გქონდა ფრთენი,</l>
+            <l>აღმასაფრენი,</l>
+            <l>ზესანავარდი,</l>
+            <l>ეთერს მცხოვრები,</l>
+            <l>ცისა მარები;</l>
+            <l>სად გადმოვარდი?</l>
+            <l>რა გქონდა ერთი</l>
+            <l>ხალხთან საერთი,</l>
+            <l>მიწას რად ეკარ?</l>
+            <l>უმჯობეს იყავ,</l>
+            <l>მზით დამწვარიყავ,</l>
+            <l>ვითარცა იკარ!</l>
+            <stage>კრესლაზედ დაეცემა. გული შეუწუხდება.</stage>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეთერთმეტე</head>
+          <stage>იგინივე, გამდელი, გოგოები შემოცვივიან, მიცვივდებიან ბეგლარს, ღილებს უხსნიან, გულში
+            უბერვენ.</stage>
+          <sp who="#lomiseuli">
+            <speaker>ლომისეული</speaker>
+            <l>გენაცვა, შვილო, აბა, რას შვრები,</l>
+            <l>ჯადოქრებისთვის რისთვისა ჰკვდები?</l>
+            <l>არ დამიჯერე, გახსოვს, გიშალე,</l>
+            <l>რაც მოხდა, მოხდა, რად შეიშალე?</l>
+            <l>ეშმაკს აფურთხე და დაივიწყე,</l>
+            <l>გამხიარულდი, მღერა დაიწყე!</l>
+            <l><stage>გამდელი ჰყვირის.</stage> არიქათ, გიგაურის ცოლი მოიყვანეთ, მარქიტა...</l>
+          </sp>
+          <sp who="#girl">
+            <speaker>გოგო</speaker>
+            <p>გულს უფრიალებს.</p>
+          </sp>
+          <sp who="#lomiseuli">
+            <speaker>ლომისეული</speaker>
+            <p>შეჰბერე თვალებს.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეთორმეტე</head>
+          <stage>მარქიტა შემოდის.</stage>
+          <sp who="#marqita">
+            <speaker>მარქიტა</speaker>
+            <p><stage>შემოვა.</stage> მშვიდობა სახლსა ამას!</p>
+          </sp>
+          <sp who="#lomiseuli">
+            <speaker>ლომისეული</speaker>
+            <p>კარგი, დედაშვილობას, მალე შეულოცე.</p>
+          </sp>
+          <sp who="#marqita">
+            <speaker>მარქიტა</speaker>
+            <p>გენაცვა, რა მიზეზია, კაკალქვეშ ხომ არა წოლილა, წყლის პირს?</p>
+          </sp>
+          <sp who="#abrama">
+            <speaker>აბრამა</speaker>
+            <p>რა რომ... ეძინა...</p>
+          </sp>
+          <sp who="#marqita">
+            <speaker>მარქიტა</speaker>
+            <p>გენაცვა, გამდელო, თქვენგან არ მიკვირს, კაკალქვეშ, წყლის პირს წოლა
+                <stage>საიდუმლოთ</stage> ავის ქარისაგან იქნება.</p>
+          </sp>
+          <sp who="#lomiseuli">
+            <speaker>ლომისეული</speaker>
+            <p>ჩუმათ, ნურსად იტყვი!</p>
+          </sp>
+          <sp who="#marqita">
+            <speaker>მარქიტა</speaker>
+            <p><stage>ხელსახოცით გულს უზომავს, ულოცავს, ამთქნარებს, დატირის.</stage></p>
+            <l>გულო, გულის ალაგასა,</l>
+            <l>ჩაჯექ ბუდის ალაგასა,</l>
+            <l>შენ არ გიხდება ხტომა,</l>
+            <l>გმართებს მშვიდათ დადგომა!</l>
+            <l>გულო, გულის ალაგასა,</l>
+            <l>ჩაჯექ ბუდის ალაგასა!</l>
+            <l>გულმა დაუწყო ფრენა,</l>
+            <l>შეშინებულის ქშენა,</l>
+            <l>ჯვარო პატიოსანო,</l>
+            <l>ამას მიეცი ლხენა.</l>
+            <l>გულო, გულის ალაგასა,</l>
+            <l>ჩაჯექ ბუდის ალაგასა.</l>
+            <l>მობრძანდა წმინდა ელია,</l>
+            <l>ღრუბლით არს შემოსილია,</l>
+            <l>ეტლსა მისს მოაქვს გრიალი,</l>
+            <l>გადუგდოს გულის ფრიალი!</l>
+            <l>გულო, გულის ალაგასა,</l>
+            <l>ჩაჯექ ბუდის ალაგასა.</l>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><stage>მოსულიერდება.</stage> გამეცალენით, თავიდგან მომშორდით, გადით-მეთქი!</p>
+            <p><stage>ჩამოეცლებიან და კულისებიდან უყურებენ. ბეგლარ დადის და აიღებს სტოლიდგან ალბომს,
+                მიიკრავს გულზედ და დაიწყებს ლაპარაკს. მარქიტა კულისებიდან გამოიშვერს ხელსა, დანა და
+                ნახშირი უჭირავს და ბუტბუტებს.</stage></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <l>ჩემო სულისა, აღმაშფოთო და ჩემო ბედო,</l>
+            <l>ჩემო სამოთხევ, ჯოჯოხეთო, ჩემო იმედო.</l>
+            <l><stage>დაფიქრდება.</stage></l>
+            <l>ეს არის ჩემი სოფლის დიდება,</l>
+            <l>ლიტონი კაცი როგორ მიხვდება,</l>
+            <l>რომ ჩემი გული</l>
+            <l>არს დაკუწული</l>
+            <l>და მისგან შევქმენ ტრფობის ანბანი,</l>
+            <l>არავის ესმის ამის საგანი!</l>
+            <l>და თქვენცა, ერნო,</l>
+            <l>მწერალთა მტერნო!</l>
+            <l>სავსენო შურით!</l>
+            <l>თქვენ არ იყავით, დასცინოდით დიდ ბაირონსა, თქვენ არ იძულეთ, განაშორეთ მშობლის სირონსა
+              ტორკვატო ტასი?!</l>
+            <l>ვერ სცანი ფასი,</l>
+            <l>უწოდეთ მტერი,</l>
+            <l>ჰქმენით პყრობილი</l>
+            <l>მის მღერა ტკბილი,</l>
+            <l>არ მოიგონეთ!</l>
+            <l>თქვენში არ იყო კამოენსი, მოკვდა მშიერი, თქვენ არ</l>
+            <l> სდევნიდით დიდსა დანტეს, იყავით მტერი?!</l>
+            <l>და ოვიდია რომისაგან რისთვის განაგდეთ?! იქნებ მეც</l>
+            <l>მისებრ მომიძულოთ, არვის დაგნანდეთ?!</l>
+            <stage>დაფიქრებული ნელ-ნელა გავა.</stage>
+          </sp>
+          <stage>ფარდა მძიმედ დაეშვება</stage>
+        </div>
+      </div>
+      <div type="act">
+        <head>მოქმედება IV</head>
+        <stage>ოთახი სტრაფჩისა. პისმენი სტოლთან ზის სტრაპჩი</stage>
+        <div type="scene">
+          <head>გამოსვლა პირველი</head>
+          <stage>ხარიტონ ფილიპიჩი, მარტო მერე ივანე</stage>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Иван!</foreign></p>
+          </sp>
+          <sp who="#ivan">
+            <speaker>иван</speaker>
+            <p><stage><foreign xml:lang="rus">За кулисами</foreign></stage> Сейчас!</p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Переводчик не приходил?</foreign></p>
+          </sp>
+          <sp who="#ivan">
+            <speaker>иван</speaker>
+            <p><stage><foreign xml:lang="rus">Входит.</foreign></stage> <foreign xml:lang="rus">Какой-с? судейский, то есть Бугданич?</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Ну, да.</foreign></p>
+          </sp>
+          <sp who="#ivan">
+            <speaker>иван</speaker>
+            <p><foreign xml:lang="rus">Никак, теперь идет.</foreign> <stage><foreign xml:lang="rus">Уходит.</foreign></stage></p>
+            <stage>Входит Бугданич.</stage>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეორე</head>
+          <stage>$ხარიტონ ფილიპიჩი და სარქის ბუღდანიჩი კუმუხტოვი</stage>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Аа...Здравствуй, Бугданич!Где бывал... Ка жись ты был опять у Амириндо... Ха, ха,
+              ха... Чай. несколько точек там не досчитал, а?</foreign></p>
+          </sp>
+          <sp who="#bugdanich">
+            <speaker>бугданич</speaker>
+            <p><foreign xml:lang="rus">Что-ж делать, Харитон Филипич, когда бог не дал голова грузину? Настоящий баран
+              голова.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">А ты как хороший овчар, т. е. чобан по вашему, умеешь стричь баран.</foreign></p>
+          </sp>
+          <sp who="#bugdanich">
+            <speaker>бугданич</speaker>
+            <p><foreign xml:lang="rus">Ва! Человеку бог дал ум, надо потребить! Для грузина деньги, как наши говорят: апсус,
+              т. е. жалка. Грузинский карман всегда такой дырка есть.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Все хорошо, любезный, но ты для меня не стараешься, не хочешь со мной дружиться.</foreign></p>
+          </sp>
+          <sp who="#bugdanich">
+            <speaker>бугданич</speaker>
+            <p><foreign xml:lang="rus">Как-же? Я докажу, что для вас много сделал.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Что-ж ты сделал?</foreign></p>
+          </sp>
+          <sp who="#bugdanich">
+            <speaker>бугданич</speaker>
+            <p><foreign xml:lang="rus">Сию нимут подарки принесут.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">От кого?</foreign></p>
+          </sp>
+          <sp who="#bugdanich">
+            <speaker>бугданич</speaker>
+            <p><foreign xml:lang="rus">От жирный баран, Амириндо.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Нет брат, он старый скряга, кляузник, дело не правое.</foreign></p>
+          </sp>
+          <sp who="#bugdanich">
+            <speaker>бугданич</speaker>
+            <p><foreign xml:lang="rus">Эй, Харитон Филипич, пожалуйста, слова на крышу не бросай. Отчего за свой пот не
+              взять, когда дает...Не чистое можно сделать аб рунди, вашу пословиц.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Скажи, Бугданич, правду, ты и Рафаелъ подели лись с судьею, что за точки и запятые
+              содрали с Амириндо?!</foreign></p>
+          </sp>
+          <sp who="#bugdanich">
+            <speaker>бугданич</speaker>
+            <p><foreign xml:lang="rus">Судью? Черный камень ему дам, одно дело просил, не сде лал. Еще ругает, какой пустои
+              голова, ей богу, Харитон Филипич. Он отсуда такой пойдет голый, как дебришь голодный,
+              как кошка в великий пост.</foreign></p>
+          </sp>
+          <sp who="#ivan">
+            <speaker>иван</speaker>
+            <p><foreign xml:lang="rus">Изпередней Сторож из суда.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Ах, забыл что сегодня торги. Скажи сейчас буду.</foreign></p>
+          </sp>
+          <sp who="#bugdanich">
+            <speaker>бугданич</speaker>
+            <p><foreign xml:lang="rus">Ва! немного подожди, подарка принесут, а Харитон Фи липич, Зураба дело можно абрунди
+              сделать.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Это зависит любезный от обстоятельства. Я знаю и абрунди и дабрунди и цабрунди.</foreign></p>
+          </sp>
+          <sp who="#bugdanich">
+            <speaker>бугданич</speaker>
+            <p><foreign xml:lang="rus">Известно, умный человек! Нимножка погоди да! Подарку принесут.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Пусть подождут. Иван</foreign><stage><foreign xml:lang="rus">Иван входит.</foreign></stage><foreign xml:lang="rus">коли будет бичо или князек, скажи
+              чтоб он подождал.</foreign></p>
+          </sp>
+          <sp who="#ivan">
+            <speaker>иван</speaker>
+            <p><foreign xml:lang="rus">Слушаюсь.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Пойдем Бугданич, дай руку, но так мы с тобой...</foreign></p>
+          </sp>
+          <sp who="#bugdanich">
+            <speaker>бугданич</speaker>
+            <p><foreign xml:lang="rus">Ва, ва, как мы будем стричь и брить, ты только слушай меня.</foreign></p>
+            <stage>ხარიტონ ფილიპიჩი და ბუღდანიჩი გადიან.</stage>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მესამე</head>
+          <stage>ივანე ოთახს ჰგვის. შემოდის ბეგლარი.</stage>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><foreign xml:lang="rus">Здраствуй, любезный.</foreign></p>
+          </sp>
+          <sp who="#ivan">
+            <speaker>иван</speaker>
+            <p><foreign xml:lang="rus">Здраствуйте. Кого вам угодно?</foreign></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><foreign xml:lang="rus">Мне нужно стряпчаго.</foreign></p>
+          </sp>
+          <sp who="#ivan">
+            <speaker>иван</speaker>
+            <p><foreign xml:lang="rus">Т. е. Харитон Филипича? – Приказал дожидатся. Угодно подождите, коли не пыльно будет
+              вам.</foreign><stage><foreign xml:lang="rus">Иван уходит.</foreign></stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეოთხე</head>
+          <stage>ბეგლარ და მიხეილ შემოდის.</stage>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>ოჰ, მიხეილ, შენც აქა ხარ?</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>დიახ. შენ რას აკეთებ?</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>ნუღარ მკითხავ, ლამის გავგიჟდე.</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>რა ღმერთი გიწყრება, აი მის მადლმა, უყვარხარ ნინოს, მე მოგიხერხებ.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>შენი იმედი მაქვს, ერთი ამ ხათაბალიდან გამომიყვანე.</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>გამოგიყვან.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>რომ ჯერ არ იცი, რათა ვარ აქა?</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>უთუოდ მამაშენი გამოგზავნიდა.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>ეგ არის, აი ბეჭედი გამომატანა, ქრთამი მიეციო!</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>მეც ქრთამი მოვიტანე.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><stage>იღებს ბეჭედს.</stage> Пожалуйста, აჰა, შენც მიეც მამაჩემის მაგი ერათ ესა.</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p><stage>იცინის.</stage> რას ამბობ, როგორ იქნება, როდი აიღებს?!</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>აბა, მეც მაგისი მეშინია,<foreign xml:lang="rus">пожалуй обидется,</foreign> ისტორია არ გამოვიდეს რა!<foreign xml:lang="rus">Дело
+              щекотливое.</foreign></p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p><foreign xml:lang="rus">Пустяки,</foreign> შენგანაც აიღებს, ჩემგანაც, მაგრამ ცალ-ცალკე უნ და მივცეთ. ჩალიანი ნინოსია,
+              გესმის, <foreign xml:lang="rus">смотри, женись.</foreign></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><stage>გამოართმევს ხელს.</stage><foreign xml:lang="rus">Как тебе не стыдно.</foreign> ჩალიანი,<foreign xml:lang="rus">ужасно нужно.</foreign> მე
+              სიყვარული, სიყვარული მინდა.</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p><foreign xml:lang="rus">Она любит, братец...</foreign> ვიღაც მოდის, სტრაფჩი არ იყოს, ჯერ შენ მიეც.
+                <stage>გადის.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეხუთე</head>
+          <stage>ბეგლარ ზის სკამზე დაფიქრებული სტრაპჩი შემოდის და ათვალიერებს დამჯდარს თავიდან
+            ფეხებამდე.</stage>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Он что-то не грузином смотрит..</foreign></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><stage><foreign xml:lang="rus">Встает.</foreign></stage><foreign xml:lang="rus">Честь имею рекомендаваться... Я сын Амириндо.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Слуга покорный, прошу покорно, садитесь.</foreign></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><stage><foreign xml:lang="rus">садится. Пауза.</foreign></stage><foreign xml:lang="rus">Прелестный день.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Хорошо – с...</foreign></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><foreign xml:lang="rus">Вы верно гуляли.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Нет. Я был в суде.</foreign></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><foreign xml:lang="rus">Да, и после службы можно делать мацион или верхом... Вы ездите верхом?</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Нет, не учился, и правду сказать, некогда.</foreign><stage><foreign xml:lang="rus">Занялся расмотрением
+                журнала.</foreign></stage></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><foreign xml:lang="rus">Вы редактор какого-нибудь журнала?</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Известно, судейского журнала.</foreign></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><foreign xml:lang="rus">Скажите пожалуйста, есть ли писатели?</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Помилуите, слава богу, есть кому писать, судья, четыре заседателя, хотя не все
+              писаки, секретарь столоначальники.</foreign></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><foreign xml:lang="rus">Ах, как приятно иметь таких образованных чиновников. Скажите, пожалуйста, есть ли
+              между ними поэты.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Нет-с... Да правда, переводчик орет по персидски, туземцам нравится.</foreign></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><foreign xml:lang="rus">Вы кажется меня не поняли, я вас спрашиваю, есть ли поэты, т. е. стихи пишет-ли кто
+              нибудь?</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Помилуйте, нам некогда глупостями заниматся.</foreign></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><foreign xml:lang="rus">Как, по вашему Шиллер, Гете, Шекспир, Байрон, Калдерон были глупые?</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Извините. Не понимаю, князь, ни вашего Нерона, ни Шулера. Вы лучше, князь, скажите
+              без рифмы пиитики, вы верно за делом пожаловали ко мне. Ей богу, совестно, но право
+              некогда, скажите без церемоний.</foreign></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><stage><foreign xml:lang="rus">Встает.</foreign></stage><foreign xml:lang="rus">Простите меня, я никак не смел... не мог, но батюшка приказал
+              отдать вам этот перстень.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Давно бы вы сказали,а то вы меня замучили. Извольте,</foreign><stage><foreign xml:lang="rus">протягивает указательный
+              палец.</foreign></stage><foreign xml:lang="rus">наденьте. Теперь мое почте ние. Я знаю, готов, все сделать.
+              Кланяйстесь батюшке.</foreign></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეექვსე</head>
+          <stage>ხარიტონ ფილიპიჩი და მიხეილი შემოდის.</stage>
+          <sp who="#mihail">
+            <speaker>mихаил</speaker>
+            <p><foreign xml:lang="rus"><foreign xml:lang="rus">Харитон Филипич, мое почтение.</foreign></foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Слуга покорый, ваше сиятельство, пожалуйста, садитесь, что прикажете?</foreign></p>
+          </sp>
+          <sp who="#mihail">
+            <speaker>mихаил</speaker>
+            <p><foreign xml:lang="rus">Харитон Филипич, скажите мне правду и прямо, я люблю откровенность, вы сейчас взяли
+              перстень у сына Амириндо.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Я не брал...</foreign></p>
+          </sp>
+          <sp who="#mihail">
+            <speaker>mихаил</speaker>
+            <p><foreign xml:lang="rus">Не говорите, я все знаю.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Убей меня бог, не брал, поверьте совести.</foreign></p>
+          </sp>
+          <sp who="#mihail">
+            <speaker>mихаил</speaker>
+            <p><stage><foreign xml:lang="rus">Берет за руку.</foreign></stage><foreign xml:lang="rus">Да, вот он, этот перстень.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Я вам говорю, что я не брал, а сами надели. Видите, я прав.</foreign></p>
+          </sp>
+          <sp who="#mihail">
+            <speaker>mихаил</speaker>
+            <p><foreign xml:lang="rus">Вижу теперь. Вот с моей стороны вам 100 руб. депозиток.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Обижайте, князь, не беру.</foreign></p>
+          </sp>
+          <sp who="#mihail">
+            <speaker>mихаил</speaker>
+            <p><foreign xml:lang="rus">Потому я положу под подушку.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Как угодно, но взяток не беру, я дал себе честное слово.</foreign></p>
+          </sp>
+          <sp who="#mihail">
+            <speaker>mихаил</speaker>
+            <p><foreign xml:lang="rus">И прекрасно, очень честно. Но как теперь дело сделайте?</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Я сделаю абрунди.</foreign></p>
+          </sp>
+          <sp who="#mihail">
+            <speaker>mихаил</speaker>
+            <p><foreign xml:lang="rus">Вед и от Амириндо взяли перстень.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Во первых я не брал, а сам надел. Да по делом кляузнику. Русть не присваивает чужую
+              собственность.</foreign></p>
+          </sp>
+          <sp who="#mihail">
+            <speaker>mихаил</speaker>
+            <p><foreign xml:lang="rus">Чудесное правило. Прощайте, не забудьте абрунди.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Будьте уверены. Даже габрунди сделаю.</foreign><stage><foreign xml:lang="rus">Михаил уходит.</foreign></stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეშვიდე</head>
+          <stage><foreign xml:lang="rus">ხარიტონ ფილიპიჩი, სარქის ბუღდანიჩი და ლომინ შემოდის.</foreign></stage>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p><foreign xml:lang="rus">Харитон Филипич! Вот один имеретинский баран голова, т. е. князь! Дела имеет.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Что он хочет?</foreign></p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p><foreign xml:lang="rus">რა გინდაო?</foreign></p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p><foreign xml:lang="rus">რავა რა მინდა, არზი... ცოლი მინდა შევირთო.</foreign></p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p><foreign xml:lang="rus">Он говорит прошение, говорит нужно, хочу женится говорит.</foreign></p>
+          </sp>
+              <sp who="#hariton_filipich">
+                <speaker>Харитон_Филипич</speaker>
+                <p><foreign xml:lang="rus">Какое же нелегкое ему мешает, пусть женится.</foreign></p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>მერე რომელი სუმბუქი გიშლის, შეირთეო.</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>რავა არ მიშლიან, ნებას არ მაძლევენ, ბატონო!</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p><foreign xml:lang="rus">Как-же мешает, не позволают, говорит.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Кто мешает?</foreign></p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ვინ აგრივაო?</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>ამრიეს კი არა, გადამრიეს, ვერ გავაგებინე ტლომაჩს, სუნელია.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>მითხარ და...</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>აა, ბატონო, გითხრობ, ბღარობის ერთი პაწია ქალი შემრთეს და გამაშვებინეს, ბღარები ხართო.
+              ეს ხომ არაფერი გამაშვებიეს, გაიგე?</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>როგორ ბღარობის? რა არის, ჰო? ბარობა, ესე იგი გაზა ფხულობის ბარვა რომ არის
+              ვენახის?!</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>უჰ, უჰ... რას ამბობ? რავა გაზაფხული, ბარე ხუთი გაზაფხული გევიდა. ბღარი არ იცი. პაწია,
+              პაწია.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ჰო, ახლა გავიგე, მითხარ მერე.</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>ის პაწვიკობა ხომ არაფერი, გამაშვებინეს. არ დაითვლება. მეორე, ჩემო ბატონო, როსკიპი იყო
+              და მე გეუშვი. ესეც ხომ არაფერი, არც ის და არც ის. ერთი შევირთე <stage>ტირის.</stage>
+              და მომიკვდა და ახლა მეორეს ვირთავ და არ მცემენ ნებას, გეიგე?!</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ვა, თეთივე სამი ცოლი გყოლია, მეოთხეს ირთავ, განა ნებას მოგცემენ?</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>რას უბნობ, შე უბედურო, რავა სამი?! ის ერთი ხომ თითონ გამაშვებიეს, მეორე მე გუუშვი,
+              მესამე მოკვდა. ის ორი ხომ არაფერია, რომ მოკვდა ის ერთი და ახლა მეორეს ვირთავ,
+              გაიგე?</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p><foreign xml:lang="rus">Вот баран голова.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Что он говорит?</foreign></p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>ჰა,... ვერც ამან გეიგო. <stage>სტრაპჩის</stage> თარჯიმალი ნეზნაიტ, ბატონო.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p><foreign xml:lang="rus">Чихи-махо говорит,он говорит, был маленки, женился, но маленки, говорит и говорит,
+              это развод сделали, говорит, второй женился говорит…</foreign><stage>იმერელისაკენ</stage> მეორე
+              რა იყო, რო გააგდე?</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>როსკიპი.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>როსკიპი. ჰო, ვიცი.<foreign xml:lang="rus">Второй женился, говорит кипит вода, говорит, третий умер, говорит,
+              тепер хочет опять женится.</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Кто-же позволит ему жениться; на четвертой жене редко кто жениться.</foreign></p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>არ იქნება, ბატონო, ოთხი ცოლი.</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>აა, თანჯიმალ ნეზნაით, ბატონო, ესთეა, ბატონო, შენი საკადრისი რუსული არ ვიცი, მაგრამ
+              ქვე კი ჰო, ანდა ჟენა მალინკა პომოდდკა, ჟენა,დურაკ უშველებელი, დურაკი იყო, ტრი ჟენა უშლა ი პრაპალ, ჩეტირე ჟენა ხარაშო და ადინ
+              ესაა... ახლა იცი.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ვიცი კარგა, ბატონო. ერთი პატარა, ორი ცუდი, სამი მოკვდა, ოთხი არ იქნება...</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>კაი შენს გუნებას, თუ არ იქნება. <stage>პუბლიკას</stage> არავინ ხარ ქრისტიანები,
+              გააგებინეთ, სუნელები არიან.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p><foreign xml:lang="rus">Такой дела, Харитон Филипич, просит: напишит позволить, не позволить, деньги
+              возми...</foreign></p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Поторгуйся.</foreign></p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>რას იძლევი?</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>ოცდაათი კაკალი მანეთი მაქვს და შენც ცალკე გემსახურები.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>მე რას მაძლევ?</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>ასეთ კულას გამოგიგზავნი, ვერცხლით შეჭედილს, რომ ღვინო დალიო, რაკრაკი გაჰქონდეს პირში
+                <stage>იქით.</stage> თუ ერთი დავაწერიე, კორტო ხეთი გადვიარე, აჰა, მამა უცხონდა.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>კარგი, გადასაწერი არზისა?</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>ღმერთი არა გაქვს, ერთი მანეთი დამრჩა, ვერ დავშლი.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>როგორ მანეთი? გადასაწერი ორი თუმანია.</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>უუჰ, ბიძია, მშვიდობით, შენ და მაგან შეირთეთ, ორმოცდაათ მანეთად არ ღირს ცოლის შერთვა,
+              მშვიდობით.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>მოდი, კარგი, მოიტა.</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p><stage>იღებს ქისას, სთვლის სამ თუმანს, აძლევს.</stage> აა, ბატონო.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>ერთი მანეთი გადასაწერი.</p>
+          </sp>
+          <sp who="#lomini">
+            <speaker>ლომინი</speaker>
+            <p>ვერ დავშლი გეუბნები, არ მაქვს ნაშლად.</p>
+          </sp>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Ну бог сним, бери.</foreign></p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>მაიტა, კარგი. <stage>ართმევს.</stage><foreign xml:lang="rus">Харитон Филипич, еще найду какой нибудь баран
+              голову.</foreign><stage>იმერლისაკენ.</stage> წადი და სამი დღის მერე მოდი.
+                <stage>გადიან.</stage></p>
+          </sp>
+          <stage>სტრაპჩი მარტო</stage>
+          <sp who="#hariton_filipich">
+            <speaker>Харитон_Филипич</speaker>
+            <p><foreign xml:lang="rus">Дас, все отказываются сдесь служить, а по мне кто умеет сделать абрунди, тому везде
+              тепло. Главное, не нужно многого. Я человек не прыхотливый, я ничего не требую. Коли
+              дадут сами за каждое дело по десяти червонцев, и довольно. У нас в суде дел
+              гражданских 1.500, уго ловных 150, вот вам и капиталец, а другие наши братья кричат, –
+              уезд не урожайный. Что-же делать? Не везде Нуха, Карабах и Ганджа. Там, батюшка,
+              Калифорния!</foreign></p>
+          </sp>
+          <stage>ფარდა ჩამოეშვება.</stage>
+        </div>
+      </div>
+      <div type="act">
+        <head>მოქმედება V</head>
+        <div type="scene">
+          <head>გამოსვლა პირველი</head>
+          <stage>ნინო ზის თავის ოთახში, წიგნი უჭირავს. დაფიქრებულია.</stage>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p><stage>მარტო</stage> იქნება გამართლდე, დიდიხნის ჩემის სიყრმის იმედო:</p>
+            <l>ნეტარ ჩემო საყვარელო, ამ ჩემ გულში ჩამომხედო,</l>
+            <l>შენ მუნ ნახავ: სიყვარული, ვით ლამპარი ანთებულა</l>
+            <l>და ზეცისგან ტრფობის ტახტი შენ საჯდომად აგებულა.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეორე</head>
+          <stage>ნინო და ბეგლარ შემოდის.</stage>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>ახ!</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>ნინა! ნინა!</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p><stage>ვითომ ებუტება.</stage></p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>მიწყრები? <stage>ართმევს ხელს და აკოცებს.</stage></p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>მადლობელი გახლავართ, კარგა შეგიქცევივარ, კარგი, მე მაგრამ ქვეყანას რაღას
+              ემართლებოდი!</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p><foreign xml:lang="rus">Прости, Нина,</foreign> სიყვარული მოუთმენელია, მე მეგონა, მე მეგონა მოტყუებული ვარ მეთქი.</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>გეტყობა, კიდევ ეჭვში ხარ, რომ ქართველმა ქალებმა სიყვარული არ იციან!...</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>შენა ხარ პირველი და ამისთვის უმეტეს შემიყვარდი.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მესამე</head>
+          <stage>იგინივე და მიხეილ</stage>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>ბეგლარ! თქვენი საქმე კარგათ მიდის. წადი მამაშენთან, იაია დაუბარებია, ეცადე, მოციქულად
+              გამოგზავნო.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>რა ეშმაკი მათქმევინებს სიტყვას, ასეთი ყოფა აქვს, რომ აბუა გამდელიც ვეღარ შესულა
+              იმასთან, კინაღამ დიანბეგი გალახა, რომ გამოეცხადა, ფიცავს, მას არ დავანებებო.</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>წადი, გეუბნები, ახლა მოკაკული იქნება მამაშენი <stage>ბეგლარ მივა ნინოსთან, უყურებს და
+              ხელზედ ჰკოცნის.</stage><foreign xml:lang="rus">Ну, убирайся, без нежностей,</foreign> მოესწრები, მაიცადეთ, სიყვარული
+              გაგიცივდებათ. <stage>ბეგლარ გავა.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეოთხე</head>
+          <stage>იგინივე და ონოფრე შემოვა შეწუხებული.</stage>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p><stage>მიხეილს</stage> მადლობელი გახლავარ, კარგათ გასჯილხართ, იმედი მაქვს, რაც
+              მამულები მაქვს, ისინიც დაკარგო, ვეჟო. ის გაუმაძღარი დათვი ხომ ნაწრეტზეც დამიწყებს
+              დავას?! ბიჭო, რა უყავ ათი თუმანი, რომ გაგატანე?</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>მივეცი, სადაც გამატანეთ.</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>სტყუი, მამაჩემი არ წამიწყდება! უთუოდ ქაღალდში წააგე.</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>გეუბნები, რომ მივეცი. ნუ შეწუხდებით, ღმერთი მოწყალეა!</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>არა, შვილო, მე ქალაქის სასამართლოების ფულები ვინ მომცა, წამართო, წამართო! რა ვქნა, ერთი სისხლს კი მოვახდენ და...</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>კარგი იქნება, ასი დღის ჭაობისათვის ერთმანეთი გაწყვიტოთ.</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>ნუ გასცემ ხმასა და ვნახოთ, თუ სხვა მამულებიც არ წაგვართვას. მე, შვილო, დღეს არა, ხვალ
+              მოვკვდები. შენ მშიერი დარჩები.</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>მე არა მიშავს რა, სამსახური დამარჩენს.</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>ამას რას უპირებ? <stage>აჩვენებს ნინოზედ.</stage></p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>ამას ჩალიანს გავატან მზითვათ.</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>კიდეც მასხარობ, ჩალიანი ხომ იმას მისცეს.</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>დიამბეგთან მოვახერხე, იმან გამოუცხადა, რომ ონოფრეს უნდა ჩავაბაროთო.</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>და როდემდის მოატყუებთ.</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>იქამდის, მანამ... <stage>ნინოს ეუბნება.</stage> წადი შენს ოთახში... ბეგლარს ნინოზედ
+              ჯვარს არ დავწერ. <stage>ნინო გავა.</stage></p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>ძალიან არ იყაბულებს?</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>მე ვაყაბულებინებ, კიდეც შევიხვერწიებ.</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>ბეგლარს უნდა?</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>გაგიჟებული არის.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეხუთე</head>
+          <stage>ბერუა შემოვა. წიგნს მიართმევს მიხეილს, ისიც კითხულობს.</stage>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>კარგი-თქო. <stage>ბერუა გავა, ონოფრეს</stage> ეხლავე მოვლენ იაია, რაფაიელ და სარქისა,
+              უთუოთ მოციქულები იქნებიან, ვითომ მოგვარიგონ.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეექვსე</head>
+          <stage>იგინივე და სიდონია</stage>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>ქალო, ნინუცა გაგითხოვეთ!</p>
+          </sp>
+          <sp who="#sidonia">
+            <speaker>სიდონია</speaker>
+            <p>განა არ ვიცი, ამის სიცრუე იქნებოდა?! <stage>უჩვენებს მიხეილზედ.</stage></p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>ჰსწორეთ.</p>
+          </sp>
+          <sp who="#sidonia">
+            <speaker>სიდონია</speaker>
+            <p>მერე ამირინდო თანახმა არის?</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>უთუოთ, მეტი რა ღონე აქვს.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეშვიდე</head>
+          <stage>იგინივე და ბიჭი შემოვა.</stage>
+          <sp who="#boy">
+            <speaker>ბიჭი</speaker>
+            <p>ბატონო, დიამბეგი, იაია, რაფაელ, სარქისა. <stage>გავლენ.</stage></p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>მობრძანდი-თქო <stage>ბიჭი გავა.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მერვე</head>
+          <stage>იგინივე და დიანბეგი, იაია, რაფიელ და სარქისა</stage>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>ჩემს მოწყალეს ხემწიფეს, უფალს დიანბეგს ვახლავარ, რაფიელს გაუმარჯოს, სარქის ბუღდანიჩს,
+              დაბრძანდით. <stage>დასხდებიან.</stage></p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p><stage>დიანბეგს</stage> რა ანბავია, ასე დავიწყება იქნება, ვეჟო, თუ არ საქმისათვის, არ
+              მოხვალ?</p>
+          </sp>
+          <sp who="#dianbegi">
+            <speaker>დიანბეგი</speaker>
+            <p>რა ვქნა, ჭეშმარიტად დანაშაული მაქვს, მაგრამ მოგეხსენე ბათ <stage>თმაზედ მოივლებს
+                ხელს.</stage> ამდენი საქმე მაქვს, ნუ გეწყინებათ კი და თქვენ და ამირინდოს ერთი
+              დიანბეგი მოგინდებათ.</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>რა ვქნა, ძმაო, აი დარბაისელნი ბრძანდებით, რა დანაშაული მაქვს, სულამდის მომდევს ის
+              კაცი, რა ვქნა, მდიდარია და ფული აქვს, რა უყოთ.</p>
+          </sp>
+          <sp who="#dianbegi">
+            <speaker>დიანბეგი</speaker>
+            <p>კნიაზო, ფული, ფული რა არის, აგრე არ უნდა თქვათ. საკვირველია, რა უბედურება არის,
+              არავის თქვენგანს არა ჰსჯერა, რომ იყოს დიანბეგი უანგაროა და უყურებთ დიანბეგს მცირე
+              კაცად, ოო! თქვენ, თქვენ არ გესმით ვითარი დიდი მნიშვნელობა აქვს დიანბეგს... თქვენ არ
+              იცით, რომ კეთილდღეობა ერისა არის დაფუძნებული ჩვენსა მხრეებსა ზედან; თქვენ არ იცით, რომ
+              ერთგზის დაწერილი ჩემ მიერ ესრეთ არს მტკიცე და მყარ, ვითარცა ჭეშმარიტება, თქვენ არ
+              იცით, რომ დარღვევა ჩემთან დამტკიცებულის ქაღალდის არავის ძალუძს, თქვენ აქამდის არ
+              გესმით, რომელ მე ვარ საფუძველი, მე ვარ ფესვი, მე ვარ სვეტი ხალხის ბედნიერებისა და
+              უბედურებისა, თქვენ არ იცით... ეე, რა გელაპარაკოთ!</p>
+          </sp>
+          <sp who="#rapieli">
+            <speaker>რაფიელი</speaker>
+            <p>ჩემი მოხსენება, სხვა რიგათ არ ჩამამართოდ, აი თქვენ შვილთან მოგახსენებ, თუ გადაიტანა
+              საჩივარი ქალაქში, ძნელია.</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>თქვენმა მზემა, ამაზედ დარწმუნებული ბრძანდებოდეთ, რომ სენატამდისაც იაროს, მე იმას არ
+              დავანებებ ჩემს საკუთრებას.</p>
+          </sp>
+          <sp who="#iaia">
+            <speaker>იაია</speaker>
+            <p>კარგია, მამაშენი ნუ წაგიწყდება, რა არის ამდენი თქვენი ერთმა ნეთის წყენა, იმათ არა
+              ღირს, მთელი ქალაქი და თქვენა, სირცხვილი არის, სხვა რომ არა იყოს რა!</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>ერთი მამაშენი ნუ წაგიწყდება, შენ ხომ სვინდისიანი კაცი ხარ, აბა მიბრძანეთ, რა
+              ვქნა?</p>
+          </sp>
+          <sp who="#iaia">
+            <speaker>იაია</speaker>
+            <p>ისა ჰქენით, ბატონო, რომ მორიგდით. აი ეხლა ქალაქიდგან გი ახელ, უქაზი მოსულა, ვისაც
+              ერთმანეთში დავა აქვთ და არ მორიგდებიან, ერთ წელიწადზედ სახელმწიფოთ დასდებენ.</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>რა მენაღვლება... დეე დასდვან, ჩემ მოსისხლეს ხომ არ დარ ჩება... ერთი მიბრძანე, როგორ
+              მოვრიგდე, მე თქვენს სინიდისზე მოვაგდებ.</p>
+          </sp>
+          <sp who="#iaia">
+            <speaker>იაია</speaker>
+            <p>დაუთმეთ, ფულს მოვაცემინებ.</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>ათას თუმნათ არ მივცემ, გაგონილა, არა ვყიდი, ბატონო, თუ ჩემი არის, ჩემი უნდა იყოს! თუ
+              იმისია, იმისი იყოს.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p><stage>ჩუმათ</stage> საქმე მოგიგია, რათ შეურიგდე.</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p><stage>ჩუმათ</stage> ჩემი მხარე დაიჭირე, ერთს ურემს პურს მოგართმევ.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p><stage>თავს უქნევს.</stage> კაი პური კი იყოს.</p>
+          </sp>
+          <sp who="#iaia">
+            <speaker>იაია</speaker>
+            <p>მამა არ წამიწყდება, ერთი კარგი ჰაზრი მომივიდა, თქვენმა მზემა, უცხო აზრია, ბარაქალდი
+              იაიავ! უკეთეს საქმეს კი ვერას ვიფიქრებდი, მტერს თვალებს დაუყენებ. მოდი, ვეჟო, ეი, მამა
+              არ წამიწყდება, ჰა, ონოფრე, მამი შენი საფლავის მზეს, დამიჯერე, კაცო, ეი, ჰა, მოდი, ჰეე,
+              გაიგონე და...</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>მესმის, მიბრძანე.</p>
+          </sp>
+          <sp who="#iaia">
+            <speaker>იაია</speaker>
+            <p>იცი რა, ეე, ჯიუტი კაცები ხართ, მამა არ წამიწყდება, მოდი და მო იტა ხელი, ეე,
+              ნათქვამია, ძმანი ჭირთა შინა სახმარ არიანო, შენი სიკეთე მინდა, იცი, რას მოგახსენებ, ჰო,
+              იმას მოგახსენებდი... მოდი და, ეჰ, საკვირ ველი კაცი ხარ, მამა არ წამიწყდება.</p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <p>მე გული წამივიდა, თქვი და!</p>
+          </sp>
+          <sp who="#iaia">
+            <speaker>იაია</speaker>
+            <p>ჰო, იმას მოგახსენებ, აი რას მოგახსენებდი და კიდევ რას მოგახ სენებ... დამოყვრდით,
+              კაცო!</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>გამოსვლა მეცხრე</head>
+        <stage>იგინივე და სიდონია</stage>
+        <sp who="#onopre">
+          <speaker>ონოფრე</speaker>
+          <p>სიდონიავ ქალო, აი, იაია რას ბრძანებს, ამირინდოსთან დავმოყვრდეთო!</p>
+        </sp>
+        <sp who="#sidonia">
+          <speaker>სიდონია</speaker>
+          <p>თქვენმა მზემ, არაფერი უღირსობა იქნება, ჩვენი ქალები მეფის სახლში ყოფილან.</p>
+        </sp>
+        <sp who="#iaia">
+          <speaker>იაია</speaker>
+          <p>არა, ბატონო, მაგას ვინ მოგახსენებთ, არა, თქვენი თავის მზემ, ჰსწორეთ მიბრძანეთ!</p>
+        </sp>
+        <sp who="#onopre">
+          <speaker>ონოფრე</speaker>
+          <p>ყაბული მაქვს, ახლა შენ იცი, მაგრამ ეს იცოდე, პირველათ მე არ მითხოვნია.... თუ ის
+            მთხოვს?</p>
+        </sp>
+        <sp who="#iaia">
+          <speaker>იაია</speaker>
+          <p>მზითევი არ გვინდა... თუ ჩალიანს...</p>
+        </sp>
+        <sp who="#mikheili">
+          <speaker>Михаил</speaker>
+          <p>ჩალიანი მოგვირთმევია..</p>
+        </sp>
+        <sp who="#iaia">
+          <speaker>იაია</speaker>
+          <p><stage>წამოდგება.</stage> მამა არ წამიწყდება, ეხლავ წავალ და შენი იაია არ ვიქნები, თუ
+            ამირინდო თავის ფეხით არ მოვიყვანო და არ შეგარიგოთ. ხვალ მადლი გადავიხადოთ და თუ გინდა
+            ჯვარიც დავწეროთ. <stage>იაია, სარქისა, რაფაელ გავლენ.</stage></p>
+        </sp>
+        <div type="scene">
+          <head>გამოსვლა მეათე</head>
+          <stage>იგინივე, გარდა იაიასი, სარქისასი და რაფაელისა</stage>
+          <sp who="#dianbegi">
+            <speaker>დიანბეგი</speaker>
+            <p>კნიაზო, ერთი ეს ჩალიანის საქმე შემასრულებინეთ. </p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>რა არის, აბა წაიკითხე.</p>
+          </sp>
+          <sp who="#dianbegi">
+            <speaker>დიანბეგი</speaker>
+            <p>უქაზი არის სუდისა, ჩალიანზე, გთხოვთ მოისმინოთ, ვბრძანეთ: მოწერილობისამებრ უქაზისა
+              სამოქალაქოისა და უგალოვნის სუდისა № 564 -თ სუდი ესე მეორედ შევიდა განხილვასა შინა და
+              ახლითა დამატებითა გამოძიებითა, თანადასწრებით უეზდნის სტრაფჩის; სუდი ესე ეთანხმა რა
+              მნენიესა სუდის მწევრის ზასედატელის ლილივიროვისა, ესრეთ რომელ უნდა დაშთეს მფლობელობასა
+              შინა თავად ონოფრე ბაადურის ძესა ზემოხსენებული უძრავი მამული ჩალიანად წოდებული. ინებეთ,
+              მოაწერეთ ხელი.</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>არ მესმის, რას ანბობთ, მე მომეცით თუ ამირინდოსა!</p>
+          </sp>
+          <sp who="#dianbegi">
+            <speaker>დიანბეგი</speaker>
+             <p>თქვენთვის მომილოცამს.</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p><stage>მიხეილს</stage> მაშ, შენ რა იცრუე.</p>
+          </sp>
+          <sp who="#mikheili">
+            <speaker>Михаил</speaker>
+            <p>მე სწორეთ გითხარით, ამირინდოსია მეთქი, ამისთვის, რომ ნინას გავატანთ მზითევში.</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>შეეგარცხვინა, თუ არა მოგეტყუებინე, მე კი არ გამოვიმეტებდი ნინუცასათვის?! დიანბეგო,
+              მიხეილ, ერთი აქ წამოდით. <stage>გავლენ.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეთერთმეტე</head>
+          <stage>ნინო და ნენე</stage>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>წადი, თეთრი ატლასის კაბა მომიმზადე.</p>
+          </sp>
+          <sp who="#nene">
+            <speaker>ნენე</speaker>
+            <p>რა ამბავია? <stage>ნინო უჩურჩულებს.</stage> ქა, აქამდის როგორ არ მითხარ?
+                <stage>ხტება, ჰკოცნის ხელზედ.</stage> გენაცვა, აქამდის როგორ არ მითხარ?</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>მეც ეხლა მიხეილმა მითხრა! კარგი, ნუ გიჟდები!</p>
+          </sp>
+          <sp who="#nene">
+            <speaker>ნენე</speaker>
+            <p>გენაცვა, არა მართებს, ქალბატონჯან, ნინოჯან, შენ აღთქმას ხომ აღასრულებ?</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p>დიახ, უთუოთ!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეთორმეტე</head>
+          <stage>იგინივე და გამდელი</stage>
+          <sp who="#motsqaliseuli">
+            <speaker>მოწყალისეული</speaker>
+            <p>ნინოჯან, აქა ხარ, გადილო?!</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>ნინო</speaker>
+            <p><stage>მივა ახლო.</stage> აქა ვარ, გადიავ! შემინდე, გადიავ, იმ დღეს გაგა ჯავრე,
+              დამლოცე დედაშვილობასა!</p>
+          </sp>
+          <sp who="#motsqaliseuli">
+            <speaker>მოწყალისეული</speaker>
+            <p>ღვთისმშობელმა დედამ დაგლოცოს, შვილო, გულ ში არ ჩაიტანო, შვილო, ღმერთმა იცის შენი
+              სიკეთისათვის, შენი სახელი სათვის ვიღწოდი, რადგან ღმერთმა ამდენი დამასწრო, შენ
+              ქორწილსაც ვესწრობი, თუ ჩემი გიჟი მიხეილის ბედნიერებას მოვესწარ, მერე თუ გინდა მოვკვდე,
+              ბედნიერი დედაკაცი ვიქნები.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეცამეტე</head>
+          <stage>იგინივე და სიდონია</stage>
+          <sp who="#sidonia">
+            <speaker>სიდონია</speaker>
+            <p><stage>შემოვა.</stage> ქა, ნინო, წადი შვილო, ჩაიცვი, იქნება შენი მა მამთილი მოვიდეს.
+                <stage>მივა აკოცებს. ნინო და ნენე გავლენ.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეთოთხმეტე</head>
+          <stage>სიდონია და ონოფრე</stage>
+          <sp who="#sidonia">
+            <speaker>სიდონია</speaker>
+            <p>აბა, ამდენი ჩხუბი რაზედ გვქონდა, თუ ეგრე მალე შე რიგდებოდით. მე სრულებით არ
+              მოვიფიქრებდი, შენ ნუ მომიკვდები, თუ ჩემი ნინუცა მალე გაბედნიერდებოდა.</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>მამაჩემი არ წამიწყდება, ეს კარგი მოახერხა მიხეილმა.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეთხუთმეტე</head>
+          <stage>იგინივე, ბიჭი, ამირინდო და სუყველანი</stage>
+          <sp who="#boy">
+            <speaker>ბიჭი</speaker>
+            <p>ამირინდოს სტუმრები არიან. <stage>შემოვლენ სუყველანი. დიანბეგი მიიყვანს ამირინდოს
+                ონოფრესთან და ერთმანეთს აკოცებენ.</stage></p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>რას მოვიფიქრებდი ამ ბედნიერებას?</p>
+          </sp>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p>მამაჩემი არ წამიწყდება, დიდათ მოხარული</p>
+          </sp>
+          <sp who="#var_dianbegi">
+            <speaker>ვარ_დიანბეგი</speaker>
+            <p>აბა, შერიგების ქაღალდი მოიტანეთ.</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>აი მზად გახლავს აქა...</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>ვინ დასწერა?</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>მე.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>მარტო შენ?</p>
+          </sp>
+          <sp who="#beglari">
+            <speaker>ბეგლარი</speaker>
+            <p>მარტო მე.</p>
+          </sp>
+          <sp who="#amirindo">
+            <speaker>ამირინდო</speaker>
+            <p>ბიჭო, არზის წერა სცოდნია! ჰო! რა ბედნიერი კაცი ვარ, მამაჩემი არ წამიწყდება.</p>
+          </sp>
+          <sp who="#iaia">
+            <speaker>იაია</speaker>
+            <p>ჰო! მაგას არ მოგახსენებდი? ჰო, რას მოგახსენებდი?! ჰო, აკი გი თხარ, მამილოცავს, აკი
+              გითხარ, არზის წერა იცის-მეთქი.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>გამოსვლა მეთექვსმეტე</head>
+          <stage>იგინივე და ნინო</stage>
+          <sp who="#onopre">
+            <speaker>ონოფრე</speaker>
+            <p><stage>მიიყვანს ნინუცას.</stage> ბეგლარ, ჩამიბარებია ქალი, ღმერთმა გაგაბედნიეროს
+              ერთმანეთის სიყვარულით და პატივისცემითა. მამიცია ქალი პატიოსანი, ჭკვიანი, კარგი
+              გაზდილი, ყოვლის კეთილით სავსე, შენ იცი და შენმა კაცობამ, როგორც კარგათ შეინახამ.
+                <stage>ბეგლარ ჰკოცნის ნინუცას.</stage></p>
+          </sp>
+          <sp who="#sarqisa">
+            <speaker>სარქისა</speaker>
+            <l>თუ ასე ყველა ქართველნი,</l>
+            <l>როგორც ესენი შერიგდებიან,</l>
+            <l>მაშინა ჩვენნი სომეხნი</l>
+            <l>შიმშილით ამოსწყდებიან.</l>
+          </sp>
+          <stage>ფარდა ჩამოეშვება.</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
