@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="georg000004" xml:lang="geo" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="georg000004" xml:lang="geo">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -214,8 +215,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/georg000004"
-        passive="https://www.wikidata.org/wiki/Q4208871"/>
+      <relation name="wikidata" active="https://dracor.org/entity/georg000004" passive="https://www.wikidata.org/wiki/Q4208871"/>
     </listRelation>
   </standOff>
   <text>

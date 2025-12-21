@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="georg000007" xml:lang="geo" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="georg000007" xml:lang="geo">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -160,8 +161,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/georg000007"
-        passive="https://www.wikidata.org/wiki/Q12864800"/>
+      <relation name="wikidata" active="https://dracor.org/entity/georg000007" passive="https://www.wikidata.org/wiki/Q12864800"/>
     </listRelation>
   </standOff>
   <text>
@@ -1990,8 +1990,7 @@
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><stage><foreign xml:lang="rus">Всторону с удивлением</foreign></stage><foreign
-                xml:lang="rus">Что за чорт, откудова он узнал, что я вчерас от одного требовал
+            <p><stage><foreign xml:lang="rus">Всторону с удивлением</foreign></stage><foreign xml:lang="rus">Что за чорт, откудова он узнал, что я вчерас от одного требовал
                 взятку!</foreign></p>
           </sp>
           <sp who="#merchant">
@@ -2001,9 +2000,7 @@
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><stage><foreign xml:lang="rus">В Сторону</foreign></stage><foreign xml:lang="rus"
-                >Видно, что он глуп. Как бы ухитриться?</foreign><stage><foreign xml:lang="rus"
-                  >Купцу</foreign></stage><foreign xml:lang="rus"> он вошел на небо и так
+            <p><stage><foreign xml:lang="rus">В Сторону</foreign></stage><foreign xml:lang="rus">Видно, что он глуп. Как бы ухитриться?</foreign><stage><foreign xml:lang="rus">Купцу</foreign></stage><foreign xml:lang="rus"> он вошел на небо и так
                 описал.</foreign></p>
           </sp>
           <sp who="#merchant">
@@ -2283,8 +2280,7 @@
           </sp>
           <sp who="#grisha">
             <speaker>гриша</speaker>
-            <p><foreign xml:lang="rus">А ты что за умная птица, а?</foreign><stage><foreign
-                  xml:lang="rus">с насмешкою</foreign></stage><foreign xml:lang="rus">видишь,
+            <p><foreign xml:lang="rus">А ты что за умная птица, а?</foreign><stage><foreign xml:lang="rus">с насмешкою</foreign></stage><foreign xml:lang="rus">видишь,
                 смотрит, чего тут не видала?... ех ты… заложил бы тунучку красного да чуречку
                 белаго, вот дело, умер бы беселье, а то смотришь, выш. ты голова.</foreign></p>
           </sp>
