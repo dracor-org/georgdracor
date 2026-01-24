@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="georg000002" xml:lang="geo">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="georg000002" xml:lang="ka">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">ძუნწი</title>
-        <title type="main" xml:lang="eng">Stingy</title>
+        <title>ძუნწი</title>
+        <title xml:lang="en">Stingy</title>
         <title type="sub">კომედია ორ მოქმედებად</title>
-        <title type="sub" xml:lang="eng">A Comedy in two Acts</title>
+        <title type="sub" xml:lang="en">A Comedy in two Acts</title>
         <author>
           <persName>
             <forename>გიორგი</forename>
             <surname>ერისთავი</surname>
           </persName>
-          <persName xml:lang="eng">
+          <persName xml:lang="en">
             <forename>Giorgi</forename>
             <surname>Eristavi</surname>
           </persName>
@@ -24,10 +24,7 @@
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>

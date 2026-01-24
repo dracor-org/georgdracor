@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="georg000007" xml:lang="geo">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="georg000007" xml:lang="ka">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">მზის დაბნელება საქართველოში</title>
-        <title type="main" xml:lang="eng">Solar eclipse in Georgia</title>
+        <title>მზის დაბნელება საქართველოში</title>
+        <title xml:lang="en">Solar eclipse in Georgia</title>
         <title type="sub">ნამდვილი კომედია სამს მოქმედებად</title>
-        <title type="sub" xml:lang="eng">A real comedy in three acts</title>
+        <title type="sub" xml:lang="en">A real comedy in three acts</title>
         <author>
           <persName>
             <forename>ზურაბ</forename>
             <surname>ანტონოვი</surname>
           </persName>
-          <persName xml:lang="eng">
+          <persName xml:lang="en">
             <forename>Zurab</forename>
             <surname>Antonov</surname>
           </persName>
@@ -24,10 +24,7 @@
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -1556,7 +1553,7 @@
           </sp>
           <sp who="#grigoli">
             <speaker>გრიგოლი</speaker>
-            <p><stage>იქით</stage><foreign xml:lang="rus">Что за безтолковый
+            <p><stage>იქით</stage><foreign xml:lang="ru">Что за безтолковый
                 народ!</foreign><stage>ინდოს</stage> მაშ, თქვენ არა გჯერათ?</p>
           </sp>
           <sp who="#indo">
@@ -1584,14 +1581,14 @@
           </sp>
           <sp who="#grigoli">
             <speaker>გრიგოლი</speaker>
-            <p><stage>იქით</stage><foreign xml:lang="rus">Вот неблагодарный
+            <p><stage>იქით</stage><foreign xml:lang="ru">Вот неблагодарный
                 народ!</foreign><stage>იმათ</stage> იმას ხომ არა გრძნობთ, თუ ამ ახალმა დრომ
               აღმოაცენა საქართველოში სწავლა, ხელოვნე ბა, განათლება და სიბრძნე, რომლითაც ძენი
               საქართველოსანი დღე და დღე ემსგავსებიან ევროპიის განათლებულთ ხალხთა და მიიხწევიან
               ფილოსოფიის სწავლამდე. თქვენ ისევ ძველს წესზე მიიწევთ და სამდურავს ამბობთ, ჩვენს
               ჭკუაზედ აღარავინ იქცევიანო, აბა, რა ჭკუა გაქვსთ, რა გელაპარაკოთ? მე გიმარტავთ მზის
               დაბნელების მიზეზსა, თქვენ დამცინით. მე უფრო სუ ლელი ვარ, რომ თქვენთან ლაპარაკით თავს
-                ვიხეთქამ.<stage>გაჯავრებით</stage><foreign xml:lang="rus">Уби райтесь к
+                ვიხეთქამ.<stage>გაჯავრებით</stage><foreign xml:lang="ru">Уби райтесь к
                 черту!</foreign><stage>გავა შუა კარით.</stage></p>
           </sp>
         </div>
@@ -1849,77 +1846,77 @@
           <head>გამოსვლა პირველი</head>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><stage>ჰკითავს ჩინოვნიკსა.</stage><foreign xml:lang="rus">Господин, правда, Солнца
+            <p><stage>ჰკითავს ჩინოვნიკსა.</stage><foreign xml:lang="ru">Господин, правда, Солнца
                 чорна будит?</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Как Черный? Оно затмится.</foreign></p>
+            <p><foreign xml:lang="ru">Как Черный? Оно затмится.</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Правда?</foreign></p>
+            <p><foreign xml:lang="ru">Правда?</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Разумеется правда.</foreign></p>
+            <p><foreign xml:lang="ru">Разумеется правда.</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Нончи?</foreign></p>
+            <p><foreign xml:lang="ru">Нончи?</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Вот, через несколько минут.</foreign></p>
+            <p><foreign xml:lang="ru">Вот, через несколько минут.</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Ех, неправда… я слышал, что лилихана испортил, да неправда
+            <p><foreign xml:lang="ru">Ех, неправда… я слышал, что лилихана испортил, да неправда
                 выдумить зделили, что солнца чорна будит.</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Что такое значит лилихана?</foreign></p>
+            <p><foreign xml:lang="ru">Что такое значит лилихана?</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Ва, низнаешь лилихана?</foreign></p>
+            <p><foreign xml:lang="ru">Ва, низнаешь лилихана?</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">А Черт его знает, что оно такое.</foreign></p>
+            <p><foreign xml:lang="ru">А Черт его знает, что оно такое.</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Ент котора на духану большой кушин стаит, да на кушину сыны
+            <p><foreign xml:lang="ru">Ент котора на духану большой кушин стаит, да на кушину сыны
                 краска стайт.</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Тут и сам черт ничего не поймет.</foreign></p>
+            <p><foreign xml:lang="ru">Тут и сам черт ничего не поймет.</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Ва, какой чорт, человек всегда красит, знаишь! ент котора
+            <p><foreign xml:lang="ru">Ва, какой чорт, человек всегда красит, знаишь! ент котора
                 белый без на кушину пушайт, там сыны краска стайт, да белый без сыны
                 делайт.</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Красительный завод чтоли?</foreign></p>
+            <p><foreign xml:lang="ru">Красительный завод чтоли?</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Да, да, да… тереп узнал, ент завод, гварит, спортил, гварит,
+            <p><foreign xml:lang="ru">Да, да, да… тереп узнал, ент завод, гварит, спортил, гварит,
                 да неправда выдумать сделили, гварит, что солнца чорна будит, гварит.</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Я совершенны ничего не понял, любезный!</foreign></p>
+            <p><foreign xml:lang="ru">Я совершенны ничего не понял, любезный!</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Ва, тебе такой болшой голова есть, да ум мала чтли? как не
+            <p><foreign xml:lang="ru">Ва, тебе такой болшой голова есть, да ум мала чтли? как не
                 понимаешь? У нас есть такой закон: кода заводу хазяйн новый сыни краска на кушин
                 пушаит, и когда краска спортит, тогда заводу на правда слова выдумит зделил и всякий
                 чалавеку скажит, да тогда краска апет хороший зделится; теперь да так гварит всяки
@@ -1928,107 +1925,107 @@
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">А кто это вам сказал?</foreign></p>
+            <p><foreign xml:lang="ru">А кто это вам сказал?</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Мой сосед Гогила да Галуста, еше мои отецу мать
+            <p><foreign xml:lang="ru">Мой сосед Гогила да Галуста, еше мои отецу мать
                 Дадержана.</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Скажи, что они все дураки?</foreign></p>
+            <p><foreign xml:lang="ru">Скажи, что они все дураки?</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Ва, когда правда слов гварит, дурак?</foreign></p>
+            <p><foreign xml:lang="ru">Ва, когда правда слов гварит, дурак?</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Что вы толкуйте, разве вы не слышали, что об этом издано
+            <p><foreign xml:lang="ru">Что вы толкуйте, разве вы не слышали, что об этом издано
                 наставление?</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Кто ент писал?</foreign></p>
+            <p><foreign xml:lang="ru">Кто ент писал?</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Один астроном.</foreign></p>
+            <p><foreign xml:lang="ru">Один астроном.</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><stage><foreign xml:lang="rus">В сторону с удивлением</foreign></stage> устранум!...
+            <p><stage><foreign xml:lang="ru">В сторону с удивлением</foreign></stage> устранум!...
               имя такой что ент должно быть чорт. Г! ент устранум чорт, али чалавек?</p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Что вы говорите, какой чорт, он человек.</foreign></p>
+            <p><foreign xml:lang="ru">Что вы говорите, какой чорт, он человек.</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Ва, чалавек как может пишить, солнца на небо, а он на
+            <p><foreign xml:lang="ru">Ва, чалавек как может пишить, солнца на небо, а он на
                 земли.</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Мало чего нет, он умом писал.</foreign></p>
+            <p><foreign xml:lang="ru">Мало чего нет, он умом писал.</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Ва, ум тебе да ест, зачто вы не пишишь?</foreign></p>
+            <p><foreign xml:lang="ru">Ва, ум тебе да ест, зачто вы не пишишь?</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Я не учился, любезный, астрономию.</foreign></p>
+            <p><foreign xml:lang="ru">Я не учился, любезный, астрономию.</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><stage><foreign xml:lang="rus">В полголоса</foreign></stage><foreign xml:lang="rus">а
+            <p><stage><foreign xml:lang="ru">В полголоса</foreign></stage><foreign xml:lang="ru">а
                 ент учился: завтра приди, кончол будить, после приди, кончол будить, принеси деньги
                 да зделим твой дело, а?</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><stage><foreign xml:lang="rus">Всторону с удивлением</foreign></stage><foreign xml:lang="rus">Что за чорт, откудова он узнал, что я вчерас от одного требовал
+            <p><stage><foreign xml:lang="ru">Всторону с удивлением</foreign></stage><foreign xml:lang="ru">Что за чорт, откудова он узнал, что я вчерас от одного требовал
                 взятку!</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Господин, скажи пожалуйста, ент чалаек устранумик или пус
+            <p><foreign xml:lang="ru">Господин, скажи пожалуйста, ент чалаек устранумик или пус
                 транумик, от куда писал, от суди или на небо, пошол, да так писал?</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><stage><foreign xml:lang="rus">В Сторону</foreign></stage><foreign xml:lang="rus">Видно, что он глуп. Как бы ухитриться?</foreign><stage><foreign xml:lang="rus">Купцу</foreign></stage><foreign xml:lang="rus"> он вошел на небо и так
+            <p><stage><foreign xml:lang="ru">В Сторону</foreign></stage><foreign xml:lang="ru">Видно, что он глуп. Как бы ухитриться?</foreign><stage><foreign xml:lang="ru">Купцу</foreign></stage><foreign xml:lang="ru"> он вошел на небо и так
                 описал.</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Ва. я слышал, что только черт можит ходить и на земли и на
+            <p><foreign xml:lang="ru">Ва. я слышал, что только черт можит ходить и на земли и на
                 низу земли и на небе и на выши небо, а чалавек никогда не слишил.</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Знаешь, любезный он вошел на небо чрез
+            <p><foreign xml:lang="ru">Знаешь, любезный он вошел на небо чрез
               лестницу.</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Ва, что ты гваришь, такой лесницу один корпус 20 год да немо
+            <p><foreign xml:lang="ru">Ва, что ты гваришь, такой лесницу один корпус 20 год да немо
                 жит зделить.</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Она давно сделана и поставлена.</foreign></p>
+            <p><foreign xml:lang="ru">Она давно сделана и поставлена.</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Ва, кто поставил?</foreign></p>
+            <p><foreign xml:lang="ru">Ва, кто поставил?</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Разве вы не слышали, что для праотца Якова поставлена
+            <p><foreign xml:lang="ru">Разве вы не слышали, что для праотца Якова поставлена
                 лестница.</foreign></p>
           </sp>
           <sp who="#merchant">
@@ -2037,52 +2034,52 @@
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Ну да, чрез нее вошел и описал.</foreign></p>
+            <p><foreign xml:lang="ru">Ну да, чрез нее вошел и описал.</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">А… теперь правди, Господин, ент лесницу тепер да так
+            <p><foreign xml:lang="ru">А… теперь правди, Господин, ент лесницу тепер да так
                 стайт?</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Как же, оно и теперь существует.</foreign></p>
+            <p><foreign xml:lang="ru">Как же, оно и теперь существует.</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Ех… неправда.</foreign></p>
+            <p><foreign xml:lang="ru">Ех… неправда.</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Когда не верите, так поезжаете сами туда и
+            <p><foreign xml:lang="ru">Когда не верите, так поезжаете сами туда и
               увидите.</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Е… ея. куда пойдем, на дорогу 5.000 руб. да не довольно
+            <p><foreign xml:lang="ru">Е… ея. куда пойдем, на дорогу 5.000 руб. да не довольно
                 будит.</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Ну, так верьте мне.</foreign></p>
+            <p><foreign xml:lang="ru">Ну, так верьте мне.</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Вы да так гваришь, как адин чалавек другой чалавеку
+            <p><foreign xml:lang="ru">Вы да так гваришь, как адин чалавек другой чалавеку
                 сказал.</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">А чтоже он сказал?</foreign></p>
+            <p><foreign xml:lang="ru">А чтоже он сказал?</foreign></p>
           </sp>
           <sp who="#merchant">
             <speaker>купец</speaker>
-            <p><foreign xml:lang="rus">Два Человека стоял один улицу, адин чорна ешак да ент улицу
+            <p><foreign xml:lang="ru">Два Человека стоял один улицу, адин чорна ешак да ент улицу
                 пошол, ент адин чалавек другой чалавеку спросил: «сколько на ент ешаки кожу волос
                 будит,» ент другой сказал, два милион, гварит, ент адин сказал, ни будит, гварит;
                 ент другой сказал, када ни веришь, гварит, считай, гварит, ент адин выдал, что сто
                 год нельза была считать, верил ему слова. Я да знаим, что неможно туда пайду. нада
-                верит ваши слову… </foreign><stage><foreign xml:lang="rus">Разойдут и прохоживают на
+                верит ваши слову… </foreign><stage><foreign xml:lang="ru">Разойдут и прохоживают на
                   сцене.</foreign></stage></p>
           </sp>
         </div>
@@ -2270,8 +2267,8 @@
             <l>Ванка конку заложил.</l>
             <l>Со двора он укатил.</l>
             <l>Аи ли эта что... со двора он укатил (и пр.)</l>
-            <stage><foreign xml:lang="rus">Кричит во все горло.</foreign></stage>
-            <p><foreign xml:lang="rus">ей, вы, хлопцы… будем пить. красненки и умрем
+            <stage><foreign xml:lang="ru">Кричит во все горло.</foreign></stage>
+            <p><foreign xml:lang="ru">ей, вы, хлопцы… будем пить. красненки и умрем
                 веселинки.</foreign></p>
           </sp>
           <sp who="#chinovnik">
@@ -2280,37 +2277,37 @@
           </sp>
           <sp who="#grisha">
             <speaker>гриша</speaker>
-            <p><foreign xml:lang="rus">А ты что за умная птица, а?</foreign><stage><foreign xml:lang="rus">с насмешкою</foreign></stage><foreign xml:lang="rus">видишь,
+            <p><foreign xml:lang="ru">А ты что за умная птица, а?</foreign><stage><foreign xml:lang="ru">с насмешкою</foreign></stage><foreign xml:lang="ru">видишь,
                 смотрит, чего тут не видала?... ех ты… заложил бы тунучку красного да чуречку
                 белаго, вот дело, умер бы беселье, а то смотришь, выш. ты голова.</foreign></p>
           </sp>
           <sp who="#avdotia">
             <speaker>авдотя</speaker>
-            <p><foreign xml:lang="rus">Авдотя – Ех… Молчи, Гриша, ведь он чиновник.</foreign></p>
+            <p><foreign xml:lang="ru">Авдотя – Ех… Молчи, Гриша, ведь он чиновник.</foreign></p>
           </sp>
           <sp who="#grisha">
             <speaker>гриша</speaker>
-            <p><foreign xml:lang="rus">А что за беда, что он чиновник, мы сейчас умрем
+            <p><foreign xml:lang="ru">А что за беда, что он чиновник, мы сейчас умрем
                 вместе.</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Ех ты, дурак, за чтоже нам умереть?</foreign></p>
+            <p><foreign xml:lang="ru">Ех ты, дурак, за чтоже нам умереть?</foreign></p>
           </sp>
           <sp who="#grisha">
             <speaker>гриша</speaker>
-            <p><foreign xml:lang="rus">А что? вышь все грузины говорят, что мы сейчас
+            <p><foreign xml:lang="ru">А что? вышь все грузины говорят, что мы сейчас
                 умрем.</foreign></p>
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><foreign xml:lang="rus">Какие грузины говорят; из порядочных никто не скажет, глупцы
+            <p><foreign xml:lang="ru">Какие грузины говорят; из порядочных никто не скажет, глупцы
                 только говорят, тебе стыдно верить им, ты русский человек.</foreign></p>
           </sp>
           <sp who="#grisha">
             <speaker>гриша</speaker>
-            <p><foreign xml:lang="rus">И ты та батюшка не умней их; что с табой
-                  толковать.</foreign><stage><foreign xml:lang="rus">разойдут и ходят на
+            <p><foreign xml:lang="ru">И ты та батюшка не умней их; что с табой
+                  толковать.</foreign><stage><foreign xml:lang="ru">разойдут и ходят на
                   сцене.</foreign></stage></p>
           </sp>
         </div>
@@ -2624,7 +2621,7 @@
           </sp>
           <sp who="#chinovnik">
             <speaker>чиновник</speaker>
-            <p><stage><foreign xml:lang="rus">кричит.</foreign></stage><foreign xml:lang="rus">Да,
+            <p><stage><foreign xml:lang="ru">кричит.</foreign></stage><foreign xml:lang="ru">Да,
                 торжествует наука...</foreign></p>
           </sp>
           <sp who="#revsime">
