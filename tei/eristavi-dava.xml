@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">დავა</title>
-        <title type="main" xml:lang="eng">The Dispute</title>
+        <title>დავა</title>
+        <title xml:lang="eng">The Dispute</title>
         <title type="sub">კომედია ხუთ მოქმედებად</title>
         <title type="sub" xml:lang="eng">A Comedy in five acts</title>
         <author>
