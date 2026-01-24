@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="georg000006" xml:lang="geo">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="georg000006" xml:lang="ka">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>ტივით მოგზაურობა ლიტერატორთა</title>
-        <title xml:lang="eng">The writers' boat trip</title>
+        <title xml:lang="en">The writers' boat trip</title>
         <title type="sub">კომედია ორ მოქმედებად</title>
-        <title type="sub" xml:lang="eng">A Comedy in two acts</title>
+        <title type="sub" xml:lang="en">A Comedy in two acts</title>
         <author>
           <persName>
             <forename>ზურაბ</forename>
             <surname>ანტონოვი</surname>
           </persName>
-          <persName xml:lang="eng">
+          <persName xml:lang="en">
             <forename>Zurab</forename>
             <surname>Antonov</surname>
           </persName>
@@ -474,7 +474,7 @@
               მეფესთან შევი დოდი ხომე პაჭიჭებითა და ძველის ტანისამოსითა, მაგრამ ის კი არ იწყენ და
               ამიტომ, რომ ის უცქერდა კაცის ალალს გულსა და არა საცმელსა. და ეხლა თუ გაპრეწილი არა ხარ
               და კარგათ არ გაცვია, მაშინვე დაგძრახამენ. ესე იტყვიან ხომე აი
-                <stage>გააჯავრებს:</stage><foreign xml:lang="rus">Что за
+                <stage>გააჯავრებს:</stage><foreign xml:lang="ru">Что за
               невежa...</foreign>მართალია, ტანისამოსს ეხლა სუფთათ იცმენ და გულზედაც ტყლაპის ტოლას
               რაღაცას თეთრს ფარატინს იფარებენ, მაგრამ შიგნით გული, ოოჰ!... ასეთი შავათ გამურუ ლი
               აქვსთ, ასი წლის გაუწმენდელს ბუხარზედ უარესი. ეჰ, რაღა მეთქმის, ტყუილიღაა, ჩემის
@@ -776,7 +776,7 @@
           </sp>
           <sp who="#grigoli">
             <speaker>გრიგოლი</speaker>
-            <p><foreign xml:lang="rus">Что за чудный старик.</foreign><stage>იცინიან ყველანი.</stage></p>
+            <p><foreign xml:lang="ru">Что за чудный старик.</foreign><stage>იცინიან ყველანი.</stage></p>
           </sp>
           <sp who="#gorodnichi">
             <speaker>გოროდნიჩი</speaker>
@@ -868,7 +868,7 @@
           </sp>
           <sp who="#grigoli">
             <speaker>გრიგოლი</speaker>
-            <p><foreign xml:lang="rus">Назначу под лит. А.</foreign>აღმოსავლეთით მთა.</p>
+            <p><foreign xml:lang="ru">Назначу под лит. А.</foreign>აღმოსავლეთით მთა.</p>
           </sp>
           <sp who="#parmeni">
             <speaker>პარმენი</speaker>
@@ -876,7 +876,7 @@
           </sp>
           <sp who="#grigoli">
             <speaker>გრიგოლი</speaker>
-            <p><foreign xml:lang="rus">Назначу под лит.Б.</foreign> ჩრდილოეთით ჭალა.</p>
+            <p><foreign xml:lang="ru">Назначу под лит.Б.</foreign> ჩრდილოეთით ჭალა.</p>
           </sp>
           <sp who="#parmeni">
             <speaker>პარმენი</speaker>
@@ -884,7 +884,7 @@
           </sp>
           <sp who="#grigoli">
             <speaker>გრიგოლი</speaker>
-            <p><foreign xml:lang="rus">Назначу под лит. В.</foreign></p>
+            <p><foreign xml:lang="ru">Назначу под лит. В.</foreign></p>
           </sp>
         </div>
         <div type="scene">
@@ -911,11 +911,11 @@
           </sp>
           <sp who="#parmeni">
             <speaker>პარმენი</speaker>
-            <p><foreign xml:lang="rus">Назначит под литерою Ф.</foreign></p>
+            <p><foreign xml:lang="ru">Назначит под литерою Ф.</foreign></p>
           </sp>
           <sp who="#grigoli">
             <speaker>გრიგოლი</speaker>
-            <p><foreign xml:lang="rus">Нет, назначу под литерою Х.</foreign></p>
+            <p><foreign xml:lang="ru">Нет, назначу под литерою Х.</foreign></p>
           </sp>
           <sp who="#gogia">
             <speaker>გოგია</speaker>

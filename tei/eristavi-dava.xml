@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="georg000003" xml:lang="geo">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="georg000003" xml:lang="ka">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>დავა</title>
-        <title xml:lang="eng">The Dispute</title>
+        <title xml:lang="en">The Dispute</title>
         <title type="sub">კომედია ხუთ მოქმედებად</title>
-        <title type="sub" xml:lang="eng">A Comedy in five acts</title>
+        <title type="sub" xml:lang="en">A Comedy in five acts</title>
         <author>
           <persName>
             <forename>გიორგი</forename>
             <surname>ერისთავი</surname>
           </persName>
-          <persName xml:lang="eng">
+          <persName xml:lang="en">
             <forename>Giorgi</forename>
             <surname>Eristavi</surname>
           </persName>
@@ -720,8 +720,8 @@
           </sp>
           <sp who="#mikheili">
             <speaker>Михаил</speaker>
-            <p>ეს არის ეხლა შევიტყე შენი მოსვლა და მოვიჭერი შენთან. <foreign xml:lang="rus">Как я рад.</foreign> მე ოტპუსკში ვარ,
-              კარგათ გავატარებთ დროს, <foreign xml:lang="rus">не смотря, на то,</foreign>რომ მამაჩვენები ჩხუბობენ და ერთმანეთს მტრებს
+            <p>ეს არის ეხლა შევიტყე შენი მოსვლა და მოვიჭერი შენთან. <foreign xml:lang="ru">Как я рад.</foreign> მე ოტპუსკში ვარ,
+              კარგათ გავატარებთ დროს, <foreign xml:lang="ru">не смотря, на то,</foreign>რომ მამაჩვენები ჩხუბობენ და ერთმანეთს მტრებს
               ეძახიან!</p>
           </sp>
           <sp who="#beglari">
@@ -730,7 +730,7 @@
           </sp>
           <sp who="#mikheili">
             <speaker>Михаил</speaker>
-            <p>ეხ, <foreign xml:lang="rus">братец,</foreign>შენ პოეტი ხარ, გინდა, რომ ყოველი კაცი ანგელო ზი იყოს. <foreign xml:lang="rus">Нет, брат,</foreign> მაშინ
+            <p>ეხ, <foreign xml:lang="ru">братец,</foreign>შენ პოეტი ხარ, გინდა, რომ ყოველი კაცი ანგელო ზი იყოს. <foreign xml:lang="ru">Нет, брат,</foreign> მაშინ
               უფრო ცუდი იქნებოდა.</p>
           </sp>
           <sp who="#beglari">
@@ -739,23 +739,23 @@
           </sp>
           <sp who="#mikheili">
             <speaker>Михаил</speaker>
-            <p><foreign xml:lang="rus">Да,</foreign> პატიოსანს და კაი კაცს რაღა ფასი ექნებოდა და <foreign xml:lang="rus">просто</foreign> სულ პატიოსნები იქნებოდნენ...
+            <p><foreign xml:lang="ru">Да,</foreign> პატიოსანს და კაი კაცს რაღა ფასი ექნებოდა და <foreign xml:lang="ru">просто</foreign> სულ პატიოსნები იქნებოდნენ...
               გახსოვს, შენი რუსთაველი რას ამბობს?! ოდეს ტურფა გაიაფდეს,</p>
             <p>აღარ ღირდეს აღარც ჩირად...</p>
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
             <p>კარგი, დაჯექ, მე შენი ნახვა მიამა, პირველად მითხარ, რას იქმნენ თქვენები, ხომ ყველანი
-              კარგათ არიან, ნინუცა გაზდილა? <foreign xml:lang="rus">Я думаю, теперь она невеста.</foreign></p>
+              კარგათ არიან, ნინუცა გაზდილა? <foreign xml:lang="ru">Я думаю, теперь она невеста.</foreign></p>
           </sp>
           <sp who="#mikheili">
             <speaker>Михаил</speaker>
-            <p>სულ ყველანი კარგად არიან, <foreign xml:lang="rus">а Нина?! Ах братец, чудо девка,</foreign> ის მტირალა ნინუცა ხომ აღარ
-              არის... გახსოვს... უნდა ეხლა ნახო, ქალაქს ინსტიტუტში გაზდილი. <foreign xml:lang="rus">Образована, братец,
-                такая умница, пре лесть!</foreign> ერთი მოდი, ნახე. <foreign xml:lang="rus">Прошу не влюбляться. Мы теперь Монтекки и
-                  Капулетты.</foreign> მაგრამ შენ რა ეშმაკი შეგაყვარებს, <foreign xml:lang="rus">ведь у вас какието идеалы шиллеровские
+            <p>სულ ყველანი კარგად არიან, <foreign xml:lang="ru">а Нина?! Ах братец, чудо девка,</foreign> ის მტირალა ნინუცა ხომ აღარ
+              არის... გახსოვს... უნდა ეხლა ნახო, ქალაქს ინსტიტუტში გაზდილი. <foreign xml:lang="ru">Образована, братец,
+                такая умница, пре лесть!</foreign> ერთი მოდი, ნახე. <foreign xml:lang="ru">Прошу не влюбляться. Мы теперь Монтекки и
+                  Капулетты.</foreign> მაგრამ შენ რა ეშმაკი შეგაყვარებს, <foreign xml:lang="ru">ведь у вас какието идеалы шиллеровские
               девы,</foreign> ჩვენი საქმე სხვა არის – პროზაიკები, რაკი პატარა ფერით გათხუნულს ქალს ვნახამთ,
-              პრაშჩაი გულო! <foreign xml:lang="rus">Ах, братец, ах, как меня</foreign> შავი თვალები მწვავენ, ცეცხლს მიკიდებენ.</p>
+              პრაშჩაი გულო! <foreign xml:lang="ru">Ах, братец, ах, как меня</foreign> შავი თვალები მწვავენ, ცეცხლს მიკიდებენ.</p>
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
@@ -766,7 +766,7 @@
           <sp who="#mikheili">
             <speaker>Михаил</speaker>
             <p>რა ეშმაკისათვის მინდა სიბერე, შენ მებრალები, რომ დაგაბერებენ, იცი, რას გეუბნები,
-              ღმერთს გეფიცები, მოდი, კარგს რამეს გირ ჩევ, ჩვენ პოლკში შემოდი. <foreign xml:lang="rus">Там тебя полюбят, там
+              ღმერთს გეფიცები, მოდი, კარგს რამეს გირ ჩევ, ჩვენ პოლკში შემოდი. <foreign xml:lang="ru">Там тебя полюбят, там
               будет весело, некогда будеть думать,</foreign>თორემ, აი რა მოგივა: ღმერთს გეფიცები, მასხარად
               აგიგდებენ.</p>
           </sp>
@@ -794,8 +794,8 @@
           </sp>
           <sp who="#mikheili">
             <speaker>Михаил</speaker>
-            <p><foreign xml:lang="rus">Ну прощай...</foreign> მამაშენს გადაეცი, ნუ კლიაუზნიკობს, შენ თუ იმას ხასიათს გამოუსწორებ,
-              <foreign xml:lang="rus">великий человек будешь.</foreign> <stage>გავა.</stage></p>
+            <p><foreign xml:lang="ru">Ну прощай...</foreign> მამაშენს გადაეცი, ნუ კლიაუზნიკობს, შენ თუ იმას ხასიათს გამოუსწორებ,
+              <foreign xml:lang="ru">великий человек будешь.</foreign> <stage>გავა.</stage></p>
           </sp>
         </div>
         <div type="scene">
@@ -851,7 +851,7 @@
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p><foreign xml:lang="rus">Ах, как я рад, видно она хорошо оброзована.</foreign><stage>იქით</stage> ხვალ უთუოდ ვნახავ.
+            <p><foreign xml:lang="ru">Ах, как я рад, видно она хорошо оброзована.</foreign><stage>იქით</stage> ხვალ უთუოდ ვნახავ.
                 <stage>გავა.</stage></p>
           </sp>
         </div>
@@ -899,7 +899,7 @@
           </sp>
           <sp who="#nino">
             <speaker>ნინო</speaker>
-            <p>ახ! <foreign xml:lang="rus">Это вы, князь!</foreign> არა, მე არა ვარ ეგრე პატივმოყვარე, რომ დედოფლების გვირგვინი
+            <p>ახ! <foreign xml:lang="ru">Это вы, князь!</foreign> არა, მე არა ვარ ეგრე პატივმოყვარე, რომ დედოფლების გვირგვინი
               ვისურვო.</p>
           </sp>
           <sp who="#beglari">
@@ -913,7 +913,7 @@
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p><foreign xml:lang="rus">Покрайней мере,</foreign> თქვენ იქნებით მხოლოდ პირველი.</p>
+            <p><foreign xml:lang="ru">Покрайней мере,</foreign> თქვენ იქნებით მხოლოდ პირველი.</p>
           </sp>
           <sp who="#nino">
             <speaker>ნინო</speaker>
@@ -973,7 +973,7 @@
           <stage>იგინივე და მიხეილ</stage>
           <sp who="#mikheili">
             <speaker>Михаил</speaker>
-            <p>სწორეთ ფამუსოვი ხარ! <foreign xml:lang="rus">Чай братец, Ты с прогулки?</foreign></p>
+            <p>სწორეთ ფამუსოვი ხარ! <foreign xml:lang="ru">Чай братец, Ты с прогулки?</foreign></p>
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
@@ -981,8 +981,8 @@
           </sp>
           <sp who="#mikheili">
             <speaker>Михаил</speaker>
-            <p><foreign xml:lang="rus">А, ты Нина,</foreign> <stage>ნინო მოეხვევა მიხეილს.</stage> მითხარ ყურში ... <foreign xml:lang="rus">ну вот и
-              прекрасно!</foreign> ბეგლარ, <foreign xml:lang="rus">дай руку.</foreign> <stage>ჩაუდებს ხელს ხელში.</stage> ღმერთმა გაკურთხოთ.
+            <p><foreign xml:lang="ru">А, ты Нина,</foreign> <stage>ნინო მოეხვევა მიხეილს.</stage> მითხარ ყურში ... <foreign xml:lang="ru">ну вот и
+              прекрасно!</foreign> ბეგლარ, <foreign xml:lang="ru">дай руку.</foreign> <stage>ჩაუდებს ხელს ხელში.</stage> ღმერთმა გაკურთხოთ.
                 <stage>ბეგლარ ჰკოცნის ხელზედ ნინოს და პირზედ მიხეილს.</stage> დასხედით. ახლა ამას
               უნდა ვეცადნოთ,მამაჩვენები დავითანხმოთ.</p>
           </sp>
@@ -1004,18 +1004,18 @@
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p>ვითომ, <foreign xml:lang="rus">преставте себе,</foreign> გუშინ მამაჩემმა ილაჯი გაგვიწყ ვიტა, სუდში არზა დაწერეო. ერთი
-              ამოდენა საქმე შემოიტანა, მთელი დღე ვშალე, ვშალე, <foreign xml:lang="rus">ничего не понял.</foreign> მგონია ჩალიანის
-              თაობაზედ არის. <foreign xml:lang="rus">Ради бога,</foreign> შენ დაწერე, მე არ ვიცი.</p>
+            <p>ვითომ, <foreign xml:lang="ru">преставте себе,</foreign> გუშინ მამაჩემმა ილაჯი გაგვიწყ ვიტა, სუდში არზა დაწერეო. ერთი
+              ამოდენა საქმე შემოიტანა, მთელი დღე ვშალე, ვშალე, <foreign xml:lang="ru">ничего не понял.</foreign> მგონია ჩალიანის
+              თაობაზედ არის. <foreign xml:lang="ru">Ради бога,</foreign> შენ დაწერე, მე არ ვიცი.</p>
           </sp>
           <sp who="#mikheili">
             <speaker>Михаил</speaker>
             <p>მე კი თუთულოვი გონივარ თუ?! გინდა მე ცხენი გამახედნი ნე, ფრანცუსკის კადრელს ვასწავლი
-              ცხენსა. <foreign xml:lang="rus">Мое ли-дело писать кляузы?!</foreign></p>
+              ცხენსა. <foreign xml:lang="ru">Мое ли-дело писать кляузы?!</foreign></p>
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p><foreign xml:lang="rus">Но будеть гонка. Прощай, Мишель,</foreign> მამაჩემი მოვიდოდა და... <stage>ნინოს ხელზედ
+            <p><foreign xml:lang="ru">Но будеть гонка. Прощай, Мишель,</foreign> მამაჩემი მოვიდოდა და... <stage>ნინოს ხელზედ
                 ჰკოცნის.</stage></p>
           </sp>
           <sp who="#nino">
@@ -1024,7 +1024,7 @@
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p>ახ! <foreign xml:lang="rus">Забыл.</foreign> დღეს დილას ლექსი დავწერე და დამავიწყდა, ვერ წამოვიღე თანა, ერთად
+            <p>ახ! <foreign xml:lang="ru">Забыл.</foreign> დღეს დილას ლექსი დავწერე და დამავიწყდა, ვერ წამოვიღე თანა, ერთად
               მოგართმევთ. <stage>გავლენ ყველანი.</stage></p>
           </sp>
         </div>
@@ -1122,7 +1122,7 @@
           </sp>
           <sp who="#nino">
             <speaker>ნინო</speaker>
-            <p><stage>გახსნის წიგნს.</stage> <foreign xml:lang="rus">Ах, стихи!</foreign></p>
+            <p><stage>გახსნის წიგნს.</stage> <foreign xml:lang="ru">Ах, стихи!</foreign></p>
           </sp>
           <sp who="#abrama">
             <speaker>აბრამა</speaker>
@@ -1352,7 +1352,7 @@
           </sp>
           <sp who="#nino">
             <speaker>ნინო</speaker>
-            <p><foreign xml:lang="rus">Я получила стихи от твоего друга.</foreign></p>
+            <p><foreign xml:lang="ru">Я получила стихи от твоего друга.</foreign></p>
           </sp>
           <sp who="#mikheili">
             <speaker>Михаил</speaker>
@@ -1384,8 +1384,8 @@
           </sp>
           <sp who="#mikheili">
             <speaker>Михаил</speaker>
-            <p>აი, ნახავთ. <stage>ნინოს</stage> <foreign xml:lang="rus">Ну, перестань хныкать.</foreign> <stage>სიდონია და ყველანი
-              მიდიან. მიხეილ უჩვენებს მოწყალისეულისკენ.</stage><foreign xml:lang="rus">Вот кепинисхев ская ведьма.</foreign></p>
+            <p>აი, ნახავთ. <stage>ნინოს</stage> <foreign xml:lang="ru">Ну, перестань хныкать.</foreign> <stage>სიდონია და ყველანი
+              მიდიან. მიხეილ უჩვენებს მოწყალისეულისკენ.</stage><foreign xml:lang="ru">Вот кепинисхев ская ведьма.</foreign></p>
           </sp>
           <stage>ფარდა ჩამოეშვება.</stage>
         </div>
@@ -1406,7 +1406,7 @@
           </sp>
           <sp who="#sarqisa">
             <speaker>სარქისა</speaker>
-            <p>ვა! <foreign xml:lang="rus">Пелицонный</foreign> არზი კარგი რამ იქნება!</p>
+            <p>ვა! <foreign xml:lang="ru">Пелицонный</foreign> არზი კარგი რამ იქნება!</p>
           </sp>
           <sp who="#amirindo">
             <speaker>ამირინდო</speaker>
@@ -1820,7 +1820,7 @@
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
             <p><stage>უყურებს ფანჯრიდან.</stage> არ ვიცი, ჩემ ბლუ ბიჭს რა დაემართა, პასუხი არა
-              მომიტანა რა ნინუცადგან. <foreign xml:lang="rus">Верно и он завел интриги.</foreign> რა მშვე ნიერი დღე არის!
+              მომიტანა რა ნინუცადგან. <foreign xml:lang="ru">Верно и он завел интриги.</foreign> რა მშვე ნიერი დღე არის!
                 <stage>ოცნებობს. ფანჯარაში უყურებს.</stage></p>
             <l>ვიშ, ამ მშვენიერს კეთილსა ჰაერს,</l>
             <l>ნეტარ ვინცა შენ კალმითა დაგწერს,</l>
@@ -2084,27 +2084,27 @@
           <stage>ხარიტონ ფილიპიჩი, მარტო მერე ივანე</stage>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Иван!</foreign></p>
+            <p><foreign xml:lang="ru">Иван!</foreign></p>
           </sp>
           <sp who="#ivan">
             <speaker>иван</speaker>
-            <p><stage><foreign xml:lang="rus">За кулисами</foreign></stage> Сейчас!</p>
+            <p><stage><foreign xml:lang="ru">За кулисами</foreign></stage> Сейчас!</p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Переводчик не приходил?</foreign></p>
+            <p><foreign xml:lang="ru">Переводчик не приходил?</foreign></p>
           </sp>
           <sp who="#ivan">
             <speaker>иван</speaker>
-            <p><stage><foreign xml:lang="rus">Входит.</foreign></stage> <foreign xml:lang="rus">Какой-с? судейский, то есть Бугданич?</foreign></p>
+            <p><stage><foreign xml:lang="ru">Входит.</foreign></stage> <foreign xml:lang="ru">Какой-с? судейский, то есть Бугданич?</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Ну, да.</foreign></p>
+            <p><foreign xml:lang="ru">Ну, да.</foreign></p>
           </sp>
           <sp who="#ivan">
             <speaker>иван</speaker>
-            <p><foreign xml:lang="rus">Никак, теперь идет.</foreign> <stage><foreign xml:lang="rus">Уходит.</foreign></stage></p>
+            <p><foreign xml:lang="ru">Никак, теперь идет.</foreign> <stage><foreign xml:lang="ru">Уходит.</foreign></stage></p>
             <stage>Входит Бугданич.</stage>
           </sp>
         </div>
@@ -2113,104 +2113,104 @@
           <stage>$ხარიტონ ფილიპიჩი და სარქის ბუღდანიჩი კუმუხტოვი</stage>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Аа...Здравствуй, Бугданич!Где бывал... Ка жись ты был опять у Амириндо... Ха, ха,
+            <p><foreign xml:lang="ru">Аа...Здравствуй, Бугданич!Где бывал... Ка жись ты был опять у Амириндо... Ха, ха,
               ха... Чай. несколько точек там не досчитал, а?</foreign></p>
           </sp>
           <sp who="#bugdanich">
             <speaker>бугданич</speaker>
-            <p><foreign xml:lang="rus">Что-ж делать, Харитон Филипич, когда бог не дал голова грузину? Настоящий баран
+            <p><foreign xml:lang="ru">Что-ж делать, Харитон Филипич, когда бог не дал голова грузину? Настоящий баран
               голова.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">А ты как хороший овчар, т. е. чобан по вашему, умеешь стричь баран.</foreign></p>
+            <p><foreign xml:lang="ru">А ты как хороший овчар, т. е. чобан по вашему, умеешь стричь баран.</foreign></p>
           </sp>
           <sp who="#bugdanich">
             <speaker>бугданич</speaker>
-            <p><foreign xml:lang="rus">Ва! Человеку бог дал ум, надо потребить! Для грузина деньги, как наши говорят: апсус,
+            <p><foreign xml:lang="ru">Ва! Человеку бог дал ум, надо потребить! Для грузина деньги, как наши говорят: апсус,
               т. е. жалка. Грузинский карман всегда такой дырка есть.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Все хорошо, любезный, но ты для меня не стараешься, не хочешь со мной дружиться.</foreign></p>
+            <p><foreign xml:lang="ru">Все хорошо, любезный, но ты для меня не стараешься, не хочешь со мной дружиться.</foreign></p>
           </sp>
           <sp who="#bugdanich">
             <speaker>бугданич</speaker>
-            <p><foreign xml:lang="rus">Как-же? Я докажу, что для вас много сделал.</foreign></p>
+            <p><foreign xml:lang="ru">Как-же? Я докажу, что для вас много сделал.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Что-ж ты сделал?</foreign></p>
+            <p><foreign xml:lang="ru">Что-ж ты сделал?</foreign></p>
           </sp>
           <sp who="#bugdanich">
             <speaker>бугданич</speaker>
-            <p><foreign xml:lang="rus">Сию нимут подарки принесут.</foreign></p>
+            <p><foreign xml:lang="ru">Сию нимут подарки принесут.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">От кого?</foreign></p>
+            <p><foreign xml:lang="ru">От кого?</foreign></p>
           </sp>
           <sp who="#bugdanich">
             <speaker>бугданич</speaker>
-            <p><foreign xml:lang="rus">От жирный баран, Амириндо.</foreign></p>
+            <p><foreign xml:lang="ru">От жирный баран, Амириндо.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Нет брат, он старый скряга, кляузник, дело не правое.</foreign></p>
+            <p><foreign xml:lang="ru">Нет брат, он старый скряга, кляузник, дело не правое.</foreign></p>
           </sp>
           <sp who="#bugdanich">
             <speaker>бугданич</speaker>
-            <p><foreign xml:lang="rus">Эй, Харитон Филипич, пожалуйста, слова на крышу не бросай. Отчего за свой пот не
+            <p><foreign xml:lang="ru">Эй, Харитон Филипич, пожалуйста, слова на крышу не бросай. Отчего за свой пот не
               взять, когда дает...Не чистое можно сделать аб рунди, вашу пословиц.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Скажи, Бугданич, правду, ты и Рафаелъ подели лись с судьею, что за точки и запятые
+            <p><foreign xml:lang="ru">Скажи, Бугданич, правду, ты и Рафаелъ подели лись с судьею, что за точки и запятые
               содрали с Амириндо?!</foreign></p>
           </sp>
           <sp who="#bugdanich">
             <speaker>бугданич</speaker>
-            <p><foreign xml:lang="rus">Судью? Черный камень ему дам, одно дело просил, не сде лал. Еще ругает, какой пустои
+            <p><foreign xml:lang="ru">Судью? Черный камень ему дам, одно дело просил, не сде лал. Еще ругает, какой пустои
               голова, ей богу, Харитон Филипич. Он отсуда такой пойдет голый, как дебришь голодный,
               как кошка в великий пост.</foreign></p>
           </sp>
           <sp who="#ivan">
             <speaker>иван</speaker>
-            <p><foreign xml:lang="rus">Изпередней Сторож из суда.</foreign></p>
+            <p><foreign xml:lang="ru">Изпередней Сторож из суда.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Ах, забыл что сегодня торги. Скажи сейчас буду.</foreign></p>
+            <p><foreign xml:lang="ru">Ах, забыл что сегодня торги. Скажи сейчас буду.</foreign></p>
           </sp>
           <sp who="#bugdanich">
             <speaker>бугданич</speaker>
-            <p><foreign xml:lang="rus">Ва! немного подожди, подарка принесут, а Харитон Фи липич, Зураба дело можно абрунди
+            <p><foreign xml:lang="ru">Ва! немного подожди, подарка принесут, а Харитон Фи липич, Зураба дело можно абрунди
               сделать.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Это зависит любезный от обстоятельства. Я знаю и абрунди и дабрунди и цабрунди.</foreign></p>
+            <p><foreign xml:lang="ru">Это зависит любезный от обстоятельства. Я знаю и абрунди и дабрунди и цабрунди.</foreign></p>
           </sp>
           <sp who="#bugdanich">
             <speaker>бугданич</speaker>
-            <p><foreign xml:lang="rus">Известно, умный человек! Нимножка погоди да! Подарку принесут.</foreign></p>
+            <p><foreign xml:lang="ru">Известно, умный человек! Нимножка погоди да! Подарку принесут.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Пусть подождут. Иван</foreign><stage><foreign xml:lang="rus">Иван входит.</foreign></stage><foreign xml:lang="rus">коли будет бичо или князек, скажи
+            <p><foreign xml:lang="ru">Пусть подождут. Иван</foreign><stage><foreign xml:lang="ru">Иван входит.</foreign></stage><foreign xml:lang="ru">коли будет бичо или князек, скажи
               чтоб он подождал.</foreign></p>
           </sp>
           <sp who="#ivan">
             <speaker>иван</speaker>
-            <p><foreign xml:lang="rus">Слушаюсь.</foreign></p>
+            <p><foreign xml:lang="ru">Слушаюсь.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Пойдем Бугданич, дай руку, но так мы с тобой...</foreign></p>
+            <p><foreign xml:lang="ru">Пойдем Бугданич, дай руку, но так мы с тобой...</foreign></p>
           </sp>
           <sp who="#bugdanich">
             <speaker>бугданич</speaker>
-            <p><foreign xml:lang="rus">Ва, ва, как мы будем стричь и брить, ты только слушай меня.</foreign></p>
+            <p><foreign xml:lang="ru">Ва, ва, как мы будем стричь и брить, ты только слушай меня.</foreign></p>
             <stage>ხარიტონ ფილიპიჩი და ბუღდანიჩი გადიან.</stage>
           </sp>
         </div>
@@ -2219,20 +2219,20 @@
           <stage>ივანე ოთახს ჰგვის. შემოდის ბეგლარი.</stage>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p><foreign xml:lang="rus">Здраствуй, любезный.</foreign></p>
+            <p><foreign xml:lang="ru">Здраствуй, любезный.</foreign></p>
           </sp>
           <sp who="#ivan">
             <speaker>иван</speaker>
-            <p><foreign xml:lang="rus">Здраствуйте. Кого вам угодно?</foreign></p>
+            <p><foreign xml:lang="ru">Здраствуйте. Кого вам угодно?</foreign></p>
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p><foreign xml:lang="rus">Мне нужно стряпчаго.</foreign></p>
+            <p><foreign xml:lang="ru">Мне нужно стряпчаго.</foreign></p>
           </sp>
           <sp who="#ivan">
             <speaker>иван</speaker>
-            <p><foreign xml:lang="rus">Т. е. Харитон Филипича? – Приказал дожидатся. Угодно подождите, коли не пыльно будет
-              вам.</foreign><stage><foreign xml:lang="rus">Иван уходит.</foreign></stage></p>
+            <p><foreign xml:lang="ru">Т. е. Харитон Филипича? – Приказал дожидатся. Угодно подождите, коли не пыльно будет
+              вам.</foreign><stage><foreign xml:lang="ru">Иван уходит.</foreign></stage></p>
           </sp>
         </div>
         <div type="scene">
@@ -2288,22 +2288,22 @@
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p>აბა, მეც მაგისი მეშინია,<foreign xml:lang="rus">пожалуй обидется,</foreign> ისტორია არ გამოვიდეს რა!<foreign xml:lang="rus">Дело
+            <p>აბა, მეც მაგისი მეშინია,<foreign xml:lang="ru">пожалуй обидется,</foreign> ისტორია არ გამოვიდეს რა!<foreign xml:lang="ru">Дело
               щекотливое.</foreign></p>
           </sp>
           <sp who="#mikheili">
             <speaker>Михаил</speaker>
-            <p><foreign xml:lang="rus">Пустяки,</foreign> შენგანაც აიღებს, ჩემგანაც, მაგრამ ცალ-ცალკე უნ და მივცეთ. ჩალიანი ნინოსია,
-              გესმის, <foreign xml:lang="rus">смотри, женись.</foreign></p>
+            <p><foreign xml:lang="ru">Пустяки,</foreign> შენგანაც აიღებს, ჩემგანაც, მაგრამ ცალ-ცალკე უნ და მივცეთ. ჩალიანი ნინოსია,
+              გესმის, <foreign xml:lang="ru">смотри, женись.</foreign></p>
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p><stage>გამოართმევს ხელს.</stage><foreign xml:lang="rus">Как тебе не стыдно.</foreign> ჩალიანი,<foreign xml:lang="rus">ужасно нужно.</foreign> მე
+            <p><stage>გამოართმევს ხელს.</stage><foreign xml:lang="ru">Как тебе не стыдно.</foreign> ჩალიანი,<foreign xml:lang="ru">ужасно нужно.</foreign> მე
               სიყვარული, სიყვარული მინდა.</p>
           </sp>
           <sp who="#mikheili">
             <speaker>Михаил</speaker>
-            <p><foreign xml:lang="rus">Она любит, братец...</foreign> ვიღაც მოდის, სტრაფჩი არ იყოს, ჯერ შენ მიეც.
+            <p><foreign xml:lang="ru">Она любит, братец...</foreign> ვიღაც მოდის, სტრაფჩი არ იყოს, ჯერ შენ მიეც.
                 <stage>გადის.</stage></p>
           </sp>
         </div>
@@ -2313,95 +2313,95 @@
             ფეხებამდე.</stage>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Он что-то не грузином смотрит..</foreign></p>
+            <p><foreign xml:lang="ru">Он что-то не грузином смотрит..</foreign></p>
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p><stage><foreign xml:lang="rus">Встает.</foreign></stage><foreign xml:lang="rus">Честь имею рекомендаваться... Я сын Амириндо.</foreign></p>
+            <p><stage><foreign xml:lang="ru">Встает.</foreign></stage><foreign xml:lang="ru">Честь имею рекомендаваться... Я сын Амириндо.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Слуга покорный, прошу покорно, садитесь.</foreign></p>
+            <p><foreign xml:lang="ru">Слуга покорный, прошу покорно, садитесь.</foreign></p>
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p><stage><foreign xml:lang="rus">садится. Пауза.</foreign></stage><foreign xml:lang="rus">Прелестный день.</foreign></p>
+            <p><stage><foreign xml:lang="ru">садится. Пауза.</foreign></stage><foreign xml:lang="ru">Прелестный день.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Хорошо – с...</foreign></p>
+            <p><foreign xml:lang="ru">Хорошо – с...</foreign></p>
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p><foreign xml:lang="rus">Вы верно гуляли.</foreign></p>
+            <p><foreign xml:lang="ru">Вы верно гуляли.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Нет. Я был в суде.</foreign></p>
+            <p><foreign xml:lang="ru">Нет. Я был в суде.</foreign></p>
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p><foreign xml:lang="rus">Да, и после службы можно делать мацион или верхом... Вы ездите верхом?</foreign></p>
+            <p><foreign xml:lang="ru">Да, и после службы можно делать мацион или верхом... Вы ездите верхом?</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Нет, не учился, и правду сказать, некогда.</foreign><stage><foreign xml:lang="rus">Занялся расмотрением
+            <p><foreign xml:lang="ru">Нет, не учился, и правду сказать, некогда.</foreign><stage><foreign xml:lang="ru">Занялся расмотрением
                 журнала.</foreign></stage></p>
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p><foreign xml:lang="rus">Вы редактор какого-нибудь журнала?</foreign></p>
+            <p><foreign xml:lang="ru">Вы редактор какого-нибудь журнала?</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Известно, судейского журнала.</foreign></p>
+            <p><foreign xml:lang="ru">Известно, судейского журнала.</foreign></p>
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p><foreign xml:lang="rus">Скажите пожалуйста, есть ли писатели?</foreign></p>
+            <p><foreign xml:lang="ru">Скажите пожалуйста, есть ли писатели?</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Помилуите, слава богу, есть кому писать, судья, четыре заседателя, хотя не все
+            <p><foreign xml:lang="ru">Помилуите, слава богу, есть кому писать, судья, четыре заседателя, хотя не все
               писаки, секретарь столоначальники.</foreign></p>
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p><foreign xml:lang="rus">Ах, как приятно иметь таких образованных чиновников. Скажите, пожалуйста, есть ли
+            <p><foreign xml:lang="ru">Ах, как приятно иметь таких образованных чиновников. Скажите, пожалуйста, есть ли
               между ними поэты.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Нет-с... Да правда, переводчик орет по персидски, туземцам нравится.</foreign></p>
+            <p><foreign xml:lang="ru">Нет-с... Да правда, переводчик орет по персидски, туземцам нравится.</foreign></p>
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p><foreign xml:lang="rus">Вы кажется меня не поняли, я вас спрашиваю, есть ли поэты, т. е. стихи пишет-ли кто
+            <p><foreign xml:lang="ru">Вы кажется меня не поняли, я вас спрашиваю, есть ли поэты, т. е. стихи пишет-ли кто
               нибудь?</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Помилуйте, нам некогда глупостями заниматся.</foreign></p>
+            <p><foreign xml:lang="ru">Помилуйте, нам некогда глупостями заниматся.</foreign></p>
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p><foreign xml:lang="rus">Как, по вашему Шиллер, Гете, Шекспир, Байрон, Калдерон были глупые?</foreign></p>
+            <p><foreign xml:lang="ru">Как, по вашему Шиллер, Гете, Шекспир, Байрон, Калдерон были глупые?</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Извините. Не понимаю, князь, ни вашего Нерона, ни Шулера. Вы лучше, князь, скажите
+            <p><foreign xml:lang="ru">Извините. Не понимаю, князь, ни вашего Нерона, ни Шулера. Вы лучше, князь, скажите
               без рифмы пиитики, вы верно за делом пожаловали ко мне. Ей богу, совестно, но право
               некогда, скажите без церемоний.</foreign></p>
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p><stage><foreign xml:lang="rus">Встает.</foreign></stage><foreign xml:lang="rus">Простите меня, я никак не смел... не мог, но батюшка приказал
+            <p><stage><foreign xml:lang="ru">Встает.</foreign></stage><foreign xml:lang="ru">Простите меня, я никак не смел... не мог, но батюшка приказал
               отдать вам этот перстень.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Давно бы вы сказали,а то вы меня замучили. Извольте,</foreign><stage><foreign xml:lang="rus">протягивает указательный
-              палец.</foreign></stage><foreign xml:lang="rus">наденьте. Теперь мое почте ние. Я знаю, готов, все сделать.
+            <p><foreign xml:lang="ru">Давно бы вы сказали,а то вы меня замучили. Извольте,</foreign><stage><foreign xml:lang="ru">протягивает указательный
+              палец.</foreign></stage><foreign xml:lang="ru">наденьте. Теперь мое почте ние. Я знаю, готов, все сделать.
               Кланяйстесь батюшке.</foreign></p>
           </sp>
         </div>
@@ -2410,105 +2410,105 @@
           <stage>ხარიტონ ფილიპიჩი და მიხეილი შემოდის.</stage>
           <sp who="#mihail">
             <speaker>mихаил</speaker>
-            <p><foreign xml:lang="rus"><foreign xml:lang="rus">Харитон Филипич, мое почтение.</foreign></foreign></p>
+            <p><foreign xml:lang="ru"><foreign xml:lang="ru">Харитон Филипич, мое почтение.</foreign></foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Слуга покорый, ваше сиятельство, пожалуйста, садитесь, что прикажете?</foreign></p>
+            <p><foreign xml:lang="ru">Слуга покорый, ваше сиятельство, пожалуйста, садитесь, что прикажете?</foreign></p>
           </sp>
           <sp who="#mihail">
             <speaker>mихаил</speaker>
-            <p><foreign xml:lang="rus">Харитон Филипич, скажите мне правду и прямо, я люблю откровенность, вы сейчас взяли
+            <p><foreign xml:lang="ru">Харитон Филипич, скажите мне правду и прямо, я люблю откровенность, вы сейчас взяли
               перстень у сына Амириндо.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Я не брал...</foreign></p>
+            <p><foreign xml:lang="ru">Я не брал...</foreign></p>
           </sp>
           <sp who="#mihail">
             <speaker>mихаил</speaker>
-            <p><foreign xml:lang="rus">Не говорите, я все знаю.</foreign></p>
+            <p><foreign xml:lang="ru">Не говорите, я все знаю.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Убей меня бог, не брал, поверьте совести.</foreign></p>
+            <p><foreign xml:lang="ru">Убей меня бог, не брал, поверьте совести.</foreign></p>
           </sp>
           <sp who="#mihail">
             <speaker>mихаил</speaker>
-            <p><stage><foreign xml:lang="rus">Берет за руку.</foreign></stage><foreign xml:lang="rus">Да, вот он, этот перстень.</foreign></p>
+            <p><stage><foreign xml:lang="ru">Берет за руку.</foreign></stage><foreign xml:lang="ru">Да, вот он, этот перстень.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Я вам говорю, что я не брал, а сами надели. Видите, я прав.</foreign></p>
+            <p><foreign xml:lang="ru">Я вам говорю, что я не брал, а сами надели. Видите, я прав.</foreign></p>
           </sp>
           <sp who="#mihail">
             <speaker>mихаил</speaker>
-            <p><foreign xml:lang="rus">Вижу теперь. Вот с моей стороны вам 100 руб. депозиток.</foreign></p>
+            <p><foreign xml:lang="ru">Вижу теперь. Вот с моей стороны вам 100 руб. депозиток.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Обижайте, князь, не беру.</foreign></p>
+            <p><foreign xml:lang="ru">Обижайте, князь, не беру.</foreign></p>
           </sp>
           <sp who="#mihail">
             <speaker>mихаил</speaker>
-            <p><foreign xml:lang="rus">Потому я положу под подушку.</foreign></p>
+            <p><foreign xml:lang="ru">Потому я положу под подушку.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Как угодно, но взяток не беру, я дал себе честное слово.</foreign></p>
+            <p><foreign xml:lang="ru">Как угодно, но взяток не беру, я дал себе честное слово.</foreign></p>
           </sp>
           <sp who="#mihail">
             <speaker>mихаил</speaker>
-            <p><foreign xml:lang="rus">И прекрасно, очень честно. Но как теперь дело сделайте?</foreign></p>
+            <p><foreign xml:lang="ru">И прекрасно, очень честно. Но как теперь дело сделайте?</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Я сделаю абрунди.</foreign></p>
+            <p><foreign xml:lang="ru">Я сделаю абрунди.</foreign></p>
           </sp>
           <sp who="#mihail">
             <speaker>mихаил</speaker>
-            <p><foreign xml:lang="rus">Вед и от Амириндо взяли перстень.</foreign></p>
+            <p><foreign xml:lang="ru">Вед и от Амириндо взяли перстень.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Во первых я не брал, а сам надел. Да по делом кляузнику. Русть не присваивает чужую
+            <p><foreign xml:lang="ru">Во первых я не брал, а сам надел. Да по делом кляузнику. Русть не присваивает чужую
               собственность.</foreign></p>
           </sp>
           <sp who="#mihail">
             <speaker>mихаил</speaker>
-            <p><foreign xml:lang="rus">Чудесное правило. Прощайте, не забудьте абрунди.</foreign></p>
+            <p><foreign xml:lang="ru">Чудесное правило. Прощайте, не забудьте абрунди.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Будьте уверены. Даже габрунди сделаю.</foreign><stage><foreign xml:lang="rus">Михаил уходит.</foreign></stage></p>
+            <p><foreign xml:lang="ru">Будьте уверены. Даже габрунди сделаю.</foreign><stage><foreign xml:lang="ru">Михаил уходит.</foreign></stage></p>
           </sp>
         </div>
         <div type="scene">
           <head>გამოსვლა მეშვიდე</head>
-          <stage><foreign xml:lang="rus">ხარიტონ ფილიპიჩი, სარქის ბუღდანიჩი და ლომინ შემოდის.</foreign></stage>
+          <stage><foreign xml:lang="ru">ხარიტონ ფილიპიჩი, სარქის ბუღდანიჩი და ლომინ შემოდის.</foreign></stage>
           <sp who="#sarqisa">
             <speaker>სარქისა</speaker>
-            <p><foreign xml:lang="rus">Харитон Филипич! Вот один имеретинский баран голова, т. е. князь! Дела имеет.</foreign></p>
+            <p><foreign xml:lang="ru">Харитон Филипич! Вот один имеретинский баран голова, т. е. князь! Дела имеет.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Что он хочет?</foreign></p>
+            <p><foreign xml:lang="ru">Что он хочет?</foreign></p>
           </sp>
           <sp who="#sarqisa">
             <speaker>სარქისა</speaker>
-            <p><foreign xml:lang="rus">რა გინდაო?</foreign></p>
+            <p><foreign xml:lang="ru">რა გინდაო?</foreign></p>
           </sp>
           <sp who="#lomini">
             <speaker>ლომინი</speaker>
-            <p><foreign xml:lang="rus">რავა რა მინდა, არზი... ცოლი მინდა შევირთო.</foreign></p>
+            <p><foreign xml:lang="ru">რავა რა მინდა, არზი... ცოლი მინდა შევირთო.</foreign></p>
           </sp>
           <sp who="#sarqisa">
             <speaker>სარქისა</speaker>
-            <p><foreign xml:lang="rus">Он говорит прошение, говорит нужно, хочу женится говорит.</foreign></p>
+            <p><foreign xml:lang="ru">Он говорит прошение, говорит нужно, хочу женится говорит.</foreign></p>
           </sp>
               <sp who="#hariton_filipich">
                 <speaker>Харитон_Филипич</speaker>
-                <p><foreign xml:lang="rus">Какое же нелегкое ему мешает, пусть женится.</foreign></p>
+                <p><foreign xml:lang="ru">Какое же нелегкое ему мешает, пусть женится.</foreign></p>
           </sp>
           <sp who="#sarqisa">
             <speaker>სარქისა</speaker>
@@ -2520,11 +2520,11 @@
           </sp>
           <sp who="#sarqisa">
             <speaker>სარქისა</speaker>
-            <p><foreign xml:lang="rus">Как-же мешает, не позволают, говорит.</foreign></p>
+            <p><foreign xml:lang="ru">Как-же мешает, не позволают, говорит.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Кто мешает?</foreign></p>
+            <p><foreign xml:lang="ru">Кто мешает?</foreign></p>
           </sp>
           <sp who="#sarqisa">
             <speaker>სარქისა</speaker>
@@ -2575,11 +2575,11 @@
           </sp>
           <sp who="#sarqisa">
             <speaker>სარქისა</speaker>
-            <p><foreign xml:lang="rus">Вот баран голова.</foreign></p>
+            <p><foreign xml:lang="ru">Вот баран голова.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Что он говорит?</foreign></p>
+            <p><foreign xml:lang="ru">Что он говорит?</foreign></p>
           </sp>
           <sp who="#lomini">
             <speaker>ლომინი</speaker>
@@ -2587,7 +2587,7 @@
           </sp>
           <sp who="#sarqisa">
             <speaker>სარქისა</speaker>
-            <p><foreign xml:lang="rus">Чихи-махо говорит,он говорит, был маленки, женился, но маленки, говорит и говорит,
+            <p><foreign xml:lang="ru">Чихи-махо говорит,он говорит, был маленки, женился, но маленки, говорит и говорит,
               это развод сделали, говорит, второй женился говорит…</foreign><stage>იმერელისაკენ</stage> მეორე
               რა იყო, რო გააგდე?</p>
           </sp>
@@ -2597,12 +2597,12 @@
           </sp>
           <sp who="#sarqisa">
             <speaker>სარქისა</speaker>
-            <p>როსკიპი. ჰო, ვიცი.<foreign xml:lang="rus">Второй женился, говорит кипит вода, говорит, третий умер, говорит,
+            <p>როსკიპი. ჰო, ვიცი.<foreign xml:lang="ru">Второй женился, говорит кипит вода, говорит, третий умер, говорит,
               тепер хочет опять женится.</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Кто-же позволит ему жениться; на четвертой жене редко кто жениться.</foreign></p>
+            <p><foreign xml:lang="ru">Кто-же позволит ему жениться; на четвертой жене редко кто жениться.</foreign></p>
           </sp>
           <sp who="#sarqisa">
             <speaker>სარქისა</speaker>
@@ -2625,12 +2625,12 @@
           </sp>
           <sp who="#sarqisa">
             <speaker>სარქისა</speaker>
-            <p><foreign xml:lang="rus">Такой дела, Харитон Филипич, просит: напишит позволить, не позволить, деньги
+            <p><foreign xml:lang="ru">Такой дела, Харитон Филипич, просит: напишит позволить, не позволить, деньги
               возми...</foreign></p>
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Поторгуйся.</foreign></p>
+            <p><foreign xml:lang="ru">Поторгуйся.</foreign></p>
           </sp>
           <sp who="#sarqisa">
             <speaker>სარქისა</speaker>
@@ -2684,18 +2684,18 @@
           </sp>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Ну бог сним, бери.</foreign></p>
+            <p><foreign xml:lang="ru">Ну бог сним, бери.</foreign></p>
           </sp>
           <sp who="#sarqisa">
             <speaker>სარქისა</speaker>
-            <p>მაიტა, კარგი. <stage>ართმევს.</stage><foreign xml:lang="rus">Харитон Филипич, еще найду какой нибудь баран
+            <p>მაიტა, კარგი. <stage>ართმევს.</stage><foreign xml:lang="ru">Харитон Филипич, еще найду какой нибудь баран
               голову.</foreign><stage>იმერლისაკენ.</stage> წადი და სამი დღის მერე მოდი.
                 <stage>გადიან.</stage></p>
           </sp>
           <stage>სტრაპჩი მარტო</stage>
           <sp who="#hariton_filipich">
             <speaker>Харитон_Филипич</speaker>
-            <p><foreign xml:lang="rus">Дас, все отказываются сдесь служить, а по мне кто умеет сделать абрунди, тому везде
+            <p><foreign xml:lang="ru">Дас, все отказываются сдесь служить, а по мне кто умеет сделать абрунди, тому везде
               тепло. Главное, не нужно многого. Я человек не прыхотливый, я ничего не требую. Коли
               дадут сами за каждое дело по десяти червонцев, и довольно. У нас в суде дел
               гражданских 1.500, уго ловных 150, вот вам и капиталец, а другие наши братья кричат, –
@@ -2744,7 +2744,7 @@
           </sp>
           <sp who="#beglari">
             <speaker>ბეგლარი</speaker>
-            <p><foreign xml:lang="rus">Прости, Нина,</foreign> სიყვარული მოუთმენელია, მე მეგონა, მე მეგონა მოტყუებული ვარ მეთქი.</p>
+            <p><foreign xml:lang="ru">Прости, Нина,</foreign> სიყვარული მოუთმენელია, მე მეგონა, მე მეგონა მოტყუებული ვარ მეთქი.</p>
           </sp>
           <sp who="#nino">
             <speaker>ნინო</speaker>
@@ -2771,7 +2771,7 @@
           <sp who="#mikheili">
             <speaker>Михаил</speaker>
             <p>წადი, გეუბნები, ახლა მოკაკული იქნება მამაშენი <stage>ბეგლარ მივა ნინოსთან, უყურებს და
-              ხელზედ ჰკოცნის.</stage><foreign xml:lang="rus">Ну, убирайся, без нежностей,</foreign> მოესწრები, მაიცადეთ, სიყვარული
+              ხელზედ ჰკოცნის.</stage><foreign xml:lang="ru">Ну, убирайся, без нежностей,</foreign> მოესწრები, მაიცადეთ, სიყვარული
               გაგიცივდებათ. <stage>ბეგლარ გავა.</stage></p>
           </sp>
         </div>

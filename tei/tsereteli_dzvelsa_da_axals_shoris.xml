@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="georg000005" xml:lang="geo">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="georg000005" xml:lang="ka">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>ძველსა და ახალს შუა</title>
-        <title xml:lang="eng">Between old and new</title>
+        <title xml:lang="en">Between old and new</title>
         <title type="sub">კომედია ხუთ მოქმედებად</title>
-        <title type="sub" xml:lang="eng">A Comedy in five acts</title>
+        <title type="sub" xml:lang="en">A Comedy in five acts</title>
         <author>
           <persName>
             <forename>აკაკი</forename>
             <surname>წერეთელი</surname>
           </persName>
-          <persName xml:lang="eng">
+          <persName xml:lang="en">
             <forename>Akaki</forename>
             <surname>Tsereteli</surname>
           </persName>
